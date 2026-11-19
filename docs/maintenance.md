@@ -39,3 +39,15 @@
   via --from-json (assets/data/contributions.json + assets/data/stats-snapshot.json).
 - Cards/timeline/stats generators XML-escape all text (& < >). Raw "&" is
   well-formed in no XML context: SVGs served as images must parse as strict XML.
+
+## 2026-11-19 revision (visual pass 3)
+
+- Owner asked for larger fonts, boxes and graphs throughout: cards 320x188 ->
+  440x258 (README display width 290 -> 430, two per row), stunt-track cells
+  12.4 -> 13.2px with a taller lane and larger labels, stats panel 348 -> 410px
+  tall with larger tiles and charts, timeline 244 -> 300px with larger nodes.
+- New 7th card: Portfolio (abhirajjain.me), linking the public
+  Abhiraj-portfolio repo; every public project card is link-wrapped in the
+  README. EduOS stays unlinked (private repo, case-study card only).
+- Pinned-repos note still applies: the native pinned/popular section cannot be
+  removed by the README; pins are curated to match the featured missions.

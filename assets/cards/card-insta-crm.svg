@@ -1,17 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 188" width="320" height="188" role="img" aria-label="Insta-CRM project card: Instagram CRM concept: multi-account management, automated DM workflows, lead tracking.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 258" width="440" height="258" role="img" aria-label="Insta-CRM project card: Instagram CRM concept: multi-account management, automated DM workflows, lead tracking.">
 <title>Insta-CRM - public repo</title>
-<rect width="320" height="188" fill="#10151C" rx="10"/>
-<rect x="0.75" y="0.75" width="318.5" height="186.5" fill="none" stroke="#1E2630" stroke-width="1.5" rx="9.25"/>
-<rect x="0" y="0" width="64" height="5" fill="#E5252A" rx="2.5"/>
-<rect x="221" y="16" width="87" height="18" rx="9" fill="none" stroke="#E5252A" stroke-width="1"/>
-<text x="264" y="28.5" text-anchor="middle" fill="#E5252A" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="9" letter-spacing="1">PUBLIC REPO</text>
-<text x="16" y="36" fill="#F5F5F5" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="17" font-weight="700">Insta-CRM</text>
-<text x="16" y="62" fill="#8B949E" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="10.5">Instagram CRM concept: multi-account</text>
-<text x="16" y="78" fill="#8B949E" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="10.5">management, automated DM workflows, lead</text>
-<text x="16" y="94" fill="#8B949E" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="10.5">tracking.</text>
-<rect x="16" y="158" width="81" height="17" rx="8.5" fill="#161B22" stroke="#2A3440" stroke-width="1"/>
-<text x="56" y="170" text-anchor="middle" fill="#F5F5F5" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="9.5">JavaScript</text>
-<rect x="105" y="158" width="74" height="17" rx="8.5" fill="#161B22" stroke="#2A3440" stroke-width="1"/>
-<text x="142" y="170" text-anchor="middle" fill="#F5F5F5" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="9.5">OAuth 2.0</text>
-<text x="308" y="172" text-anchor="end" fill="#FFD338" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="10">OPEN -&gt;</text>
+<rect width="440" height="258" fill="#10151C" rx="12"/>
+<rect x="0.75" y="0.75" width="438.5" height="256.5" fill="none" stroke="#1E2630" stroke-width="1.5" rx="11.25"/>
+<rect x="0" y="0" width="84" height="6" fill="#E5252A" rx="3"/>
+<rect x="315" y="18" width="111" height="22" rx="11" fill="none" stroke="#E5252A" stroke-width="1.2"/>
+<text x="370" y="33.5" text-anchor="middle" fill="#E5252A" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11.5" letter-spacing="1">PUBLIC REPO</text>
+<text x="18" y="46" fill="#F5F5F5" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="22" font-weight="700">Insta-CRM</text>
+<text x="18" y="82" fill="#8B949E" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="13.5">Instagram CRM concept: multi-account management,</text>
+<text x="18" y="104" fill="#8B949E" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="13.5">automated DM workflows, lead tracking.</text>
+<rect x="18" y="220" width="90" height="22" rx="11" fill="#161B22" stroke="#2A3440" stroke-width="1"/>
+<text x="63" y="235.5" text-anchor="middle" fill="#F5F5F5" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11">JavaScript</text>
+<rect x="116" y="220" width="82" height="22" rx="11" fill="#161B22" stroke="#2A3440" stroke-width="1"/>
+<text x="157" y="235.5" text-anchor="middle" fill="#F5F5F5" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11">OAuth 2.0</text>
+<rect x="206" y="220" width="82" height="22" rx="11" fill="#161B22" stroke="#2A3440" stroke-width="1"/>
+<text x="247" y="235.5" text-anchor="middle" fill="#F5F5F5" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11">Analytics</text>
+<text x="424" y="240" text-anchor="end" fill="#FFD338" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="13">OPEN -&gt;</text>
 </svg>
