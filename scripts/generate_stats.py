@@ -20,7 +20,7 @@ Usage: python3 generate_stats.py --user Jainabhi90 --out-dir assets/graphs
 import json, os, re, sys, urllib.request
 from datetime import date, timedelta
 
-W, H = 894, 348
+W, H = 894, 410
 THEMES = {
     "dark":  {"bg": "#0D1117", "panel": "#10151C", "text": "#F5F5F5", "muted": "#8B949E",
               "line": "#1E2630", "accent": "#E5252A", "mark": "#FFD338", "bar": "#8f2327"},
@@ -134,8 +134,8 @@ def svg(t, days, repos, langs):
     p.append(f'<rect width="{W}" height="{H}" fill="{t["bg"]}" rx="10"/>')
     p.append(f'<rect x="10" y="10" width="{W-20}" height="{H-20}" fill="none" stroke="{t["line"]}" stroke-width="1.5" rx="8"/>')
     p.append(f'<rect x="10" y="10" width="64" height="5" fill="{t["accent"]}" rx="2.5"/>')
-    p.append(f'<text x="30" y="40" fill="{t["text"]}" font-family="{MONO}" font-size="15" font-weight="700" letter-spacing="2">PIT WALL // BY THE NUMBERS</text>')
-    p.append(f'<text x="{W-24}" y="40" text-anchor="end" fill="{t["muted"]}" font-family="{MONO}" font-size="10">PUBLIC PROFILE DATA ONLY</text>')
+    p.append(f'<text x="30" y="46" fill="{t["text"]}" font-family="{MONO}" font-size="18" font-weight="700" letter-spacing="2">PIT WALL // BY THE NUMBERS</text>')
+    p.append(f'<text x="{W-24}" y="46" text-anchor="end" fill="{t["muted"]}" font-family="{MONO}" font-size="12">PUBLIC PROFILE DATA ONLY</text>')
 
     # A: number tiles, 3 cols x 2 rows
     tiles = [(f"{total}", "CONTRIBUTIONS", "LAST 365 DAYS"),
@@ -144,54 +144,54 @@ def svg(t, days, repos, langs):
              (f"{current}d", "CURRENT STREAK", "DAYS IN A ROW"),
              (f"{longest}d", "LONGEST STREAK", "IN THE LAST YEAR"),
              (f"{len(repos)}", "PUBLIC REPOS", "OWN, NOT FORKS")]
-    tw, th, gx, gy, x0, y0 = 150, 84, 12, 12, 30, 58
+    tw, th, gx, gy, x0, y0 = 162, 100, 12, 14, 30, 70
     for i, (num, label, sub) in enumerate(tiles):
         x, y = x0 + (i % 3) * (tw + gx), y0 + (i // 3) * (th + gy)
         p.append(f'<rect x="{x}" y="{y}" width="{tw}" height="{th}" fill="{t["panel"]}" stroke="{t["line"]}" stroke-width="1" rx="8"/>')
-        p.append(f'<text x="{x+14}" y="{y+38}" fill="{t["accent"]}" font-family="{MONO}" font-size="21" font-weight="700">{num}</text>')
-        p.append(f'<text x="{x+14}" y="{y+58}" fill="{t["text"]}" font-family="{MONO}" font-size="9.5" letter-spacing="0.5">{label}</text>')
-        p.append(f'<text x="{x+14}" y="{y+72}" fill="{t["muted"]}" font-family="{MONO}" font-size="8">{sub}</text>')
-    p.append(f'<text x="30" y="{y0 + 2*th + gy + 16}" fill="{t["muted"]}" font-family="{MONO}" font-size="8">'
+        p.append(f'<text x="{x+14}" y="{y+46}" fill="{t["accent"]}" font-family="{MONO}" font-size="27" font-weight="700">{num}</text>')
+        p.append(f'<text x="{x+14}" y="{y+70}" fill="{t["text"]}" font-family="{MONO}" font-size="12" letter-spacing="0.5">{label}</text>')
+        p.append(f'<text x="{x+14}" y="{y+88}" fill="{t["muted"]}" font-family="{MONO}" font-size="10">{sub}</text>')
+    p.append(f'<text x="30" y="{y0 + 2*th + gy + 20}" fill="{t["muted"]}" font-family="{MONO}" font-size="9.5">'
              f'COUNTS AS PUBLISHED ON THE PROFILE, INCL. ANONYMIZED PRIVATE CONTRIBUTION COUNTS. NO PRIVATE REPOS READ OR NAMED.</text>')
 
     # B: languages stacked bar + legend (right column)
     rx = 556
-    p.append(f'<text x="{rx}" y="66" fill="{t["muted"]}" font-family="{MONO}" font-size="10" letter-spacing="1">LANGUAGES - BYTE SHARE, {len(repos)} PUBLIC REPOS</text>')
+    p.append(f'<text x="{rx}" y="76" fill="{t["muted"]}" font-family="{MONO}" font-size="12" letter-spacing="1">LANGUAGES - BYTE SHARE, {len(repos)} PUBLIC REPOS</text>')
     grand = sum(b for _, b in langs) or 1
     top, rest = langs[:5], langs[5:]
     if rest:
         top = top + [("Other", sum(b for _, b in rest))]
-    bar_y, bar_h, bx, bw_total = 78, 20, rx, 300
+    bar_y, bar_h, bx, bw_total = 90, 26, rx, 300
     x = bx
     for lang, b in top:
         wseg = max(2, b / grand * bw_total)
         col = LANG_COLORS.get(lang, t["mark"])
         p.append(f'<rect x="{x:.1f}" y="{bar_y}" width="{wseg:.1f}" height="{bar_h}" fill="{col}"><title>{lang}: {100*b/grand:.1f}%</title></rect>')
         x += wseg
-    y = bar_y + 40
+    y = bar_y + 46
     for i, (lang, b) in enumerate(top):
         col = LANG_COLORS.get(lang, t["mark"])
-        lx = rx + (i % 2) * 160
+        lx = rx + (i % 2) * 165
         if i % 2 == 0 and i:
-            y += 21
-        p.append(f'<rect x="{lx}" y="{y-10}" width="11" height="11" rx="2.5" fill="{col}"/>')
-        p.append(f'<text x="{lx+17}" y="{y}" fill="{t["text"]}" font-family="{MONO}" font-size="10">{lang} {round(100*b/grand)}%</text>')
-    p.append(f'<text x="{rx}" y="{y+22}" fill="{t["muted"]}" font-family="{MONO}" font-size="8">SHARE OF CODE BYTES, NOT A SKILL RATING</text>')
+            y += 26
+        p.append(f'<rect x="{lx}" y="{y-12}" width="13" height="13" rx="3" fill="{col}"/>')
+        p.append(f'<text x="{lx+20}" y="{y}" fill="{t["text"]}" font-family="{MONO}" font-size="12.5">{lang} {round(100*b/grand)}%</text>')
+    p.append(f'<text x="{rx}" y="{y+28}" fill="{t["muted"]}" font-family="{MONO}" font-size="9.5">SHARE OF CODE BYTES, NOT A SKILL RATING</text>')
 
     # C: velocity mini chart (right column)
-    vy = y + 52
-    p.append(f'<text x="{rx}" y="{vy}" fill="{t["muted"]}" font-family="{MONO}" font-size="10" letter-spacing="1">CONTRIBUTION VELOCITY - MONTHLY</text>')
+    vy = y + 62
+    p.append(f'<text x="{rx}" y="{vy}" fill="{t["muted"]}" font-family="{MONO}" font-size="12" letter-spacing="1">CONTRIBUTION VELOCITY - MONTHLY</text>')
     peak = max(v for _, v in months) or 1
-    bw, gap, base = 15, 5, vy + 78
+    bw, gap, base = 16, 6, vy + 98
     cur_ym = date.today().strftime("%Y-%m")
     for i, (ym, v) in enumerate(months):
-        h = max(2, int(v / peak * 62))
+        h = max(2, int(v / peak * 84))
         x = rx + i * (bw + gap)
         p.append(f'<rect x="{x}" y="{base-h}" width="{bw}" height="{h}" rx="2" fill="{t["accent"] if ym == cur_ym else t["bar"]}">'
                  f'<title>{v} contributions in {ym}</title></rect>')
     first_ym = months[0][0]
-    p.append(f'<text x="{rx}" y="{base+14}" fill="{t["muted"]}" font-family="{MONO}" font-size="8">'
-             f'{MONTHS[int(first_ym[5:7])-1]}\'{first_ym[2:4]} (PARTIAL) TO NOW; RED = CURRENT MONTH, STILL RUNNING</text>')
+    p.append(f'<text x="{rx}" y="{base+18}" fill="{t["muted"]}" font-family="{MONO}" font-size="9.5">'
+             f'{MONTHS[int(first_ym[5:7])-1]}\'{first_ym[2:4]} (PARTIAL) TO NOW; RED = CURRENT MONTH</text>')
     p.append('</svg>')
     return "\n".join(p)
 
