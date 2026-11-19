@@ -16,12 +16,12 @@ Usage: python3 generate_tech_deck.py --out-dir assets/graphs
 """
 import argparse
 
-W, H = 894, 300
-R = 54.0                       # hexagon circumradius (flat top/bottom points left/right)
-HEX_H = 93.53                  # sqrt(3) * R
-X_STEP = 164.0                 # ~3R between same-row centers
-X_OFF = 82.0                   # half-step offset for nested rows
-Y_STEP = 56.0                  # HEX_H/2 plus a gap so floating tiles never touch
+W, H = 894, 424
+R = 50.0                       # hexagon circumradius (pointy top/bottom, flat sides, like the reference)
+HEX_W = 86.6025                # sqrt(3) * R
+X_STEP = 98.6                  # HEX_W + 12px gap between same-row centers
+X_OFF = 49.3                   # half-step offset for nested rows
+Y_STEP = 95.0                  # 1.5R tessellation + 20px so bobbing tiles never touch
 MONO = "ui-monospace,Menlo,Consolas,monospace"
 
 THEMES = {
@@ -83,21 +83,21 @@ ICONS = {
 
 
 def hex_path(r=R):
-    h = r * 0.8660254
-    pts = [(r, 0), (r / 2, h / 2), (-r / 2, h / 2),
-           (-r, 0), (-r / 2, -h / 2), (r / 2, -h / 2)]
+    w = r * 0.8660254          # pointy-top: vertices up/down, flat left/right sides
+    pts = [(0, -r), (w, -r / 2), (w, r / 2),
+           (0, r), (-w, r / 2), (-w, -r / 2)]
     return "M " + " L ".join(f"{x:.2f} {y:.2f}" for x, y in pts) + " Z"
 
 
 def tile(key, cx, cy, i, t):
     dur = 2.7 + (i % 5) * 0.24
     begin = -((i * 0.43) % dur)
-    amp = 7 + (i % 3) * 2
+    amp = 5 + (i % 3) * 2
     return f"""<g>
 <animateTransform attributeName="transform" type="translate" values="0 0; 0 {-amp}; 0 0" dur="{dur:.2f}s" begin="{begin:.2f}s" repeatCount="indefinite"/>
 <g transform="translate({cx:.1f},{cy:.1f})"><title>{NAMES[key]}</title>
 <path d="{hex_path()}" fill="{t["panel"]}" stroke="{t["line"]}" stroke-width="1.5"/>
-<g clip-path="url(#hexClip)"><g transform="translate(-41,-41) scale(0.32)">{ICONS[key]}</g></g>
+<g clip-path="url(#hexClip)"><g transform="translate(-28,-28) scale(0.219)">{ICONS[key]}</g></g>
 </g>
 </g>"""
 
@@ -108,11 +108,11 @@ def svg(theme_name, t):
     parts.append('<title>KICK.EXE tech deck - floating hexagon stack</title>')
     parts.append(f'<rect width="{W}" height="{H}" fill="{t["bg"]}" rx="10"/>')
     parts.append(f'<rect x="10" y="10" width="{W-20}" height="{H-20}" fill="none" stroke="{t["line"]}" stroke-width="1.5" rx="8"/>')
-    parts.append(f'<defs><clipPath id="hexClip"><path d="{hex_path(R - 5)}"/></clipPath></defs>')
+    parts.append(f'<defs><clipPath id="hexClip"><path d="{hex_path(R - 4)}"/></clipPath></defs>')
     i = 0
     for r, row in enumerate(ROWS):
-        cy = 74.0 + r * Y_STEP
-        x0 = 82.5 + (X_OFF if r % 2 else 0.0)
+        cy = 82.0 + r * Y_STEP
+        x0 = 250.0 + (X_OFF if r % 2 else 0.0)
         for c, key in enumerate(row):
             parts.append(tile(key, x0 + c * X_STEP, cy, i, t))
             i += 1
