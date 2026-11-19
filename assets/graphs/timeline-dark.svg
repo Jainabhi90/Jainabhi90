@@ -9,23 +9,22 @@
 <text x="176" y="152" text-anchor="middle" fill="#E5252A" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="30" font-weight="700">2025</text>
 <rect x="121" y="168" width="109" height="24" rx="12" fill="none" stroke="#E5252A" stroke-width="1.5"/>
 <text x="176" y="185" text-anchor="middle" fill="#E5252A" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="13" letter-spacing="1">FIRST LAP</text>
-<text x="176" y="230" text-anchor="middle" fill="#8B949E" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="16">Started B.Tech CSE (AI &amp; ML)</text>
-<text x="176" y="260" text-anchor="middle" fill="#8B949E" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="16">at Vedam, Pune</text>
-<text x="176" y="290" text-anchor="middle" fill="#8B949E" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="16">Joined GitHub, first repos</text>
-<text x="176" y="320" text-anchor="middle" fill="#8B949E" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="16">Sports Club - Finance Head</text>
+<text x="176" y="230" text-anchor="middle" fill="#8B949E" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="16">B.Tech CSE (AI &amp; ML), Pune</text>
+<text x="176" y="260" text-anchor="middle" fill="#8B949E" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="16">Joined GitHub, first repos</text>
+<text x="176" y="290" text-anchor="middle" fill="#8B949E" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="16">Sports Club Finance Head</text>
 <circle cx="447" cy="102" r="14" fill="#0D1117" stroke="#E5252A" stroke-width="4"/>
 <text x="447" y="152" text-anchor="middle" fill="#E5252A" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="30" font-weight="700">2026</text>
 <rect x="371" y="168" width="152" height="24" rx="12" fill="none" stroke="#E5252A" stroke-width="1.5"/>
 <text x="447" y="185" text-anchor="middle" fill="#E5252A" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="13" letter-spacing="1">FULL THROTTLE</text>
-<text x="447" y="230" text-anchor="middle" fill="#8B949E" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="16">NioLearn live - co-founder &amp; CTO</text>
-<text x="447" y="260" text-anchor="middle" fill="#8B949E" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="16">EduOS school OS, Fnatics hackathon</text>
-<text x="447" y="290" text-anchor="middle" fill="#8B949E" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="16">NOESIS 2027 offline marketing core</text>
-<text x="447" y="320" text-anchor="middle" fill="#8B949E" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="16">Open Source Club - Finance Head</text>
+<text x="447" y="230" text-anchor="middle" fill="#8B949E" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="16">NioLearn co-founder &amp; CTO</text>
+<text x="447" y="260" text-anchor="middle" fill="#8B949E" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="16">EduOS + Fnatics hackathon</text>
+<text x="447" y="290" text-anchor="middle" fill="#8B949E" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="16">NOESIS 2027 marketing core</text>
+<text x="447" y="320" text-anchor="middle" fill="#8B949E" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="16">Open Source Club Fin Head</text>
 <circle cx="718" cy="102" r="14" fill="#0D1117" stroke="#FFD338" stroke-width="4" stroke-dasharray="4 4"/>
 <text x="718" y="152" text-anchor="middle" fill="#FFD338" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="30" font-weight="700">NEXT</text>
 <rect x="615" y="168" width="206" height="24" rx="12" fill="none" stroke="#FFD338" stroke-width="1.5"/>
 <text x="718" y="185" text-anchor="middle" fill="#FFD338" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="13" letter-spacing="1">PLANS, NOT RESULTS</text>
-<text x="718" y="230" text-anchor="middle" fill="#8B949E" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="16">First paid cohort - Jan 1, 2027</text>
-<text x="718" y="260" text-anchor="middle" fill="#8B949E" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="16">NOESIS 2027 fest - Jan 29-30</text>
+<text x="718" y="230" text-anchor="middle" fill="#8B949E" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="16">Paid cohort - Jan 1, 2027</text>
+<text x="718" y="260" text-anchor="middle" fill="#8B949E" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="16">NOESIS fest - Jan 29-30</text>
 <text x="718" y="290" text-anchor="middle" fill="#8B949E" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="16">Keep shipping in public</text>
 </svg>
