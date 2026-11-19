@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 158" width="280" height="158" role="img" aria-label="ArbDetector project card: Matches equivalent markets across Kalshi and Polymarket; fee-adjusted arbitrage alerts.">
+<title>ArbDetector - public repo</title>
+<rect width="280" height="158" fill="#10151C" rx="10"/>
+<rect x="0.75" y="0.75" width="278.5" height="156.5" fill="none" stroke="#1E2630" stroke-width="1.5" rx="9.25"/>
+<rect x="0" y="0" width="52" height="4" fill="#E5252A" rx="2"/>
+<rect x="190" y="14" width="78" height="16" rx="8" fill="none" stroke="#FFD338" stroke-width="1"/>
+<text x="229" y="25.5" text-anchor="middle" fill="#FFD338" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="8" letter-spacing="1">PUBLIC REPO</text>
+<text x="14" y="30" fill="#F5F5F5" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="16" font-weight="700">ArbDetector</text>
+<text x="14" y="52" fill="#8B949E" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="9.5">Matches equivalent markets across Kalshi</text>
+<text x="14" y="66" fill="#8B949E" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="9.5">and Polymarket; fee-adjusted arbitrage</text>
+<text x="14" y="80" fill="#8B949E" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="9.5">alerts.</text>
+<rect x="14" y="128" width="74" height="17" rx="8.5" fill="#161B22" stroke="#2A3440" stroke-width="1"/>
+<text x="51" y="140" text-anchor="middle" fill="#F5F5F5" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="8.5">JavaScript</text>
+<rect x="94" y="128" width="68" height="17" rx="8.5" fill="#161B22" stroke="#2A3440" stroke-width="1"/>
+<text x="128" y="140" text-anchor="middle" fill="#F5F5F5" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="8.5">Dashboard</text>
+<text x="268" y="142" text-anchor="end" fill="#FFD338" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="9">OPEN -&gt;</text>
+</svg>
