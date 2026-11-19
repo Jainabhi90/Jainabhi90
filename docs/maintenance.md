@@ -51,3 +51,22 @@
   README. EduOS stays unlinked (private repo, case-study card only).
 - Pinned-repos note still applies: the native pinned/popular section cannot be
   removed by the README; pins are curated to match the featured missions.
+
+## 2026-11-19 revision (visual pass 4)
+
+- Owner asked for still bigger graphs and details, smaller tech logos in a
+  floating hexagon section (honeycomb reference), and a 3D activity graph
+  (profile-3d-contrib style reference).
+- Stunt track: grid now renders the last 40 weeks at 18px cells (was 53 at
+  13.2px) so the graph and its labels read ~35% larger on the profile;
+  header/stats/month fonts enlarged; full-year totals kept in the stats
+  strip and header ("last 40 weeks shown" is labeled on the asset).
+- New `generate_activity_3d.py`: isometric 3D bar city from the cached
+  contributions.json (run after the stunt track, which refreshes that
+  file). New `generate_tech_deck.py`: offline, icon art embedded in the
+  generator; SMIL float animation survives camo.
+- Tech Deck section: skillicons.dev image rows replaced by the generated
+  floating hexagon deck (dark/light pair).
+- Stats panel: bigger tiles/numbers/legend; velocity chart shows the last
+  10 months with taller bars. Timeline: bigger nodes and text.
+- Workflow now also regenerates activity-3d and tech-deck assets.
