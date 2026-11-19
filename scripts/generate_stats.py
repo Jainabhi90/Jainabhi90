@@ -168,20 +168,19 @@ def svg(t, days, repos, langs):
         col = LANG_COLORS.get(lang, t["mark"])
         p.append(f'<rect x="{x:.1f}" y="{bar_y}" width="{wseg:.1f}" height="{bar_h}" fill="{col}"><title>{lang}: {100*b/grand:.1f}%</title></rect>')
         x += wseg
-    y = bar_y + 60
+    y = bar_y + 50
     for i, (lang, b) in enumerate(top):
+        col = LANG_COLORS.get(lang, t["mark"])
         if len(lang) > 12:
             lang = lang.split()[0]
-        col = LANG_COLORS.get(lang, t["mark"])
-        lx = rx + (i % 2) * 145
-        if i % 2 == 0 and i:
-            y += 34
-        p.append(f'<rect x="{lx}" y="{y-14}" width="16" height="16" rx="3" fill="{col}"/>')
-        p.append(f'<text x="{lx+24}" y="{y}" fill="{t["text"]}" font-family="{MONO}" font-size="16">{lang} {round(100*b/grand)}%</text>')
-    p.append(f'<text x="{rx}" y="{y+38}" fill="{t["muted"]}" font-family="{MONO}" font-size="11">SHARE OF CODE BYTES, NOT A SKILL RATING</text>')
+        ly = y + i * 28
+        p.append(f'<rect x="{rx}" y="{ly-14}" width="16" height="16" rx="3" fill="{col}"/>')
+        p.append(f'<text x="{rx+26}" y="{ly}" fill="{t["text"]}" font-family="{MONO}" font-size="16">{lang} {round(100*b/grand)}%</text>')
+    y = y + (len(top) - 1) * 28
+    p.append(f'<text x="{rx}" y="{y+32}" fill="{t["muted"]}" font-family="{MONO}" font-size="11">SHARE OF CODE BYTES, NOT A SKILL RATING</text>')
 
     # C: velocity mini chart (right column)
-    vy = y + 80
+    vy = y + 62
     p.append(f'<text x="{rx}" y="{vy}" fill="{t["muted"]}" font-family="{MONO}" font-size="15" letter-spacing="1">VELOCITY - LAST 10 MONTHS</text>')
     peak = max(v for _, v in months) or 1
     bw, gap, base = 20, 7, vy + 156
