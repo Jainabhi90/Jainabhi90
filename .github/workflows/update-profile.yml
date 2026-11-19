@@ -28,7 +28,9 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python3 scripts/generate_stunt_track.py --user Jainabhi90 --out-dir assets/graphs
+          python3 scripts/generate_activity_3d.py --out-dir assets/graphs
           python3 scripts/generate_stats.py --user Jainabhi90 --out-dir assets/graphs
+          python3 scripts/generate_tech_deck.py --out-dir assets/graphs
           python3 scripts/generate_cards.py --out-dir assets/cards
           python3 scripts/generate_timeline.py --out-dir assets/graphs
 
