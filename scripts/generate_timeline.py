@@ -20,18 +20,17 @@ MONO = "ui-monospace,Menlo,Consolas,monospace"
 
 NODES = [
     ("2025", "FIRST LAP", "#E5252A", [
-        "Started B.Tech CSE (AI & ML)",
-        "at Vedam, Pune",
+        "B.Tech CSE (AI & ML), Pune",
         "Joined GitHub, first repos",
-        "Sports Club - Finance Head"]),
+        "Sports Club Finance Head"]),
     ("2026", "FULL THROTTLE", "#E5252A", [
-        "NioLearn live - co-founder & CTO",
-        "EduOS school OS, Fnatics hackathon",
-        "NOESIS 2027 offline marketing core",
-        "Open Source Club - Finance Head"]),
+        "NioLearn co-founder & CTO",
+        "EduOS + Fnatics hackathon",
+        "NOESIS 2027 marketing core",
+        "Open Source Club Fin Head"]),
     ("NEXT", "PLANS, NOT RESULTS", "#FFD338", [
-        "First paid cohort - Jan 1, 2027",
-        "NOESIS 2027 fest - Jan 29-30",
+        "Paid cohort - Jan 1, 2027",
+        "NOESIS fest - Jan 29-30",
         "Keep shipping in public"]),
 ]
 
