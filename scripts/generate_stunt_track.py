@@ -28,16 +28,16 @@ timing are data-driven and must not change.
 import argparse, json, re, sys, urllib.request
 from datetime import date, timedelta
 
-CELL, GAP = 10.0, 3.0
+CELL, GAP = 12.4, 3.5
 PITCH = CELL + GAP
 WEEKS = 53
-GRID_W = WEEKS * PITCH - GAP          # 676
-GRID_H = 7 * PITCH - GAP              # 82
-M_LEFT, M_RIGHT = 34.0, 20.0
+GRID_W = WEEKS * PITCH - GAP          # 839
+GRID_H = 7 * PITCH - GAP              # 108
+M_LEFT, M_RIGHT = 30.0, 20.0
 TRACK_TOP = 64.0                       # y where the track lane begins
 M_TOP = TRACK_TOP + 58.0               # grid top (lane above the grid)
 M_BOTTOM_LABELS = 56.0                 # stats strip under grid
-WIDTH = M_LEFT + GRID_W + M_RIGHT      # 730
+WIDTH = M_LEFT + GRID_W + M_RIGHT      # 889
 HEIGHT = M_TOP + GRID_H + M_BOTTOM_LABELS
 
 THEMES = {
@@ -66,7 +66,7 @@ MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec
 
 
 def load_rider_b64(out_dir):
-    """RIDER-ART: embedded Kick sprite (exact-character art approved by the user
+    """RIDER-ART: embedded Kick sprite (character art the user asked for in chat;
     on WhatsApp 2026-11-19 09:20 IST: dark close-up avatar, full-body Kick and
     Kick skateboarding). PNG lives at <repo>/assets/kick-rider.png; embedded as
     base64 so the SVG survives GitHub's camo proxy (external image hrefs inside
