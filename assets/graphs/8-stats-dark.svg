@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 730 336" width="730" height="336" role="img" aria-label="GitHub stats: 667 contributions in the last year, 99 active days, current streak 5 days, longest streak 10 days, 15 public repos, 1 stars. Public data only.">
+<title>KICK.EXE pit wall stats (public data)</title>
+<rect width="730" height="336" fill="#0D1117" rx="10"/>
+<rect x="10" y="10" width="710" height="316" fill="none" stroke="#1E2630" stroke-width="1.5" rx="8"/>
+<rect x="10" y="10" width="52" height="4" fill="#E5252A" rx="2"/>
+<text x="30" y="40" fill="#F5F5F5" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="15" font-weight="700" letter-spacing="2">PIT WALL // BY THE NUMBERS</text>
+<text x="706" y="40" text-anchor="end" fill="#8B949E" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="9">PUBLIC PROFILE DATA ONLY</text>
+<rect x="30" y="58" width="122" height="66" fill="#10151C" stroke="#1E2630" stroke-width="1" rx="8"/>
+<text x="42" y="88" fill="#E5252A" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="21" font-weight="700">667</text>
+<text x="42" y="104" fill="#F5F5F5" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="8.5" letter-spacing="0.5">CONTRIBUTIONS</text>
+<text x="42" y="116" fill="#8B949E" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="7">LAST 365 DAYS</text>
+<rect x="162" y="58" width="122" height="66" fill="#10151C" stroke="#1E2630" stroke-width="1" rx="8"/>
+<text x="174" y="88" fill="#E5252A" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="21" font-weight="700">99</text>
+<text x="174" y="104" fill="#F5F5F5" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="8.5" letter-spacing="0.5">ACTIVE DAYS</text>
+<text x="174" y="116" fill="#8B949E" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="7">LAST 365 DAYS</text>
+<rect x="294" y="58" width="122" height="66" fill="#10151C" stroke="#1E2630" stroke-width="1" rx="8"/>
+<text x="306" y="88" fill="#E5252A" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="21" font-weight="700">1</text>
+<text x="306" y="104" fill="#F5F5F5" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="8.5" letter-spacing="0.5">STARS EARNED</text>
+<text x="306" y="116" fill="#8B949E" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="7">OWN PUBLIC REPOS</text>
+<rect x="30" y="134" width="122" height="66" fill="#10151C" stroke="#1E2630" stroke-width="1" rx="8"/>
+<text x="42" y="164" fill="#E5252A" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="21" font-weight="700">5d</text>
+<text x="42" y="180" fill="#F5F5F5" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="8.5" letter-spacing="0.5">CURRENT STREAK</text>
+<text x="42" y="192" fill="#8B949E" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="7">DAYS IN A ROW</text>
+<rect x="162" y="134" width="122" height="66" fill="#10151C" stroke="#1E2630" stroke-width="1" rx="8"/>
+<text x="174" y="164" fill="#E5252A" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="21" font-weight="700">10d</text>
+<text x="174" y="180" fill="#F5F5F5" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="8.5" letter-spacing="0.5">LONGEST STREAK</text>
+<text x="174" y="192" fill="#8B949E" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="7">IN THE LAST YEAR</text>
+<rect x="294" y="134" width="122" height="66" fill="#10151C" stroke="#1E2630" stroke-width="1" rx="8"/>
+<text x="306" y="164" fill="#E5252A" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="21" font-weight="700">15</text>
+<text x="306" y="180" fill="#F5F5F5" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="8.5" letter-spacing="0.5">PUBLIC REPOS</text>
+<text x="306" y="192" fill="#8B949E" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="7">OWN, NOT FORKS</text>
+<text x="30" y="216" fill="#8B949E" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="7.5">COUNTS AS PUBLISHED ON THE PROFILE, INCL. ANONYMIZED PRIVATE CONTRIBUTION COUNTS. NO PRIVATE REPOS READ OR NAMED.</text>
+<text x="446" y="66" fill="#8B949E" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="9" letter-spacing="1">LANGUAGES - BYTE SHARE, 15 PUBLIC REPOS</text>
+<rect x="446.0" y="78" width="156.1" height="14" fill="#f1e05a"><title>JavaScript: 60.0%</title></rect>
+<rect x="602.1" y="78" width="57.1" height="14" fill="#DA5B0B"><title>Jupyter Notebook: 22.0%</title></rect>
+<rect x="659.2" y="78" width="15.2" height="14" fill="#563d7c"><title>CSS: 5.8%</title></rect>
+<rect x="674.4" y="78" width="14.3" height="14" fill="#3178c6"><title>TypeScript: 5.5%</title></rect>
+<rect x="688.7" y="78" width="11.5" height="14" fill="#e34c26"><title>HTML: 4.4%</title></rect>
+<rect x="700.2" y="78" width="5.8" height="14" fill="#FFD338"><title>Other: 2.2%</title></rect>
+<rect x="446" y="102" width="8" height="8" rx="2" fill="#f1e05a"/>
+<text x="459" y="110" fill="#F5F5F5" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="9">JavaScript 60%</text>
+<rect x="586" y="102" width="8" height="8" rx="2" fill="#DA5B0B"/>
+<text x="599" y="110" fill="#F5F5F5" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="9">Jupyter Notebook 22%</text>
+<rect x="446" y="120" width="8" height="8" rx="2" fill="#563d7c"/>
+<text x="459" y="128" fill="#F5F5F5" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="9">CSS 6%</text>
+<rect x="586" y="120" width="8" height="8" rx="2" fill="#3178c6"/>
+<text x="599" y="128" fill="#F5F5F5" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="9">TypeScript 6%</text>
+<rect x="446" y="138" width="8" height="8" rx="2" fill="#e34c26"/>
+<text x="459" y="146" fill="#F5F5F5" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="9">HTML 4%</text>
+<rect x="586" y="138" width="8" height="8" rx="2" fill="#FFD338"/>
+<text x="599" y="146" fill="#F5F5F5" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="9">Other 2%</text>
+<text x="446" y="168" fill="#8B949E" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="7.5">SHARE OF CODE BYTES, NOT A SKILL RATING</text>
+<text x="446" y="194" fill="#8B949E" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="9" letter-spacing="1">CONTRIBUTION VELOCITY - MONTHLY</text>
+<rect x="446" y="256" width="12" height="2" rx="2" fill="#8f2327"><title>3 contributions in 2025-11</title></rect>
+<rect x="462" y="256" width="12" height="2" rx="2" fill="#8f2327"><title>1 contributions in 2025-12</title></rect>
+<rect x="478" y="256" width="12" height="2" rx="2" fill="#8f2327"><title>1 contributions in 2026-01</title></rect>
+<rect x="494" y="256" width="12" height="2" rx="2" fill="#8f2327"><title>1 contributions in 2026-02</title></rect>
+<rect x="510" y="256" width="12" height="2" rx="2" fill="#8f2327"><title>8 contributions in 2026-03</title></rect>
+<rect x="526" y="246" width="12" height="12" rx="2" fill="#8f2327"><title>58 contributions in 2026-04</title></rect>
+<rect x="542" y="246" width="12" height="12" rx="2" fill="#8f2327"><title>55 contributions in 2026-05</title></rect>
+<rect x="558" y="256" width="12" height="2" rx="2" fill="#8f2327"><title>1 contributions in 2026-06</title></rect>
+<rect x="574" y="251" width="12" height="7" rx="2" fill="#8f2327"><title>34 contributions in 2026-07</title></rect>
+<rect x="590" y="243" width="12" height="15" rx="2" fill="#8f2327"><title>72 contributions in 2026-08</title></rect>
+<rect x="606" y="224" width="12" height="34" rx="2" fill="#8f2327"><title>155 contributions in 2026-09</title></rect>
+<rect x="622" y="243" width="12" height="15" rx="2" fill="#8f2327"><title>70 contributions in 2026-10</title></rect>
+<rect x="638" y="212" width="12" height="46" rx="2" fill="#E5252A"><title>208 contributions in 2026-11</title></rect>
+<text x="446" y="272" fill="#8B949E" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="7.5">Nov'25 (PARTIAL) TO NOW; RED = CURRENT MONTH, STILL RUNNING</text>
+</svg>
