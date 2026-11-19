@@ -28,16 +28,19 @@ timing are data-driven and must not change.
 import argparse, json, re, sys, urllib.request
 from datetime import date, timedelta
 
-CELL, GAP = 13.2, 3.2
+CELL, GAP = 18.0, 3.5
 PITCH = CELL + GAP
 WEEKS = 53
-GRID_W = WEEKS * PITCH - GAP          # 866
-GRID_H = 7 * PITCH - GAP              # 112
-M_LEFT, M_RIGHT = 14.0, 12.0
-TRACK_TOP = 86.0                       # y where the track lane begins
-M_TOP = TRACK_TOP + 64.0               # grid top (lane above the grid)
-M_BOTTOM_LABELS = 70.0                 # stats strip under grid
-WIDTH = M_LEFT + GRID_W + M_RIGHT      # 889
+WEEKS_SHOWN = 40                       # grid renders the most recent 40 weeks at a
+                                       # larger cell size; totals/stats still cover
+                                       # the full rolling year
+GRID_W = WEEKS_SHOWN * PITCH - GAP    # 856.5
+GRID_H = 7 * PITCH - GAP              # 147
+M_LEFT, M_RIGHT = 19.0, 18.5
+TRACK_TOP = 104.0                      # y where the track lane begins
+M_TOP = TRACK_TOP + 76.0               # grid top (lane above the grid)
+M_BOTTOM_LABELS = 78.0                 # stats strip under grid
+WIDTH = M_LEFT + GRID_W + M_RIGHT     # 894
 HEIGHT = M_TOP + GRID_H + M_BOTTOM_LABELS
 
 THEMES = {
@@ -79,8 +82,8 @@ def load_rider_b64(out_dir):
 
 # sprite display size and anchor: board center of the trimmed sprite sits at
 # ~67.7% across, ~84.9% down the frame, so the motion pivot lands under the board.
-RIDER_W, RIDER_H = 30.0, 52.0
-RIDER_AX, RIDER_AY = 20.3, 44.1
+RIDER_W, RIDER_H = 38.0, 66.0
+RIDER_AX, RIDER_AY = 25.7, 56.0
 
 def fetch_html(user: str) -> str:
     url = f"https://github.com/users/{user}/contributions"
@@ -167,7 +170,7 @@ def build_track(weeks):
         window = totals[max(0, w - 1):w + 2]
         smooth.append(sum(window) / len(window))
     peak = max(smooth) or 1
-    max_rise = 54.0
+    max_rise = 68.0
     pts = []
     for w, s in enumerate(smooth):
         x = M_LEFT + w * PITCH + PITCH / 2
@@ -197,7 +200,7 @@ def month_labels(weeks):
     return labels
 
 
-def svg(theme_name, t, weeks, days, totals, peak, track_d, animated=True, rider_b64=None, track_end=None):
+def svg(theme_name, t, weeks, days, totals, peak, track_d, animated=True, rider_b64=None, track_end=None, weeks_all=None):
     total_contribs = sum(d["count"] for d in days)
     active_days = sum(1 for d in days if d["count"] > 0)
     best = max(days, key=lambda d: d["count"])
@@ -222,31 +225,31 @@ def svg(theme_name, t, weeks, days, totals, peak, track_d, animated=True, rider_
     parts.append(f'<rect x="10" y="10" width="{WIDTH-20:.0f}" height="{HEIGHT-20:.0f}" fill="none" '
                  f'stroke="{t["grid_line"]}" stroke-width="1.5" rx="8"/>')
     # header
-    parts.append(f'<text x="{M_LEFT:.0f}" y="38" fill="{t["text"]}" font-family="ui-monospace,Menlo,Consolas,monospace" '
-                 f'font-size="21" font-weight="700" letter-spacing="2">CONTRIBUTION STUNT TRACK</text>')
-    parts.append(f'<text x="{WIDTH - M_RIGHT:.0f}" y="38" text-anchor="end" fill="{t["muted"]}" '
-                 f'font-family="ui-monospace,Menlo,Consolas,monospace" font-size="14">'
-                 f'{total_contribs} contributions in the last year</text>')
+    parts.append(f'<text x="{M_LEFT:.0f}" y="46" fill="{t["text"]}" font-family="ui-monospace,Menlo,Consolas,monospace" '
+                 f'font-size="26" font-weight="700" letter-spacing="2">CONTRIBUTION STUNT TRACK</text>')
+    parts.append(f'<text x="{WIDTH - M_RIGHT:.0f}" y="46" text-anchor="end" fill="{t["muted"]}" '
+                 f'font-family="ui-monospace,Menlo,Consolas,monospace" font-size="16">'
+                 f'{total_contribs}/year - last {len(weeks)} weeks shown</text>')
 
     # week ramps (decorative elevation markers behind the track for strong weeks)
     for w, tot in enumerate(totals):
         if tot >= max(3, peak * 0.45):
             x = M_LEFT + w * PITCH
-            parts.append(f'<path d="M {x:.1f} {M_TOP:.1f} L {x + PITCH:.1f} {M_TOP - 18:.1f} L {x + PITCH:.1f} {M_TOP:.1f} Z" '
+            parts.append(f'<path d="M {x:.1f} {M_TOP:.1f} L {x + PITCH:.1f} {M_TOP - 22:.1f} L {x + PITCH:.1f} {M_TOP:.1f} Z" '
                          f'fill="{t["ramp"]}"/>')
 
     # track line + in-asset methodology label
-    parts.append(f'<text x="{M_LEFT:.0f}" y="{M_TOP - 80:.0f}" fill="{t["muted"]}" '
-                 f'font-family="ui-monospace,Menlo,Consolas,monospace" font-size="10" letter-spacing="0.5">'
+    parts.append(f'<text x="{M_LEFT:.0f}" y="{M_TOP - 96:.0f}" fill="{t["muted"]}" '
+                 f'font-family="ui-monospace,Menlo,Consolas,monospace" font-size="12" letter-spacing="0.5">'
                  f'TRACK HEIGHT = 3-WEEK AVG OF WEEKLY TOTALS (SMOOTHED)</text>')
-    parts.append(f'<path d="{track_d}" fill="none" stroke="{t["track"]}" stroke-width="4" stroke-linecap="round"/>')
+    parts.append(f'<path d="{track_d}" fill="none" stroke="{t["track"]}" stroke-width="5" stroke-linecap="round"/>')
 
     # current week is still running: mark its column in the asset itself
     cur_x = M_LEFT + (WEEKS - 1) * PITCH - 3
     parts.append(f'<rect x="{cur_x:.1f}" y="{M_TOP - 4:.0f}" width="{PITCH + 4:.0f}" height="{GRID_H + 8:.0f}" '
                  f'fill="none" stroke="{t["track_mark"]}" stroke-width="1" stroke-dasharray="3 3" rx="3"/>')
-    parts.append(f'<text x="{WIDTH - M_RIGHT:.0f}" y="{M_TOP - 80:.0f}" text-anchor="end" fill="{t["track_mark"]}" '
-                 f'font-family="ui-monospace,Menlo,Consolas,monospace" font-size="10">DASHED COLUMN = THIS WEEK SO FAR</text>')
+    parts.append(f'<text x="{WIDTH - M_RIGHT:.0f}" y="{M_TOP - 96:.0f}" text-anchor="end" fill="{t["track_mark"]}" '
+                 f'font-family="ui-monospace,Menlo,Consolas,monospace" font-size="12">DASHED COLUMN = THIS WEEK SO FAR</text>')
     if animated:
         parts.append(f'<path class="trail" d="{track_d}" fill="none" stroke="{t["trail"]}" '
                      f'stroke-width="1.8" opacity="0.8"/>')
@@ -263,8 +266,8 @@ def svg(theme_name, t, weeks, days, totals, peak, track_d, animated=True, rider_
 
     # month labels
     for x, label in month_labels(weeks):
-        parts.append(f'<text x="{x:.1f}" y="{M_TOP - 52:.0f}" fill="{t["muted"]}" '
-                     f'font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11">{label}</text>')
+        parts.append(f'<text x="{x:.1f}" y="{M_TOP - 64:.0f}" fill="{t["muted"]}" '
+                     f'font-family="ui-monospace,Menlo,Consolas,monospace" font-size="14">{label}</text>')
 
     # rider (RIDER-ART: embedded Kick sprite; id and animateMotion preserved,
     # circle token kept as fallback when assets/kick-rider.png is absent)
@@ -285,20 +288,20 @@ def svg(theme_name, t, weeks, days, totals, peak, track_d, animated=True, rider_
     parts.append(rider)
 
     # stats strip
-    sy = M_TOP + GRID_H + 38
+    sy = M_TOP + GRID_H + 48
     stats = [
         (f"{total_contribs}", "CONTRIBUTIONS"),
         (f"{active_days}", "ACTIVE DAYS"),
         (f"{best['count']}", f"BEST DAY - {best_date.upper()}"),
-        (f"{max(sum(d['count'] for d in c if d) for c in weeks)}", "PEAK WEEK (STILL RUNNING)"),
+        (f"{max(sum(d['count'] for d in c if d) for c in (weeks_all or weeks))}", "PEAK WEEK (STILL RUNNING)"),
     ]
     seg = GRID_W / len(stats)
     for i, (num, label) in enumerate(stats):
         cx = M_LEFT + seg * i + 4
         parts.append(f'<text x="{cx:.1f}" y="{sy:.0f}" fill="{t["l3"]}" '
-                     f'font-family="ui-monospace,Menlo,Consolas,monospace" font-size="19" font-weight="700">{num}</text>')
-        parts.append(f'<text x="{cx:.1f}" y="{sy + 18:.0f}" fill="{t["muted"]}" '
-                     f'font-family="ui-monospace,Menlo,Consolas,monospace" font-size="9" letter-spacing="0.5">{label}</text>')
+                     f'font-family="ui-monospace,Menlo,Consolas,monospace" font-size="25" font-weight="700">{num}</text>')
+        parts.append(f'<text x="{cx:.1f}" y="{sy + 24:.0f}" fill="{t["muted"]}" '
+                     f'font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11" letter-spacing="0.5">{label}</text>')
     parts.append('</svg>')
     return "\n".join(parts)
 
@@ -328,7 +331,8 @@ def main():
         with open(path, "w") as f:
             json.dump(payload, f, indent=1)
 
-    weeks = weeks_from_days(days)
+    weeks_all = weeks_from_days(days)
+    weeks = weeks_all[-WEEKS_SHOWN:]
     track_d, totals, peak, pts = build_track(weeks)
     rider_b64 = load_rider_b64(args.out_dir)
     track_end = (pts[0][0], pts[0][1])  # static parks at track start
@@ -338,9 +342,9 @@ def main():
     for name, theme in THEMES.items():
         if not args.static_only:
             with open(f"{args.out_dir}/stunt-track-{name}.svg", "w") as f:
-                f.write(svg(name, theme, weeks, days, totals, peak, track_d, animated=True, rider_b64=rider_b64, track_end=track_end))
+                f.write(svg(name, theme, weeks, days, totals, peak, track_d, animated=True, rider_b64=rider_b64, track_end=track_end, weeks_all=weeks_all))
         with open(f"{args.out_dir}/stunt-track-{name}-static.svg", "w") as f:
-            f.write(svg(name, theme, weeks, days, totals, peak, track_d, animated=False, rider_b64=rider_b64, track_end=track_end))
+            f.write(svg(name, theme, weeks, days, totals, peak, track_d, animated=False, rider_b64=rider_b64, track_end=track_end, weeks_all=weeks_all))
     print("wrote stunt-track-{dark,light}.svg + static variants to", args.out_dir)
 
 
