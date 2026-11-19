@@ -9,7 +9,7 @@ Usage: python3 generate_timeline.py --out-dir assets/graphs
 """
 import argparse
 
-W, H = 894, 300
+W, H = 894, 380
 THEMES = {
     "dark":  {"bg": "#0D1117", "panel": "#10151C", "text": "#F5F5F5", "muted": "#8B949E",
               "line": "#1E2630", "accent": "#E5252A", "mark": "#FFD338"},
@@ -47,22 +47,22 @@ def svg(t):
     p.append(f'<rect width="{W}" height="{H}" fill="{t["bg"]}" rx="10"/>')
     p.append(f'<rect x="10" y="10" width="{W-20}" height="{H-20}" fill="none" stroke="{t["line"]}" stroke-width="1.5" rx="8"/>')
     p.append(f'<rect x="10" y="10" width="64" height="5" fill="{t["accent"]}" rx="2.5"/>')
-    p.append(f'<text x="30" y="46" fill="{t["text"]}" font-family="{MONO}" font-size="18" font-weight="700" letter-spacing="2">THE SEASON SO FAR</text>')
-    rail_y = 86
-    p.append(f'<line x1="40" y1="{rail_y}" x2="{W-40}" y2="{rail_y}" stroke="{t["accent"]}" stroke-width="5.5" stroke-linecap="round"/>')
+    p.append(f'<text x="30" y="54" fill="{t["text"]}" font-family="{MONO}" font-size="23" font-weight="700" letter-spacing="2">THE SEASON SO FAR</text>')
+    rail_y = 102
+    p.append(f'<line x1="40" y1="{rail_y}" x2="{W-40}" y2="{rail_y}" stroke="{t["accent"]}" stroke-width="7" stroke-linecap="round"/>')
     seg = (W - 80) / len(NODES)
     for i, (year, tag, color, lines) in enumerate(NODES):
         cx = 40 + seg * i + seg / 2
         dashed = ' stroke-dasharray="4 4"' if year == "NEXT" else ""
-        p.append(f'<circle cx="{cx:.0f}" cy="{rail_y}" r="11" fill="{t["bg"]}" stroke="{color}" stroke-width="3.5"{dashed}/>')
-        p.append(f'<text x="{cx:.0f}" y="{rail_y+38}" text-anchor="middle" fill="{color}" font-family="{MONO}" font-size="23" font-weight="700">{year}</text>')
-        bw = 10 + len(tag) * 8.8
-        p.append(f'<rect x="{cx-bw/2:.0f}" y="{rail_y+50}" width="{bw:.0f}" height="19" rx="9.5" fill="none" stroke="{color}" stroke-width="1.2"/>')
-        p.append(f'<text x="{cx:.0f}" y="{rail_y+64}" text-anchor="middle" fill="{color}" font-family="{MONO}" font-size="10.5" letter-spacing="1">{tag}</text>')
-        y = rail_y + 102
+        p.append(f'<circle cx="{cx:.0f}" cy="{rail_y}" r="14" fill="{t["bg"]}" stroke="{color}" stroke-width="4"{dashed}/>')
+        p.append(f'<text x="{cx:.0f}" y="{rail_y+50}" text-anchor="middle" fill="{color}" font-family="{MONO}" font-size="30" font-weight="700">{year}</text>')
+        bw = 12 + len(tag) * 10.8
+        p.append(f'<rect x="{cx-bw/2:.0f}" y="{rail_y+66}" width="{bw:.0f}" height="24" rx="12" fill="none" stroke="{color}" stroke-width="1.5"/>')
+        p.append(f'<text x="{cx:.0f}" y="{rail_y+83}" text-anchor="middle" fill="{color}" font-family="{MONO}" font-size="13" letter-spacing="1">{tag}</text>')
+        y = rail_y + 128
         for line in lines:
-            p.append(f'<text x="{cx:.0f}" y="{y}" text-anchor="middle" fill="{t["muted"]}" font-family="{MONO}" font-size="13">{esc(line)}</text>')
-            y += 23
+            p.append(f'<text x="{cx:.0f}" y="{y}" text-anchor="middle" fill="{t["muted"]}" font-family="{MONO}" font-size="16">{esc(line)}</text>')
+            y += 30
     p.append('</svg>')
     return "\n".join(p)
 
