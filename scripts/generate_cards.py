@@ -16,7 +16,7 @@ Usage: python3 generate_cards.py --out-dir ../assets/cards
 """
 import argparse, os
 
-CW, CH = 320, 188
+CW, CH = 440, 258
 C = {"bg": "#10151C", "border": "#1E2630", "text": "#F5F5F5", "muted": "#8B949E",
      "red": "#E5252A", "yellow": "#FFD338", "chip_bg": "#161B22", "chip_line": "#2A3440"}
 MONO = "ui-monospace,Menlo,Consolas,monospace"
@@ -41,10 +41,13 @@ PROJECTS = [
     ("arbdetector", "ArbDetector", "PUBLIC REPO", C["yellow"],
      "Matches equivalent markets across Kalshi and Polymarket; fee-adjusted arbitrage alerts.",
      ["JavaScript", "Dashboard", "Telegram"], "https://github.com/Jainabhi90/Arbitrage"),
+    ("portfolio", "Portfolio", "PUBLIC REPO", C["red"],
+     "This portfolio: abhirajjain.me, designed and built from scratch, deployed on Vercel.",
+     ["Next.js", "TypeScript", "Tailwind", "Vercel"], "https://github.com/Jainabhi90/Abhiraj-portfolio"),
 ]
 
 
-def wrap(text, width=44):
+def wrap(text, width=52):
     words, lines, cur = text.split(), [], ""
     for w in words:
         if len(cur) + len(w) + 1 > width:
@@ -65,32 +68,32 @@ def card(slug, name, status, status_color, desc, chips, link):
     chips = [esc(c) for c in chips]
     p = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {CW} {CH}" width="{CW}" height="{CH}" role="img" aria-label="{name} project card: {desc}">']
     p.append(f'<title>{name} - {status.lower()}</title>')
-    p.append(f'<rect width="{CW}" height="{CH}" fill="{C["bg"]}" rx="10"/>')
-    p.append(f'<rect x="0.75" y="0.75" width="{CW-1.5}" height="{CH-1.5}" fill="none" stroke="{C["border"]}" stroke-width="1.5" rx="9.25"/>')
-    p.append(f'<rect x="0" y="0" width="64" height="5" fill="{C["red"]}" rx="2.5"/>')  # kick stripe
+    p.append(f'<rect width="{CW}" height="{CH}" fill="{C["bg"]}" rx="12"/>')
+    p.append(f'<rect x="0.75" y="0.75" width="{CW-1.5}" height="{CH-1.5}" fill="none" stroke="{C["border"]}" stroke-width="1.5" rx="11.25"/>')
+    p.append(f'<rect x="0" y="0" width="84" height="6" fill="{C["red"]}" rx="3"/>')  # kick stripe
     # status badge
-    bw = 8 + len(status) * 7.2
-    p.append(f'<rect x="{CW-12-bw:.0f}" y="16" width="{bw:.0f}" height="18" rx="9" fill="none" stroke="{status_color}" stroke-width="1"/>')
-    p.append(f'<text x="{CW-12-bw/2:.0f}" y="28.5" text-anchor="middle" fill="{status_color}" font-family="{MONO}" font-size="9" letter-spacing="1">{status}</text>')
-    p.append(f'<text x="16" y="36" fill="{C["text"]}" font-family="{MONO}" font-size="17" font-weight="700">{name}</text>')
-    y = 62
+    bw = 10 + len(status) * 9.2
+    p.append(f'<rect x="{CW-14-bw:.0f}" y="18" width="{bw:.0f}" height="22" rx="11" fill="none" stroke="{status_color}" stroke-width="1.2"/>')
+    p.append(f'<text x="{CW-14-bw/2:.0f}" y="33.5" text-anchor="middle" fill="{status_color}" font-family="{MONO}" font-size="11.5" letter-spacing="1">{status}</text>')
+    p.append(f'<text x="18" y="46" fill="{C["text"]}" font-family="{MONO}" font-size="22" font-weight="700">{name}</text>')
+    y = 82
     for line in wrap(desc):
-        p.append(f'<text x="16" y="{y}" fill="{C["muted"]}" font-family="{MONO}" font-size="10.5">{line}</text>')
-        y += 16
+        p.append(f'<text x="18" y="{y}" fill="{C["muted"]}" font-family="{MONO}" font-size="13.5">{line}</text>')
+        y += 22
     # tech chips; leave the bottom-right corner clear for the link / privacy tag
-    x = 16
-    x_max = CW - 66 if link else CW - 84
+    x = 18
+    x_max = CW - 84 if link else CW - 112
     for chip in chips[:4]:
-        wpx = 12 + len(chip) * 6.9
+        wpx = 12 + len(chip) * 7.8
         if x + wpx > x_max:
             break
-        p.append(f'<rect x="{x:.0f}" y="{CH-30}" width="{wpx:.0f}" height="17" rx="8.5" fill="{C["chip_bg"]}" stroke="{C["chip_line"]}" stroke-width="1"/>')
-        p.append(f'<text x="{x+wpx/2:.0f}" y="{CH-18}" text-anchor="middle" fill="{C["text"]}" font-family="{MONO}" font-size="9.5">{chip}</text>')
+        p.append(f'<rect x="{x:.0f}" y="{CH-38}" width="{wpx:.0f}" height="22" rx="11" fill="{C["chip_bg"]}" stroke="{C["chip_line"]}" stroke-width="1"/>')
+        p.append(f'<text x="{x+wpx/2:.0f}" y="{CH-22.5}" text-anchor="middle" fill="{C["text"]}" font-family="{MONO}" font-size="11">{chip}</text>')
         x += wpx + 8
     if link:
-        p.append(f'<text x="{CW-12}" y="{CH-16}" text-anchor="end" fill="{C["yellow"]}" font-family="{MONO}" font-size="10">OPEN -&gt;</text>')
+        p.append(f'<text x="{CW-16}" y="{CH-18}" text-anchor="end" fill="{C["yellow"]}" font-family="{MONO}" font-size="13">OPEN -&gt;</text>')
     else:
-        p.append(f'<text x="{CW-12}" y="{CH-16}" text-anchor="end" fill="{C["muted"]}" font-family="{MONO}" font-size="9">PRIVATE REPO</text>')
+        p.append(f'<text x="{CW-16}" y="{CH-18}" text-anchor="end" fill="{C["muted"]}" font-family="{MONO}" font-size="11">PRIVATE REPO</text>')
     p.append('</svg>')
     return "\n".join(p)
 
