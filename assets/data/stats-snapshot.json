@@ -70,7 +70,7 @@
    "deployments_url": "https://api.github.com/repos/Jainabhi90/Abhiraj-portfolio/deployments",
    "created_at": "2026-03-07T04:43:24Z",
    "updated_at": "2026-11-18T20:44:36Z",
-   "pushed_at": "2026-11-19T04:33:19Z",
+   "pushed_at": "2026-11-19T06:06:23Z",
    "git_url": "git://github.com/Jainabhi90/Abhiraj-portfolio.git",
    "ssh_url": "git@github.com:Jainabhi90/Abhiraj-portfolio.git",
    "clone_url": "https://github.com/Jainabhi90/Abhiraj-portfolio.git",
@@ -102,14 +102,7 @@
    "forks": 0,
    "open_issues": 0,
    "watchers": 0,
-   "default_branch": "main",
-   "permissions": {
-    "admin": false,
-    "maintain": false,
-    "push": false,
-    "triage": false,
-    "pull": false
-   }
+   "default_branch": "main"
   },
   {
    "id": 1214943648,
@@ -212,14 +205,7 @@
    "forks": 0,
    "open_issues": 0,
    "watchers": 0,
-   "default_branch": "main",
-   "permissions": {
-    "admin": false,
-    "maintain": false,
-    "push": false,
-    "triage": false,
-    "pull": false
-   }
+   "default_branch": "main"
   },
   {
    "id": 1322589599,
@@ -322,14 +308,7 @@
    "forks": 0,
    "open_issues": 0,
    "watchers": 0,
-   "default_branch": "main",
-   "permissions": {
-    "admin": false,
-    "maintain": false,
-    "push": false,
-    "triage": false,
-    "pull": false
-   }
+   "default_branch": "main"
   },
   {
    "id": 1184979491,
@@ -432,14 +411,7 @@
    "forks": 1,
    "open_issues": 0,
    "watchers": 0,
-   "default_branch": "main",
-   "permissions": {
-    "admin": false,
-    "maintain": false,
-    "push": false,
-    "triage": false,
-    "pull": false
-   }
+   "default_branch": "main"
   },
   {
    "id": 1332669212,
@@ -542,14 +514,7 @@
    "forks": 0,
    "open_issues": 0,
    "watchers": 0,
-   "default_branch": "main",
-   "permissions": {
-    "admin": false,
-    "maintain": false,
-    "push": false,
-    "triage": false,
-    "pull": false
-   }
+   "default_branch": "main"
   },
   {
    "id": 1103274033,
@@ -652,14 +617,7 @@
    "forks": 2,
    "open_issues": 0,
    "watchers": 0,
-   "default_branch": "main",
-   "permissions": {
-    "admin": false,
-    "maintain": false,
-    "push": false,
-    "triage": false,
-    "pull": false
-   }
+   "default_branch": "main"
   },
   {
    "id": 1098296110,
@@ -762,14 +720,7 @@
    "forks": 0,
    "open_issues": 0,
    "watchers": 0,
-   "default_branch": "main",
-   "permissions": {
-    "admin": false,
-    "maintain": false,
-    "push": false,
-    "triage": false,
-    "pull": false
-   }
+   "default_branch": "main"
   },
   {
    "id": 1185316666,
@@ -872,14 +823,7 @@
    "forks": 0,
    "open_issues": 0,
    "watchers": 0,
-   "default_branch": "main",
-   "permissions": {
-    "admin": false,
-    "maintain": false,
-    "push": false,
-    "triage": false,
-    "pull": false
-   }
+   "default_branch": "main"
   },
   {
    "id": 1186144625,
@@ -982,14 +926,7 @@
    "forks": 0,
    "open_issues": 0,
    "watchers": 0,
-   "default_branch": "main",
-   "permissions": {
-    "admin": false,
-    "maintain": false,
-    "push": false,
-    "triage": false,
-    "pull": false
-   }
+   "default_branch": "main"
   },
   {
    "id": 1209059001,
@@ -1092,14 +1029,7 @@
    "forks": 1,
    "open_issues": 0,
    "watchers": 1,
-   "default_branch": "main",
-   "permissions": {
-    "admin": false,
-    "maintain": false,
-    "push": false,
-    "triage": false,
-    "pull": false
-   }
+   "default_branch": "main"
   },
   {
    "id": 1297537754,
@@ -1202,14 +1132,7 @@
    "forks": 0,
    "open_issues": 0,
    "watchers": 0,
-   "default_branch": "main",
-   "permissions": {
-    "admin": false,
-    "maintain": false,
-    "push": false,
-    "triage": false,
-    "pull": false
-   }
+   "default_branch": "main"
   },
   {
    "id": 1463666344,
@@ -1280,13 +1203,13 @@
    "deployments_url": "https://api.github.com/repos/Jainabhi90/Jainabhi90/deployments",
    "created_at": "2026-11-19T04:36:09Z",
    "updated_at": "2026-11-19T04:37:53Z",
-   "pushed_at": "2026-11-19T05:31:45Z",
+   "pushed_at": "2026-11-19T06:16:43Z",
    "git_url": "git://github.com/Jainabhi90/Jainabhi90.git",
    "ssh_url": "git@github.com:Jainabhi90/Jainabhi90.git",
    "clone_url": "https://github.com/Jainabhi90/Jainabhi90.git",
    "svn_url": "https://github.com/Jainabhi90/Jainabhi90",
    "homepage": null,
-   "size": 0,
+   "size": 1038,
    "stargazers_count": 0,
    "watchers_count": 0,
    "language": "Python",
@@ -1312,14 +1235,7 @@
    "forks": 0,
    "open_issues": 0,
    "watchers": 0,
-   "default_branch": "main",
-   "permissions": {
-    "admin": false,
-    "maintain": false,
-    "push": false,
-    "triage": false,
-    "pull": false
-   }
+   "default_branch": "main"
   },
   {
    "id": 1154795158,
@@ -1422,14 +1338,7 @@
    "forks": 0,
    "open_issues": 0,
    "watchers": 0,
-   "default_branch": "main",
-   "permissions": {
-    "admin": false,
-    "maintain": false,
-    "push": false,
-    "triage": false,
-    "pull": false
-   }
+   "default_branch": "main"
   },
   {
    "id": 1313526980,
@@ -1532,14 +1441,7 @@
    "forks": 0,
    "open_issues": 0,
    "watchers": 0,
-   "default_branch": "main",
-   "permissions": {
-    "admin": false,
-    "maintain": false,
-    "push": false,
-    "triage": false,
-    "pull": false
-   }
+   "default_branch": "main"
   },
   {
    "id": 1145703533,
@@ -1642,14 +1544,7 @@
    "forks": 0,
    "open_issues": 0,
    "watchers": 0,
-   "default_branch": "master",
-   "permissions": {
-    "admin": false,
-    "maintain": false,
-    "push": false,
-    "triage": false,
-    "pull": false
-   }
+   "default_branch": "master"
   }
  ],
  "languages": [
@@ -1662,12 +1557,12 @@
    695801
   ],
   [
-   "CSS",
-   185123
+   "TypeScript",
+   191173
   ],
   [
-   "TypeScript",
-   174775
+   "CSS",
+   145921
   ],
   [
    "HTML",
@@ -1679,7 +1574,7 @@
   ],
   [
    "Python",
-   24289
+   45283
   ]
  ]
 }
