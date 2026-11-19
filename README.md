@@ -29,34 +29,19 @@ B.Tech CSE (AI & ML), Vedam School of Technology, batch 2025–2029. CGPA 8.95/1
   <img alt="Contribution stunt track: my GitHub contributions as a skateboard stunt course" src="assets/graphs/stunt-track-dark.svg">
 </picture>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/graphs/activity-3d-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/graphs/activity-3d-light.svg">
+  <img alt="Contribution city: my GitHub year as a 3D isometric activity graph" src="assets/graphs/activity-3d-dark.svg">
+</picture>
+
 ## 🛠️ Tech Deck
 
-<p>
-  <img alt="Languages: ts" width="64" height="64" src="https://skillicons.dev/icons?i=ts&theme=dark">
-  <img alt="Languages: js" width="64" height="64" src="https://skillicons.dev/icons?i=js&theme=dark">
-  <img alt="Languages: py" width="64" height="64" src="https://skillicons.dev/icons?i=py&theme=dark">
-  <img alt="Languages: java" width="64" height="64" src="https://skillicons.dev/icons?i=java&theme=dark">
-  <img alt="Languages: html" width="64" height="64" src="https://skillicons.dev/icons?i=html&theme=dark">
-  <img alt="Languages: css" width="64" height="64" src="https://skillicons.dev/icons?i=css&theme=dark">
-</p>
-<p>
-  <img alt="Frameworks: react" width="64" height="64" src="https://skillicons.dev/icons?i=react&theme=dark">
-  <img alt="Frameworks: nextjs" width="64" height="64" src="https://skillicons.dev/icons?i=nextjs&theme=dark">
-  <img alt="Frameworks: nodejs" width="64" height="64" src="https://skillicons.dev/icons?i=nodejs&theme=dark">
-  <img alt="Frameworks: express" width="64" height="64" src="https://skillicons.dev/icons?i=express&theme=dark">
-  <img alt="Frameworks: tailwind" width="64" height="64" src="https://skillicons.dev/icons?i=tailwind&theme=dark">
-  <img alt="Frameworks: vite" width="64" height="64" src="https://skillicons.dev/icons?i=vite&theme=dark">
-</p>
-<p>
-  <img alt="Data and tools: postgres" width="64" height="64" src="https://skillicons.dev/icons?i=postgres&theme=dark">
-  <img alt="Data and tools: supabase" width="64" height="64" src="https://skillicons.dev/icons?i=supabase&theme=dark">
-  <img alt="Data and tools: firebase" width="64" height="64" src="https://skillicons.dev/icons?i=firebase&theme=dark">
-  <img alt="Data and tools: mongodb" width="64" height="64" src="https://skillicons.dev/icons?i=mongodb&theme=dark">
-  <img alt="Data and tools: graphql" width="64" height="64" src="https://skillicons.dev/icons?i=graphql&theme=dark">
-  <img alt="Data and tools: vercel" width="64" height="64" src="https://skillicons.dev/icons?i=vercel&theme=dark">
-  <img alt="Data and tools: git" width="64" height="64" src="https://skillicons.dev/icons?i=git&theme=dark">
-  <img alt="Data and tools: github" width="64" height="64" src="https://skillicons.dev/icons?i=github&theme=dark">
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/graphs/tech-deck-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/graphs/tech-deck-light.svg">
+  <img alt="Tech deck: the stack as floating hexagon tiles - TypeScript, JavaScript, Python, Java, HTML, CSS, React, Next.js, Node, Express, Tailwind, Vite, Postgres, Supabase, Firebase, MongoDB, GraphQL, Vercel, Git, GitHub" src="assets/graphs/tech-deck-dark.svg">
+</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/graphs/stats-dark.svg">
