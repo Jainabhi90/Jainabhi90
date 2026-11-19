@@ -1,0 +1,43 @@
+name: KICK.EXE - regenerate profile assets
+
+# Regenerates the contribution stunt track from PUBLIC data only
+# (https://github.com/users/Jainabhi90/contributions). No token or secret
+# is used: the default GITHUB_TOKEN only commits the regenerated files.
+# Manual trigger: Actions tab > "KICK.EXE - regenerate profile assets" > Run workflow.
+
+on:
+  schedule:
+    - cron: "17 4 * * *"     # 04:17 UTC = 09:47 IST; off-peak, any daily slot works
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate profile SVGs
+        run: |
+          python3 scripts/generate_stunt_track.py --user Jainabhi90 --out-dir assets/graphs
+          python3 scripts/generate_stats.py --user Jainabhi90 --out-dir assets/graphs
+          python3 scripts/generate_cards.py --out-dir assets/cards
+          python3 scripts/generate_timeline.py --out-dir assets/graphs
+
+      - name: Commit only if assets changed
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add assets/graphs assets/cards assets/data data/contributions.json
+          if git diff --cached --quiet; then
+            echo "no change; skipping commit"
+          else
+            git commit -m "chore: regenerate contribution stunt track [skip ci]"
+            git push
+          fi
