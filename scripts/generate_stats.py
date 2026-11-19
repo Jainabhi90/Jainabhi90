@@ -17,7 +17,7 @@ owner already publishes. Network failure keeps last good assets (exit 1,
 
 Usage: python3 generate_stats.py --user Jainabhi90 --out-dir assets/graphs
 """
-import json, re, sys, urllib.request
+import json, os, re, sys, urllib.request
 from datetime import date, timedelta
 
 W, H = 730, 336
@@ -36,8 +36,12 @@ LANG_COLORS = {"JavaScript": "#f1e05a", "TypeScript": "#3178c6", "Python": "#357
 
 
 def get(url):
-    req = urllib.request.Request(url, headers={"User-Agent": "kick-exe-generator",
-                                               "Accept": "application/vnd.github+json"})
+    headers = {"User-Agent": "kick-exe-generator",
+               "Accept": "application/vnd.github+json"}
+    token = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
+    if token and "api.github.com" in url:
+        headers["Authorization"] = "Bearer " + token
+    req = urllib.request.Request(url, headers=headers)
     with urllib.request.urlopen(req, timeout=30) as r:
         return r.read().decode("utf-8", "replace")
 

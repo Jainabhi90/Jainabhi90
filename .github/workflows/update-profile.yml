@@ -24,6 +24,8 @@ jobs:
           python-version: "3.12"
 
       - name: Generate profile SVGs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python3 scripts/generate_stunt_track.py --user Jainabhi90 --out-dir assets/graphs
           python3 scripts/generate_stats.py --user Jainabhi90 --out-dir assets/graphs
