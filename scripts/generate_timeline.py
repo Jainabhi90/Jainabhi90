@@ -9,7 +9,7 @@ Usage: python3 generate_timeline.py --out-dir assets/graphs
 """
 import argparse
 
-W, H = 730, 218
+W, H = 894, 244
 THEMES = {
     "dark":  {"bg": "#0D1117", "panel": "#10151C", "text": "#F5F5F5", "muted": "#8B949E",
               "line": "#1E2630", "accent": "#E5252A", "mark": "#FFD338"},
@@ -22,15 +22,16 @@ NODES = [
     ("2025", "FIRST LAP", "#E5252A", [
         "Started B.Tech CSE (AI & ML)",
         "at Vedam, Pune",
-        "Joined GitHub, first repos shipped"]),
+        "Joined GitHub, first repos",
+        "Sports Club - Finance Head"]),
     ("2026", "FULL THROTTLE", "#E5252A", [
         "NioLearn live - co-founder & CTO",
-        "EduOS multi-tenant school OS",
-        "Fnatics - 24h hackathon build",
-        "Wrote NOESIS 2.0 offline marketing strategy"]),
+        "EduOS school OS, Fnatics hackathon",
+        "NOESIS 2027 offline marketing core",
+        "Open Source Club - Finance Head"]),
     ("NEXT", "PLANS, NOT RESULTS", "#FFD338", [
-        "First paid NioLearn cohort",
-        "NOESIS 2.0 fest - Jan 29-30",
+        "First paid cohort - Jan 1, 2027",
+        "NOESIS 2027 fest - Jan 29-30",
         "Keep shipping in public"]),
 ]
 
@@ -45,23 +46,23 @@ def svg(t):
     p.append('<title>KICK.EXE - the season so far</title>')
     p.append(f'<rect width="{W}" height="{H}" fill="{t["bg"]}" rx="10"/>')
     p.append(f'<rect x="10" y="10" width="{W-20}" height="{H-20}" fill="none" stroke="{t["line"]}" stroke-width="1.5" rx="8"/>')
-    p.append(f'<rect x="10" y="10" width="52" height="4" fill="{t["accent"]}" rx="2"/>')
+    p.append(f'<rect x="10" y="10" width="64" height="5" fill="{t["accent"]}" rx="2.5"/>')
     p.append(f'<text x="30" y="40" fill="{t["text"]}" font-family="{MONO}" font-size="15" font-weight="700" letter-spacing="2">THE SEASON SO FAR</text>')
-    rail_y = 66
-    p.append(f'<line x1="40" y1="{rail_y}" x2="{W-40}" y2="{rail_y}" stroke="{t["accent"]}" stroke-width="3" stroke-linecap="round"/>')
+    rail_y = 72
+    p.append(f'<line x1="40" y1="{rail_y}" x2="{W-40}" y2="{rail_y}" stroke="{t["accent"]}" stroke-width="4.5" stroke-linecap="round"/>')
     seg = (W - 80) / len(NODES)
     for i, (year, tag, color, lines) in enumerate(NODES):
         cx = 40 + seg * i + seg / 2
         dashed = ' stroke-dasharray="4 4"' if year == "NEXT" else ""
-        p.append(f'<circle cx="{cx:.0f}" cy="{rail_y}" r="7" fill="{t["bg"]}" stroke="{color}" stroke-width="2.5"{dashed}/>')
-        p.append(f'<text x="{cx:.0f}" y="{rail_y+30}" text-anchor="middle" fill="{color}" font-family="{MONO}" font-size="17" font-weight="700">{year}</text>')
-        bw = 8 + len(tag) * 6.4
+        p.append(f'<circle cx="{cx:.0f}" cy="{rail_y}" r="9" fill="{t["bg"]}" stroke="{color}" stroke-width="3"{dashed}/>')
+        p.append(f'<text x="{cx:.0f}" y="{rail_y+30}" text-anchor="middle" fill="{color}" font-family="{MONO}" font-size="18" font-weight="700">{year}</text>')
+        bw = 8 + len(tag) * 7.2
         p.append(f'<rect x="{cx-bw/2:.0f}" y="{rail_y+40}" width="{bw:.0f}" height="15" rx="7.5" fill="none" stroke="{color}" stroke-width="1"/>')
-        p.append(f'<text x="{cx:.0f}" y="{rail_y+51}" text-anchor="middle" fill="{color}" font-family="{MONO}" font-size="7.5" letter-spacing="1">{tag}</text>')
-        y = rail_y + 76
+        p.append(f'<text x="{cx:.0f}" y="{rail_y+51}" text-anchor="middle" fill="{color}" font-family="{MONO}" font-size="8.5" letter-spacing="1">{tag}</text>')
+        y = rail_y + 82
         for line in lines:
-            p.append(f'<text x="{cx:.0f}" y="{y}" text-anchor="middle" fill="{t["muted"]}" font-family="{MONO}" font-size="9.5">{esc(line)}</text>')
-            y += 15
+            p.append(f'<text x="{cx:.0f}" y="{y}" text-anchor="middle" fill="{t["muted"]}" font-family="{MONO}" font-size="10.5">{esc(line)}</text>')
+            y += 18
     p.append('</svg>')
     return "\n".join(p)
 
