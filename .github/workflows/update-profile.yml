@@ -23,16 +23,18 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Generate stunt track SVGs
+      - name: Generate profile SVGs
         run: |
           python3 scripts/generate_stunt_track.py --user Jainabhi90 --out-dir assets/graphs
-          python3 scripts/generate_telemetry.py --user Jainabhi90 --out-dir assets/graphs
+          python3 scripts/generate_stats.py --user Jainabhi90 --out-dir assets/graphs
+          python3 scripts/generate_cards.py --out-dir assets/cards
+          python3 scripts/generate_timeline.py --out-dir assets/graphs
 
       - name: Commit only if assets changed
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add assets/graphs data/contributions.json
+          git add assets/graphs assets/cards assets/data data/contributions.json
           if git diff --cached --quiet; then
             echo "no change; skipping commit"
           else

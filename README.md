@@ -1,53 +1,50 @@
-![KICK.EXE — Abhiraj Jain, the developer daredevil](assets/hero/hero-dark.svg)
+![KICK.EXE: Abhiraj Jain, the developer daredevil](assets/hero/hero-dark.svg)
+
+## 🏁 Featured Missions
+
+<a href="https://niolearn.com/"><img src="assets/cards/card-niolearn.svg" alt="NioLearn: live product" width="272"></a> <img src="assets/cards/card-eduos.svg" alt="EduOS: engineering case study, private repo" width="272"> <a href="https://github.com/Jainabhi90/GitHub-Analyser"><img src="assets/cards/card-github-analyser.svg" alt="GitHub Analyser: shipped" width="272"></a> <a href="https://github.com/Jainabhi90/Fnatics-project-"><img src="assets/cards/card-fnatics.svg" alt="Fnatics: 24-hour hackathon" width="272"></a> <a href="https://github.com/Jainabhi90/Insta-CRM"><img src="assets/cards/card-insta-crm.svg" alt="Insta-CRM: public repo" width="272"></a> <a href="https://github.com/Jainabhi90/Arbitrage"><img src="assets/cards/card-arbdetector.svg" alt="ArbDetector: public repo" width="272"></a>
+
+<sub>Also built: [Labriya Chaturmas Portal](https://github.com/Jainabhi90/jain-website-labriya-) (temple community portal, Next.js 15 + Supabase) · [Vedam CGPA Calculator](https://github.com/Jainabhi90/CGPA-Calculator-Vedam) (work in progress)</sub>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/graphs/stunt-track-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/graphs/stunt-track-light.svg">
-  <img alt="Contribution stunt track — my GitHub contributions as a skateboard stunt course" src="assets/graphs/stunt-track-dark.svg">
+  <img alt="Contribution stunt track: my GitHub contributions as a skateboard stunt course" src="assets/graphs/stunt-track-dark.svg">
 </picture>
 
-## About
-
-I'm Abhi (Abhiraj Jain), a second-year B.Tech Computer Science (AI & ML) student at Vedam School of Technology, Pune. I treat college as a launchpad: I design, build and ship working products instead of only coursework. My main work right now is NioLearn, a live education platform, and EduOS, a multi-tenant school operating system. I write TypeScript, Java, Python and SQL, and I work across Next.js, React, Node, PostgreSQL and Supabase.
-
-## Missions
-
-### NioLearn — live product
-An outcome-focused education and college guidance platform for Indian students, live at [niolearn.com](https://niolearn.com/). I am co-founder and CTO. The platform has a public marketing site, a college discovery engine with institutional profiles and comparison tools, and an internal admin panel for operations. It is a pnpm + Turborepo monorepo of three Next.js apps with shared UI, auth, database, types and validation packages, on PostgreSQL via Supabase, with Razorpay payments. Enrollment activates only on captured payments; authorized-but-uncaptured stays pending. The first paid cohort is planned (not yet running). Repository is private, so the link goes to the live product.
-
-### EduOS — engineering case study (private repo)
-A multi-tenant K-12 school operating system, designed as a modular monolith in a pnpm + Turborepo monorepo. Five apps (school portal, platform console, public admissions site, API gateway, async worker) and seven shared packages, with strict tenant isolation through tenant_id scoping and Postgres row-level security, capability-based access control, SQL migrations and architecture decision records. I lead product and technicals. Built modules so far include identity, admissions and the full admission-to-student lifecycle with an automated test suite. The repo is private, so this is a case study, not a link.
-
-### GitHub Analyser — public repo + deployed app
-A developer analytics dashboard that turns any GitHub profile into charts and a score: language distribution, top repositories, activity graphs and a 12-month contribution heatmap through GitHub's GraphQL API. React and Chart.js on the front, API calls routed through a serverless function. Built and deployed with my own commits.
-
-- App: [git-hub-analyser.vercel.app](https://git-hub-analyser.vercel.app)
-- Code: [github.com/Jainabhi90/GitHub-Analyser](https://github.com/Jainabhi90/GitHub-Analyser)
-
-### Fnatics — 24-hour hackathon, Team Fnatics
-An AI-assisted DSA learning platform built during a 24-hour hackathon at Vedam with Team Fnatics. It tracks topic mastery across DSA areas, daily streaks, weak vs strong topics and gives difficulty-aware question recommendations, with a live leaderboard. React + Vite, Firebase Auth and Firestore, Tailwind + shadcn/ui, Recharts. Team project; my fork: [github.com/Jainabhi90/Fnatics-project-](https://github.com/Jainabhi90/Fnatics-project-) (original team repo under a teammate's account).
-
-## Engineering telemetry
+## 🛠️ Tech Deck
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/graphs/telemetry-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/graphs/telemetry-light.svg">
-  <img alt="Engineering telemetry — public data only" src="assets/graphs/telemetry-dark.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,js,py,java,html,css&theme=dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts,js,py,java,html,css&theme=light">
+  <img alt="Languages: TypeScript, JavaScript, Python, Java, HTML, CSS" src="https://skillicons.dev/icons?i=ts,js,py,java,html,css&theme=dark">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,tailwind,vite&theme=dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,tailwind,vite&theme=light">
+  <img alt="Frameworks: React, Next.js, Node.js, Express, Tailwind, Vite" src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,tailwind,vite&theme=dark">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=postgres,supabase,firebase,vercel,git,github&theme=dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=postgres,supabase,firebase,vercel,git,github&theme=light">
+  <img alt="Data and tools: PostgreSQL, Supabase, Firebase, Vercel, Git, GitHub" src="https://skillicons.dev/icons?i=postgres,supabase,firebase,vercel,git,github&theme=dark">
 </picture>
 
-## More things I've built
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/graphs/stats-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/graphs/stats-light.svg">
+  <img alt="Pit wall: GitHub stats, public profile data only" src="assets/graphs/stats-dark.svg">
+</picture>
 
-- **Insta-CRM** — an Instagram CRM concept: multi-account management, automated DM/comment workflows, lead tracking and analytics, OAuth 2.0. [repo](https://github.com/Jainabhi90/Insta-CRM)
-- **ArbDetector** — a scanner that matches equivalent markets across Kalshi and Polymarket and surfaces fee-adjusted arbitrage opportunities, with a dashboard and Telegram alerts. [repo](https://github.com/Jainabhi90/Arbitrage)
-- **Labriya Chaturmas Portal** — a full community portal for a Jain temple: schedules, Panchang, events, donations and an admin console. Next.js 15 + Supabase on Vercel. [repo](https://github.com/Jainabhi90/jain-website-labriya-)
-- **Vedam CGPA Calculator** — a merit score and CGPA calculator for my college's evaluation structure (work in progress). [repo](https://github.com/Jainabhi90/CGPA-Calculator-Vedam)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/graphs/timeline-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/graphs/timeline-light.svg">
+  <img alt="The season so far: 2025, 2026, and what is planned next" src="assets/graphs/timeline-dark.svg">
+</picture>
 
-## Beyond code
+## 🎙️ About
 
-- Head of Offline Marketing, NOESIS 2.0 (Vedam tech festival, planned for Jan 29–30, 2027). I wrote the offline marketing strategy: 40–45 colleges planned for physical outreach visits plus digital and community channels. These are plan targets, not results.
-- Core Committee Member, NOESIS 2026 (the festival's first edition, Feb 2026).
-- Finance Head, Sports Club, and Core Committee, Open Source Club at Vedam.
-- State-level badminton player.
+Second-year B.Tech CSE (AI & ML) student at Vedam School of Technology, Pune. College is my launchpad: I design, build and ship real products. Right now that's **NioLearn** (live) and **EduOS**. State-level badminton player off the track.
 
 <details>
 <summary>Education quick facts</summary>
@@ -56,8 +53,9 @@ B.Tech CSE (AI & ML), Vedam School of Technology, batch 2025–2029. First-semes
 
 </details>
 
-## Connect
+## 📡 Connect
 
-- Email: jainabhi90980@gmail.com
-- NioLearn: [niolearn.com](https://niolearn.com/)
-- GitHub: [github.com/Jainabhi90](https://github.com/Jainabhi90)
+[![Email](https://img.shields.io/badge/EMAIL-jainabhi90980%40gmail.com-0D1117?style=flat-square&logo=gmail&logoColor=E5252A&labelColor=161B22)](mailto:jainabhi90980@gmail.com)
+[![NioLearn](https://img.shields.io/badge/NIOLEARN-niolearn.com-0D1117?style=flat-square&logo=googlechrome&logoColor=E5252A&labelColor=161B22)](https://niolearn.com/)
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-abhirajjain.me-0D1117?style=flat-square&logo=googlechrome&logoColor=FFD338&labelColor=161B22)](https://abhirajjain.me)
+[![GitHub](https://img.shields.io/badge/GITHUB-Jainabhi90-0D1117?style=flat-square&logo=github&logoColor=F5F5F5&labelColor=161B22)](https://github.com/Jainabhi90)
