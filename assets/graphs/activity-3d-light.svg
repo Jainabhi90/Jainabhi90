@@ -1,20 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 894 640" width="894" height="640" role="img" aria-label="3D activity graph: 680 GitHub contributions in the last year rendered as an isometric bar city.">
-<title>KICK.EXE contribution city - 3D activity, 680 contributions in the last year</title>
-<desc>Isometric 3D bar chart of the same public contribution data as the stunt track: one bar per day, height follows the daily contribution count. 99 active days; best day 136 contributions on Nov 19, 2026.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 894 640" width="894" height="640" role="img" aria-label="3D activity graph: 788 GitHub contributions in the last year rendered as an isometric bar city.">
+<title>KICK.EXE contribution city - 3D activity, 788 contributions in the last year</title>
+<desc>Isometric 3D bar chart of the same public contribution data as the stunt track: one bar per day, height follows the daily contribution count. 100 active days; best day 241 contributions on Nov 19, 2026.</desc>
 <rect width="894" height="640" fill="#F5F5F5" rx="10"/>
 <rect x="10" y="10" width="874" height="620" fill="none" stroke="#e3ddd2" stroke-width="1.5" rx="8"/>
 <rect x="10" y="10" width="64" height="5" fill="#E5252A" rx="2.5"/>
 <text x="30" y="54" fill="#0D1117" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="23" font-weight="700" letter-spacing="2">CONTRIBUTION CITY // 3D ACTIVITY</text>
 <text x="870" y="54" text-anchor="end" fill="#5b6470" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="14">NOV 2025 - NOV 2026</text>
 <g><title>0 contributions on 2025-11-16</title><path d="M 148.0 183.5 L 161.0 190.0 L 148.0 196.5 L 135.0 190.0 Z" fill="#e8e2d8"/></g>
-<g><title>1 contributions on 2025-11-17</title><path d="M 122.0 190.7 L 135.0 197.2 L 135.0 203.0 L 122.0 196.5 Z" fill="#846465"/>
-<path d="M 148.0 190.7 L 135.0 197.2 L 135.0 203.0 L 148.0 196.5 Z" fill="#bb8e8f"/>
-<path d="M 135.0 184.2 L 148.0 190.7 L 135.0 197.2 L 122.0 190.7 Z" fill="#f0b7b8"/></g>
+<g><title>1 contributions on 2025-11-17</title><path d="M 122.0 191.0 L 135.0 197.5 L 135.0 203.0 L 122.0 196.5 Z" fill="#846465"/>
+<path d="M 148.0 191.0 L 135.0 197.5 L 135.0 203.0 L 148.0 196.5 Z" fill="#bb8e8f"/>
+<path d="M 135.0 184.5 L 148.0 191.0 L 135.0 197.5 L 122.0 191.0 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2025-11-23</title><path d="M 161.0 190.0 L 174.0 196.5 L 161.0 203.0 L 148.0 196.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2025-11-18</title><path d="M 122.0 196.5 L 135.0 203.0 L 122.0 209.5 L 109.0 203.0 Z" fill="#e8e2d8"/></g>
-<g><title>1 contributions on 2025-11-24</title><path d="M 135.0 197.2 L 148.0 203.7 L 148.0 209.5 L 135.0 203.0 Z" fill="#846465"/>
-<path d="M 161.0 197.2 L 148.0 203.7 L 148.0 209.5 L 161.0 203.0 Z" fill="#bb8e8f"/>
-<path d="M 148.0 190.7 L 161.0 197.2 L 148.0 203.7 L 135.0 197.2 Z" fill="#f0b7b8"/></g>
+<g><title>1 contributions on 2025-11-24</title><path d="M 135.0 197.5 L 148.0 204.0 L 148.0 209.5 L 135.0 203.0 Z" fill="#846465"/>
+<path d="M 161.0 197.5 L 148.0 204.0 L 148.0 209.5 L 161.0 203.0 Z" fill="#bb8e8f"/>
+<path d="M 148.0 191.0 L 161.0 197.5 L 148.0 204.0 L 135.0 197.5 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2025-11-30</title><path d="M 174.0 196.5 L 187.0 203.0 L 174.0 209.5 L 161.0 203.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2025-11-19</title><path d="M 109.0 203.0 L 122.0 209.5 L 109.0 216.0 L 96.0 209.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2025-11-25</title><path d="M 135.0 203.0 L 148.0 209.5 L 135.0 216.0 L 122.0 209.5 Z" fill="#e8e2d8"/></g>
@@ -38,18 +38,18 @@
 <g><title>0 contributions on 2025-12-16</title><path d="M 174.0 222.5 L 187.0 229.0 L 174.0 235.5 L 161.0 229.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2025-12-22</title><path d="M 200.0 222.5 L 213.0 229.0 L 200.0 235.5 L 187.0 229.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2025-12-28</title><path d="M 226.0 222.5 L 239.0 229.0 L 226.0 235.5 L 213.0 229.0 Z" fill="#e8e2d8"/></g>
-<g><title>1 contributions on 2025-11-29</title><path d="M 70.0 229.7 L 83.0 236.2 L 83.0 242.0 L 70.0 235.5 Z" fill="#846465"/>
-<path d="M 96.0 229.7 L 83.0 236.2 L 83.0 242.0 L 96.0 235.5 Z" fill="#bb8e8f"/>
-<path d="M 83.0 223.2 L 96.0 229.7 L 83.0 236.2 L 70.0 229.7 Z" fill="#f0b7b8"/></g>
+<g><title>1 contributions on 2025-11-29</title><path d="M 70.0 230.0 L 83.0 236.5 L 83.0 242.0 L 70.0 235.5 Z" fill="#846465"/>
+<path d="M 96.0 230.0 L 83.0 236.5 L 83.0 242.0 L 96.0 235.5 Z" fill="#bb8e8f"/>
+<path d="M 83.0 223.5 L 96.0 230.0 L 83.0 236.5 L 70.0 230.0 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2025-12-05</title><path d="M 109.0 229.0 L 122.0 235.5 L 109.0 242.0 L 96.0 235.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2025-12-11</title><path d="M 135.0 229.0 L 148.0 235.5 L 135.0 242.0 L 122.0 235.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2025-12-17</title><path d="M 161.0 229.0 L 174.0 235.5 L 161.0 242.0 L 148.0 235.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2025-12-23</title><path d="M 187.0 229.0 L 200.0 235.5 L 187.0 242.0 L 174.0 235.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2025-12-29</title><path d="M 213.0 229.0 L 226.0 235.5 L 213.0 242.0 L 200.0 235.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-01-04</title><path d="M 239.0 229.0 L 252.0 235.5 L 239.0 242.0 L 226.0 235.5 Z" fill="#e8e2d8"/></g>
-<g><title>1 contributions on 2025-12-06</title><path d="M 83.0 236.2 L 96.0 242.7 L 96.0 248.5 L 83.0 242.0 Z" fill="#846465"/>
-<path d="M 109.0 236.2 L 96.0 242.7 L 96.0 248.5 L 109.0 242.0 Z" fill="#bb8e8f"/>
-<path d="M 96.0 229.7 L 109.0 236.2 L 96.0 242.7 L 83.0 236.2 Z" fill="#f0b7b8"/></g>
+<g><title>1 contributions on 2025-12-06</title><path d="M 83.0 236.5 L 96.0 243.0 L 96.0 248.5 L 83.0 242.0 Z" fill="#846465"/>
+<path d="M 109.0 236.5 L 96.0 243.0 L 96.0 248.5 L 109.0 242.0 Z" fill="#bb8e8f"/>
+<path d="M 96.0 230.0 L 109.0 236.5 L 96.0 243.0 L 83.0 236.5 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2025-12-12</title><path d="M 122.0 235.5 L 135.0 242.0 L 122.0 248.5 L 109.0 242.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2025-12-18</title><path d="M 148.0 235.5 L 161.0 242.0 L 148.0 248.5 L 135.0 242.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2025-12-24</title><path d="M 174.0 235.5 L 187.0 242.0 L 174.0 248.5 L 161.0 242.0 Z" fill="#e8e2d8"/></g>
@@ -95,15 +95,15 @@
 <g><title>0 contributions on 2026-01-23</title><path d="M 200.0 274.5 L 213.0 281.0 L 200.0 287.5 L 187.0 281.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-01-29</title><path d="M 226.0 274.5 L 239.0 281.0 L 226.0 287.5 L 213.0 281.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-02-04</title><path d="M 252.0 274.5 L 265.0 281.0 L 252.0 287.5 L 239.0 281.0 Z" fill="#e8e2d8"/></g>
-<g><title>1 contributions on 2026-02-10</title><path d="M 265.0 275.2 L 278.0 281.7 L 278.0 287.5 L 265.0 281.0 Z" fill="#846465"/>
-<path d="M 291.0 275.2 L 278.0 281.7 L 278.0 287.5 L 291.0 281.0 Z" fill="#bb8e8f"/>
-<path d="M 278.0 268.7 L 291.0 275.2 L 278.0 281.7 L 265.0 275.2 Z" fill="#f0b7b8"/></g>
+<g><title>1 contributions on 2026-02-10</title><path d="M 265.0 275.5 L 278.0 282.0 L 278.0 287.5 L 265.0 281.0 Z" fill="#846465"/>
+<path d="M 291.0 275.5 L 278.0 282.0 L 278.0 287.5 L 291.0 281.0 Z" fill="#bb8e8f"/>
+<path d="M 278.0 269.0 L 291.0 275.5 L 278.0 282.0 L 265.0 275.5 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-02-16</title><path d="M 304.0 274.5 L 317.0 281.0 L 304.0 287.5 L 291.0 281.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-02-22</title><path d="M 330.0 274.5 L 343.0 281.0 L 330.0 287.5 L 317.0 281.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-01-24</title><path d="M 187.0 281.0 L 200.0 287.5 L 187.0 294.0 L 174.0 287.5 Z" fill="#e8e2d8"/></g>
-<g><title>1 contributions on 2026-01-30</title><path d="M 200.0 281.7 L 213.0 288.2 L 213.0 294.0 L 200.0 287.5 Z" fill="#846465"/>
-<path d="M 226.0 281.7 L 213.0 288.2 L 213.0 294.0 L 226.0 287.5 Z" fill="#bb8e8f"/>
-<path d="M 213.0 275.2 L 226.0 281.7 L 213.0 288.2 L 200.0 281.7 Z" fill="#f0b7b8"/></g>
+<g><title>1 contributions on 2026-01-30</title><path d="M 200.0 282.0 L 213.0 288.5 L 213.0 294.0 L 200.0 287.5 Z" fill="#846465"/>
+<path d="M 226.0 282.0 L 213.0 288.5 L 213.0 294.0 L 226.0 287.5 Z" fill="#bb8e8f"/>
+<path d="M 213.0 275.5 L 226.0 282.0 L 213.0 288.5 L 200.0 282.0 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-02-05</title><path d="M 239.0 281.0 L 252.0 287.5 L 239.0 294.0 L 226.0 287.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-02-11</title><path d="M 265.0 281.0 L 278.0 287.5 L 265.0 294.0 L 252.0 287.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-02-17</title><path d="M 291.0 281.0 L 304.0 287.5 L 291.0 294.0 L 278.0 287.5 Z" fill="#e8e2d8"/></g>
@@ -140,94 +140,94 @@
 <g><title>0 contributions on 2026-02-28</title><path d="M 252.0 313.5 L 265.0 320.0 L 252.0 326.5 L 239.0 320.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-03-06</title><path d="M 278.0 313.5 L 291.0 320.0 L 278.0 326.5 L 265.0 320.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-03-12</title><path d="M 304.0 313.5 L 317.0 320.0 L 304.0 326.5 L 291.0 320.0 Z" fill="#e8e2d8"/></g>
-<g><title>2 contributions on 2026-03-18</title><path d="M 317.0 313.4 L 330.0 319.9 L 330.0 326.5 L 317.0 320.0 Z" fill="#846465"/>
-<path d="M 343.0 313.4 L 330.0 319.9 L 330.0 326.5 L 343.0 320.0 Z" fill="#bb8e8f"/>
-<path d="M 330.0 306.9 L 343.0 313.4 L 330.0 319.9 L 317.0 313.4 Z" fill="#f0b7b8"/></g>
-<g><title>2 contributions on 2026-03-24</title><path d="M 343.0 313.4 L 356.0 319.9 L 356.0 326.5 L 343.0 320.0 Z" fill="#846465"/>
-<path d="M 369.0 313.4 L 356.0 319.9 L 356.0 326.5 L 369.0 320.0 Z" fill="#bb8e8f"/>
-<path d="M 356.0 306.9 L 369.0 313.4 L 356.0 319.9 L 343.0 313.4 Z" fill="#f0b7b8"/></g>
+<g><title>2 contributions on 2026-03-18</title><path d="M 317.0 314.1 L 330.0 320.6 L 330.0 326.5 L 317.0 320.0 Z" fill="#846465"/>
+<path d="M 343.0 314.1 L 330.0 320.6 L 330.0 326.5 L 343.0 320.0 Z" fill="#bb8e8f"/>
+<path d="M 330.0 307.6 L 343.0 314.1 L 330.0 320.6 L 317.0 314.1 Z" fill="#f0b7b8"/></g>
+<g><title>2 contributions on 2026-03-24</title><path d="M 343.0 314.1 L 356.0 320.6 L 356.0 326.5 L 343.0 320.0 Z" fill="#846465"/>
+<path d="M 369.0 314.1 L 356.0 320.6 L 356.0 326.5 L 369.0 320.0 Z" fill="#bb8e8f"/>
+<path d="M 356.0 307.6 L 369.0 314.1 L 356.0 320.6 L 343.0 314.1 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-03-30</title><path d="M 382.0 313.5 L 395.0 320.0 L 382.0 326.5 L 369.0 320.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-04-05</title><path d="M 408.0 313.5 L 421.0 320.0 L 408.0 326.5 L 395.0 320.0 Z" fill="#e8e2d8"/></g>
-<g><title>3 contributions on 2026-03-07</title><path d="M 252.0 319.1 L 265.0 325.6 L 265.0 333.0 L 252.0 326.5 Z" fill="#846465"/>
-<path d="M 278.0 319.1 L 265.0 325.6 L 265.0 333.0 L 278.0 326.5 Z" fill="#bb8e8f"/>
-<path d="M 265.0 312.6 L 278.0 319.1 L 265.0 325.6 L 252.0 319.1 Z" fill="#f0b7b8"/></g>
+<g><title>3 contributions on 2026-03-07</title><path d="M 252.0 320.1 L 265.0 326.6 L 265.0 333.0 L 252.0 326.5 Z" fill="#846465"/>
+<path d="M 278.0 320.1 L 265.0 326.6 L 265.0 333.0 L 278.0 326.5 Z" fill="#bb8e8f"/>
+<path d="M 265.0 313.6 L 278.0 320.1 L 265.0 326.6 L 252.0 320.1 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-03-13</title><path d="M 291.0 320.0 L 304.0 326.5 L 291.0 333.0 L 278.0 326.5 Z" fill="#e8e2d8"/></g>
-<g><title>1 contributions on 2026-03-19</title><path d="M 304.0 320.7 L 317.0 327.2 L 317.0 333.0 L 304.0 326.5 Z" fill="#846465"/>
-<path d="M 330.0 320.7 L 317.0 327.2 L 317.0 333.0 L 330.0 326.5 Z" fill="#bb8e8f"/>
-<path d="M 317.0 314.2 L 330.0 320.7 L 317.0 327.2 L 304.0 320.7 Z" fill="#f0b7b8"/></g>
+<g><title>1 contributions on 2026-03-19</title><path d="M 304.0 321.0 L 317.0 327.5 L 317.0 333.0 L 304.0 326.5 Z" fill="#846465"/>
+<path d="M 330.0 321.0 L 317.0 327.5 L 317.0 333.0 L 330.0 326.5 Z" fill="#bb8e8f"/>
+<path d="M 317.0 314.5 L 330.0 321.0 L 317.0 327.5 L 304.0 321.0 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-03-25</title><path d="M 343.0 320.0 L 356.0 326.5 L 343.0 333.0 L 330.0 326.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-03-31</title><path d="M 369.0 320.0 L 382.0 326.5 L 369.0 333.0 L 356.0 326.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-04-06</title><path d="M 395.0 320.0 L 408.0 326.5 L 395.0 333.0 L 382.0 326.5 Z" fill="#e8e2d8"/></g>
-<g><title>2 contributions on 2026-04-12</title><path d="M 408.0 319.9 L 421.0 326.4 L 421.0 333.0 L 408.0 326.5 Z" fill="#846465"/>
-<path d="M 434.0 319.9 L 421.0 326.4 L 421.0 333.0 L 434.0 326.5 Z" fill="#bb8e8f"/>
-<path d="M 421.0 313.4 L 434.0 319.9 L 421.0 326.4 L 408.0 319.9 Z" fill="#f0b7b8"/></g>
+<g><title>2 contributions on 2026-04-12</title><path d="M 408.0 320.6 L 421.0 327.1 L 421.0 333.0 L 408.0 326.5 Z" fill="#846465"/>
+<path d="M 434.0 320.6 L 421.0 327.1 L 421.0 333.0 L 434.0 326.5 Z" fill="#bb8e8f"/>
+<path d="M 421.0 314.1 L 434.0 320.6 L 421.0 327.1 L 408.0 320.6 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-03-14</title><path d="M 278.0 326.5 L 291.0 333.0 L 278.0 339.5 L 265.0 333.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-03-20</title><path d="M 304.0 326.5 L 317.0 333.0 L 304.0 339.5 L 291.0 333.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-03-26</title><path d="M 330.0 326.5 L 343.0 333.0 L 330.0 339.5 L 317.0 333.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-04-01</title><path d="M 356.0 326.5 L 369.0 333.0 L 356.0 339.5 L 343.0 333.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-04-07</title><path d="M 382.0 326.5 L 395.0 333.0 L 382.0 339.5 L 369.0 333.0 Z" fill="#e8e2d8"/></g>
-<g><title>17 contributions on 2026-04-13</title><path d="M 395.0 314.2 L 408.0 320.8 L 408.0 339.5 L 395.0 333.0 Z" fill="#7d1417"/>
-<path d="M 421.0 314.2 L 408.0 320.8 L 408.0 339.5 L 421.0 333.0 Z" fill="#b21c20"/>
-<path d="M 408.0 307.8 L 421.0 314.2 L 408.0 320.8 L 395.0 314.2 Z" fill="#E5252A"/></g>
-<g><title>9 contributions on 2026-04-19</title><path d="M 421.0 320.7 L 434.0 327.2 L 434.0 339.5 L 421.0 333.0 Z" fill="#7b383a"/>
-<path d="M 447.0 320.7 L 434.0 327.2 L 434.0 339.5 L 447.0 333.0 Z" fill="#ae5053"/>
-<path d="M 434.0 314.2 L 447.0 320.7 L 434.0 327.2 L 421.0 320.7 Z" fill="#e0676b"/></g>
+<g><title>17 contributions on 2026-04-13</title><path d="M 395.0 320.2 L 408.0 326.7 L 408.0 339.5 L 395.0 333.0 Z" fill="#7b383a"/>
+<path d="M 421.0 320.2 L 408.0 326.7 L 408.0 339.5 L 421.0 333.0 Z" fill="#ae5053"/>
+<path d="M 408.0 313.7 L 421.0 320.2 L 408.0 326.7 L 395.0 320.2 Z" fill="#e0676b"/></g>
+<g><title>9 contributions on 2026-04-19</title><path d="M 421.0 323.9 L 434.0 330.4 L 434.0 339.5 L 421.0 333.0 Z" fill="#846465"/>
+<path d="M 447.0 323.9 L 434.0 330.4 L 434.0 339.5 L 447.0 333.0 Z" fill="#bb8e8f"/>
+<path d="M 434.0 317.4 L 447.0 323.9 L 434.0 330.4 L 421.0 323.9 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-03-21</title><path d="M 291.0 333.0 L 304.0 339.5 L 291.0 346.0 L 278.0 339.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-03-27</title><path d="M 317.0 333.0 L 330.0 339.5 L 317.0 346.0 L 304.0 339.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-04-02</title><path d="M 343.0 333.0 L 356.0 339.5 L 343.0 346.0 L 330.0 339.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-04-08</title><path d="M 369.0 333.0 L 382.0 339.5 L 369.0 346.0 L 356.0 339.5 Z" fill="#e8e2d8"/></g>
-<g><title>5 contributions on 2026-04-14</title><path d="M 382.0 330.5 L 395.0 337.0 L 395.0 346.0 L 382.0 339.5 Z" fill="#846465"/>
-<path d="M 408.0 330.5 L 395.0 337.0 L 395.0 346.0 L 408.0 339.5 Z" fill="#bb8e8f"/>
-<path d="M 395.0 324.0 L 408.0 330.5 L 395.0 337.0 L 382.0 330.5 Z" fill="#f0b7b8"/></g>
-<g><title>3 contributions on 2026-04-20</title><path d="M 408.0 332.1 L 421.0 338.6 L 421.0 346.0 L 408.0 339.5 Z" fill="#846465"/>
-<path d="M 434.0 332.1 L 421.0 338.6 L 421.0 346.0 L 434.0 339.5 Z" fill="#bb8e8f"/>
-<path d="M 421.0 325.6 L 434.0 332.1 L 421.0 338.6 L 408.0 332.1 Z" fill="#f0b7b8"/></g>
-<g><title>2 contributions on 2026-04-26</title><path d="M 434.0 332.9 L 447.0 339.4 L 447.0 346.0 L 434.0 339.5 Z" fill="#846465"/>
-<path d="M 460.0 332.9 L 447.0 339.4 L 447.0 346.0 L 460.0 339.5 Z" fill="#bb8e8f"/>
-<path d="M 447.0 326.4 L 460.0 332.9 L 447.0 339.4 L 434.0 332.9 Z" fill="#f0b7b8"/></g>
+<g><title>5 contributions on 2026-04-14</title><path d="M 382.0 332.2 L 395.0 338.7 L 395.0 346.0 L 382.0 339.5 Z" fill="#846465"/>
+<path d="M 408.0 332.2 L 395.0 338.7 L 395.0 346.0 L 408.0 339.5 Z" fill="#bb8e8f"/>
+<path d="M 395.0 325.7 L 408.0 332.2 L 395.0 338.7 L 382.0 332.2 Z" fill="#f0b7b8"/></g>
+<g><title>3 contributions on 2026-04-20</title><path d="M 408.0 333.1 L 421.0 339.6 L 421.0 346.0 L 408.0 339.5 Z" fill="#846465"/>
+<path d="M 434.0 333.1 L 421.0 339.6 L 421.0 346.0 L 434.0 339.5 Z" fill="#bb8e8f"/>
+<path d="M 421.0 326.6 L 434.0 333.1 L 421.0 339.6 L 408.0 333.1 Z" fill="#f0b7b8"/></g>
+<g><title>2 contributions on 2026-04-26</title><path d="M 434.0 333.6 L 447.0 340.1 L 447.0 346.0 L 434.0 339.5 Z" fill="#846465"/>
+<path d="M 460.0 333.6 L 447.0 340.1 L 447.0 346.0 L 460.0 339.5 Z" fill="#bb8e8f"/>
+<path d="M 447.0 327.1 L 460.0 333.6 L 447.0 340.1 L 434.0 333.6 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-03-28</title><path d="M 304.0 339.5 L 317.0 346.0 L 304.0 352.5 L 291.0 346.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-04-03</title><path d="M 330.0 339.5 L 343.0 346.0 L 330.0 352.5 L 317.0 346.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-04-09</title><path d="M 356.0 339.5 L 369.0 346.0 L 356.0 352.5 L 343.0 346.0 Z" fill="#e8e2d8"/></g>
-<g><title>2 contributions on 2026-04-15</title><path d="M 369.0 339.4 L 382.0 345.9 L 382.0 352.5 L 369.0 346.0 Z" fill="#846465"/>
-<path d="M 395.0 339.4 L 382.0 345.9 L 382.0 352.5 L 395.0 346.0 Z" fill="#bb8e8f"/>
-<path d="M 382.0 332.9 L 395.0 339.4 L 382.0 345.9 L 369.0 339.4 Z" fill="#f0b7b8"/></g>
-<g><title>4 contributions on 2026-04-21</title><path d="M 395.0 337.8 L 408.0 344.3 L 408.0 352.5 L 395.0 346.0 Z" fill="#846465"/>
-<path d="M 421.0 337.8 L 408.0 344.3 L 408.0 352.5 L 421.0 346.0 Z" fill="#bb8e8f"/>
-<path d="M 408.0 331.3 L 421.0 337.8 L 408.0 344.3 L 395.0 337.8 Z" fill="#f0b7b8"/></g>
+<g><title>2 contributions on 2026-04-15</title><path d="M 369.0 340.1 L 382.0 346.6 L 382.0 352.5 L 369.0 346.0 Z" fill="#846465"/>
+<path d="M 395.0 340.1 L 382.0 346.6 L 382.0 352.5 L 395.0 346.0 Z" fill="#bb8e8f"/>
+<path d="M 382.0 333.6 L 395.0 340.1 L 382.0 346.6 L 369.0 340.1 Z" fill="#f0b7b8"/></g>
+<g><title>4 contributions on 2026-04-21</title><path d="M 395.0 339.2 L 408.0 345.7 L 408.0 352.5 L 395.0 346.0 Z" fill="#846465"/>
+<path d="M 421.0 339.2 L 408.0 345.7 L 408.0 352.5 L 421.0 346.0 Z" fill="#bb8e8f"/>
+<path d="M 408.0 332.7 L 421.0 339.2 L 408.0 345.7 L 395.0 339.2 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-04-27</title><path d="M 434.0 339.5 L 447.0 346.0 L 434.0 352.5 L 421.0 346.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-05-03</title><path d="M 460.0 339.5 L 473.0 346.0 L 460.0 352.5 L 447.0 346.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-04-04</title><path d="M 317.0 346.0 L 330.0 352.5 L 317.0 359.0 L 304.0 352.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-04-10</title><path d="M 343.0 346.0 L 356.0 352.5 L 343.0 359.0 L 330.0 352.5 Z" fill="#e8e2d8"/></g>
-<g><title>4 contributions on 2026-04-16</title><path d="M 356.0 344.3 L 369.0 350.8 L 369.0 359.0 L 356.0 352.5 Z" fill="#846465"/>
-<path d="M 382.0 344.3 L 369.0 350.8 L 369.0 359.0 L 382.0 352.5 Z" fill="#bb8e8f"/>
-<path d="M 369.0 337.8 L 382.0 344.3 L 369.0 350.8 L 356.0 344.3 Z" fill="#f0b7b8"/></g>
+<g><title>4 contributions on 2026-04-16</title><path d="M 356.0 345.7 L 369.0 352.2 L 369.0 359.0 L 356.0 352.5 Z" fill="#846465"/>
+<path d="M 382.0 345.7 L 369.0 352.2 L 369.0 359.0 L 382.0 352.5 Z" fill="#bb8e8f"/>
+<path d="M 369.0 339.2 L 382.0 345.7 L 369.0 352.2 L 356.0 345.7 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-04-22</title><path d="M 395.0 346.0 L 408.0 352.5 L 395.0 359.0 L 382.0 352.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-04-28</title><path d="M 421.0 346.0 L 434.0 352.5 L 421.0 359.0 L 408.0 352.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-05-04</title><path d="M 447.0 346.0 L 460.0 352.5 L 447.0 359.0 L 434.0 352.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-05-10</title><path d="M 473.0 346.0 L 486.0 352.5 L 473.0 359.0 L 460.0 352.5 Z" fill="#e8e2d8"/></g>
-<g><title>3 contributions on 2026-04-11</title><path d="M 317.0 351.6 L 330.0 358.1 L 330.0 365.5 L 317.0 359.0 Z" fill="#846465"/>
-<path d="M 343.0 351.6 L 330.0 358.1 L 330.0 365.5 L 343.0 359.0 Z" fill="#bb8e8f"/>
-<path d="M 330.0 345.1 L 343.0 351.6 L 330.0 358.1 L 317.0 351.6 Z" fill="#f0b7b8"/></g>
-<g><title>7 contributions on 2026-04-17</title><path d="M 343.0 348.3 L 356.0 354.8 L 356.0 365.5 L 343.0 359.0 Z" fill="#846465"/>
-<path d="M 369.0 348.3 L 356.0 354.8 L 356.0 365.5 L 369.0 359.0 Z" fill="#bb8e8f"/>
-<path d="M 356.0 341.8 L 369.0 348.3 L 356.0 354.8 L 343.0 348.3 Z" fill="#f0b7b8"/></g>
+<g><title>3 contributions on 2026-04-11</title><path d="M 317.0 352.6 L 330.0 359.1 L 330.0 365.5 L 317.0 359.0 Z" fill="#846465"/>
+<path d="M 343.0 352.6 L 330.0 359.1 L 330.0 365.5 L 343.0 359.0 Z" fill="#bb8e8f"/>
+<path d="M 330.0 346.1 L 343.0 352.6 L 330.0 359.1 L 317.0 352.6 Z" fill="#f0b7b8"/></g>
+<g><title>7 contributions on 2026-04-17</title><path d="M 343.0 350.8 L 356.0 357.3 L 356.0 365.5 L 343.0 359.0 Z" fill="#846465"/>
+<path d="M 369.0 350.8 L 356.0 357.3 L 356.0 365.5 L 369.0 359.0 Z" fill="#bb8e8f"/>
+<path d="M 356.0 344.3 L 369.0 350.8 L 356.0 357.3 L 343.0 350.8 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-04-23</title><path d="M 382.0 352.5 L 395.0 359.0 L 382.0 365.5 L 369.0 359.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-04-29</title><path d="M 408.0 352.5 L 421.0 359.0 L 408.0 365.5 L 395.0 359.0 Z" fill="#e8e2d8"/></g>
-<g><title>2 contributions on 2026-05-05</title><path d="M 421.0 352.4 L 434.0 358.9 L 434.0 365.5 L 421.0 359.0 Z" fill="#846465"/>
-<path d="M 447.0 352.4 L 434.0 358.9 L 434.0 365.5 L 447.0 359.0 Z" fill="#bb8e8f"/>
-<path d="M 434.0 345.9 L 447.0 352.4 L 434.0 358.9 L 421.0 352.4 Z" fill="#f0b7b8"/></g>
+<g><title>2 contributions on 2026-05-05</title><path d="M 421.0 353.1 L 434.0 359.6 L 434.0 365.5 L 421.0 359.0 Z" fill="#846465"/>
+<path d="M 447.0 353.1 L 434.0 359.6 L 434.0 365.5 L 447.0 359.0 Z" fill="#bb8e8f"/>
+<path d="M 434.0 346.6 L 447.0 353.1 L 434.0 359.6 L 421.0 353.1 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-05-11</title><path d="M 460.0 352.5 L 473.0 359.0 L 460.0 365.5 L 447.0 359.0 Z" fill="#e8e2d8"/></g>
-<g><title>25 contributions on 2026-05-17</title><path d="M 473.0 333.8 L 486.0 340.3 L 486.0 365.5 L 473.0 359.0 Z" fill="#654906"/>
-<path d="M 499.0 333.8 L 486.0 340.3 L 486.0 365.5 L 499.0 359.0 Z" fill="#8f6808"/>
-<path d="M 486.0 327.3 L 499.0 333.8 L 486.0 340.3 L 473.0 333.8 Z" fill="#B8860B"/></g>
+<g><title>25 contributions on 2026-05-17</title><path d="M 473.0 342.6 L 486.0 349.1 L 486.0 365.5 L 473.0 359.0 Z" fill="#7b383a"/>
+<path d="M 499.0 342.6 L 486.0 349.1 L 486.0 365.5 L 499.0 359.0 Z" fill="#ae5053"/>
+<path d="M 486.0 336.1 L 499.0 342.6 L 486.0 349.1 L 473.0 342.6 Z" fill="#e0676b"/></g>
 <g><title>0 contributions on 2026-04-18</title><path d="M 343.0 359.0 L 356.0 365.5 L 343.0 372.0 L 330.0 365.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-04-24</title><path d="M 369.0 359.0 L 382.0 365.5 L 369.0 372.0 L 356.0 365.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-04-30</title><path d="M 395.0 359.0 L 408.0 365.5 L 395.0 372.0 L 382.0 365.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-05-06</title><path d="M 421.0 359.0 L 434.0 365.5 L 421.0 372.0 L 408.0 365.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-05-12</title><path d="M 447.0 359.0 L 460.0 365.5 L 447.0 372.0 L 434.0 365.5 Z" fill="#e8e2d8"/></g>
-<g><title>10 contributions on 2026-05-18</title><path d="M 460.0 352.4 L 473.0 358.9 L 473.0 372.0 L 460.0 365.5 Z" fill="#7b383a"/>
-<path d="M 486.0 352.4 L 473.0 358.9 L 473.0 372.0 L 486.0 365.5 Z" fill="#ae5053"/>
-<path d="M 473.0 345.9 L 486.0 352.4 L 473.0 358.9 L 460.0 352.4 Z" fill="#e0676b"/></g>
+<g><title>10 contributions on 2026-05-18</title><path d="M 460.0 355.9 L 473.0 362.4 L 473.0 372.0 L 460.0 365.5 Z" fill="#846465"/>
+<path d="M 486.0 355.9 L 473.0 362.4 L 473.0 372.0 L 486.0 365.5 Z" fill="#bb8e8f"/>
+<path d="M 473.0 349.4 L 486.0 355.9 L 473.0 362.4 L 460.0 355.9 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-05-24</title><path d="M 499.0 359.0 L 512.0 365.5 L 499.0 372.0 L 486.0 365.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-04-25</title><path d="M 356.0 365.5 L 369.0 372.0 L 356.0 378.5 L 343.0 372.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-05-01</title><path d="M 382.0 365.5 L 395.0 372.0 L 382.0 378.5 L 369.0 372.0 Z" fill="#e8e2d8"/></g>
@@ -236,35 +236,35 @@
 <g><title>0 contributions on 2026-05-19</title><path d="M 460.0 365.5 L 473.0 372.0 L 460.0 378.5 L 447.0 372.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-05-25</title><path d="M 486.0 365.5 L 499.0 372.0 L 486.0 378.5 L 473.0 372.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-05-31</title><path d="M 512.0 365.5 L 525.0 372.0 L 512.0 378.5 L 499.0 372.0 Z" fill="#e8e2d8"/></g>
-<g><title>2 contributions on 2026-05-02</title><path d="M 356.0 371.9 L 369.0 378.4 L 369.0 385.0 L 356.0 378.5 Z" fill="#846465"/>
-<path d="M 382.0 371.9 L 369.0 378.4 L 369.0 385.0 L 382.0 378.5 Z" fill="#bb8e8f"/>
-<path d="M 369.0 365.4 L 382.0 371.9 L 369.0 378.4 L 356.0 371.9 Z" fill="#f0b7b8"/></g>
+<g><title>2 contributions on 2026-05-02</title><path d="M 356.0 372.6 L 369.0 379.1 L 369.0 385.0 L 356.0 378.5 Z" fill="#846465"/>
+<path d="M 382.0 372.6 L 369.0 379.1 L 369.0 385.0 L 382.0 378.5 Z" fill="#bb8e8f"/>
+<path d="M 369.0 366.1 L 382.0 372.6 L 369.0 379.1 L 356.0 372.6 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-05-08</title><path d="M 395.0 372.0 L 408.0 378.5 L 395.0 385.0 L 382.0 378.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-05-14</title><path d="M 421.0 372.0 L 434.0 378.5 L 421.0 385.0 L 408.0 378.5 Z" fill="#e8e2d8"/></g>
-<g><title>1 contributions on 2026-05-20</title><path d="M 434.0 372.7 L 447.0 379.2 L 447.0 385.0 L 434.0 378.5 Z" fill="#846465"/>
-<path d="M 460.0 372.7 L 447.0 379.2 L 447.0 385.0 L 460.0 378.5 Z" fill="#bb8e8f"/>
-<path d="M 447.0 366.2 L 460.0 372.7 L 447.0 379.2 L 434.0 372.7 Z" fill="#f0b7b8"/></g>
+<g><title>1 contributions on 2026-05-20</title><path d="M 434.0 373.0 L 447.0 379.5 L 447.0 385.0 L 434.0 378.5 Z" fill="#846465"/>
+<path d="M 460.0 373.0 L 447.0 379.5 L 447.0 385.0 L 460.0 378.5 Z" fill="#bb8e8f"/>
+<path d="M 447.0 366.5 L 460.0 373.0 L 447.0 379.5 L 434.0 373.0 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-05-26</title><path d="M 473.0 372.0 L 486.0 378.5 L 473.0 385.0 L 460.0 378.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-06-01</title><path d="M 499.0 372.0 L 512.0 378.5 L 499.0 385.0 L 486.0 378.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-06-07</title><path d="M 525.0 372.0 L 538.0 378.5 L 525.0 385.0 L 512.0 378.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-05-09</title><path d="M 382.0 378.5 L 395.0 385.0 L 382.0 391.5 L 369.0 385.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-05-15</title><path d="M 408.0 378.5 L 421.0 385.0 L 408.0 391.5 L 395.0 385.0 Z" fill="#e8e2d8"/></g>
-<g><title>9 contributions on 2026-05-21</title><path d="M 421.0 372.7 L 434.0 379.2 L 434.0 391.5 L 421.0 385.0 Z" fill="#7b383a"/>
-<path d="M 447.0 372.7 L 434.0 379.2 L 434.0 391.5 L 447.0 385.0 Z" fill="#ae5053"/>
-<path d="M 434.0 366.2 L 447.0 372.7 L 434.0 379.2 L 421.0 372.7 Z" fill="#e0676b"/></g>
+<g><title>9 contributions on 2026-05-21</title><path d="M 421.0 375.9 L 434.0 382.4 L 434.0 391.5 L 421.0 385.0 Z" fill="#846465"/>
+<path d="M 447.0 375.9 L 434.0 382.4 L 434.0 391.5 L 447.0 385.0 Z" fill="#bb8e8f"/>
+<path d="M 434.0 369.4 L 447.0 375.9 L 434.0 382.4 L 421.0 375.9 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-05-27</title><path d="M 460.0 378.5 L 473.0 385.0 L 460.0 391.5 L 447.0 385.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-06-02</title><path d="M 486.0 378.5 L 499.0 385.0 L 486.0 391.5 L 473.0 385.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-06-08</title><path d="M 512.0 378.5 L 525.0 385.0 L 512.0 391.5 L 499.0 385.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-06-14</title><path d="M 538.0 378.5 L 551.0 385.0 L 538.0 391.5 L 525.0 385.0 Z" fill="#e8e2d8"/></g>
-<g><title>6 contributions on 2026-05-16</title><path d="M 382.0 381.6 L 395.0 388.1 L 395.0 398.0 L 382.0 391.5 Z" fill="#846465"/>
-<path d="M 408.0 381.6 L 395.0 388.1 L 395.0 398.0 L 408.0 391.5 Z" fill="#bb8e8f"/>
-<path d="M 395.0 375.1 L 408.0 381.6 L 395.0 388.1 L 382.0 381.6 Z" fill="#f0b7b8"/></g>
+<g><title>6 contributions on 2026-05-16</title><path d="M 382.0 383.8 L 395.0 390.3 L 395.0 398.0 L 382.0 391.5 Z" fill="#846465"/>
+<path d="M 408.0 383.8 L 395.0 390.3 L 395.0 398.0 L 408.0 391.5 Z" fill="#bb8e8f"/>
+<path d="M 395.0 377.3 L 408.0 383.8 L 395.0 390.3 L 382.0 383.8 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-05-22</title><path d="M 421.0 385.0 L 434.0 391.5 L 421.0 398.0 L 408.0 391.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-05-28</title><path d="M 447.0 385.0 L 460.0 391.5 L 447.0 398.0 L 434.0 391.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-06-03</title><path d="M 473.0 385.0 L 486.0 391.5 L 473.0 398.0 L 460.0 391.5 Z" fill="#e8e2d8"/></g>
-<g><title>1 contributions on 2026-06-09</title><path d="M 486.0 385.7 L 499.0 392.2 L 499.0 398.0 L 486.0 391.5 Z" fill="#846465"/>
-<path d="M 512.0 385.7 L 499.0 392.2 L 499.0 398.0 L 512.0 391.5 Z" fill="#bb8e8f"/>
-<path d="M 499.0 379.2 L 512.0 385.7 L 499.0 392.2 L 486.0 385.7 Z" fill="#f0b7b8"/></g>
+<g><title>1 contributions on 2026-06-09</title><path d="M 486.0 386.0 L 499.0 392.5 L 499.0 398.0 L 486.0 391.5 Z" fill="#846465"/>
+<path d="M 512.0 386.0 L 499.0 392.5 L 499.0 398.0 L 512.0 391.5 Z" fill="#bb8e8f"/>
+<path d="M 499.0 379.5 L 512.0 386.0 L 499.0 392.5 L 486.0 386.0 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-06-15</title><path d="M 525.0 385.0 L 538.0 391.5 L 525.0 398.0 L 512.0 391.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-06-21</title><path d="M 551.0 385.0 L 564.0 391.5 L 551.0 398.0 L 538.0 391.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-05-23</title><path d="M 408.0 391.5 L 421.0 398.0 L 408.0 404.5 L 395.0 398.0 Z" fill="#e8e2d8"/></g>
@@ -293,250 +293,250 @@
 <g><title>0 contributions on 2026-06-25</title><path d="M 499.0 411.0 L 512.0 417.5 L 499.0 424.0 L 486.0 417.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-07-01</title><path d="M 525.0 411.0 L 538.0 417.5 L 525.0 424.0 L 512.0 417.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-07-07</title><path d="M 551.0 411.0 L 564.0 417.5 L 551.0 424.0 L 538.0 417.5 Z" fill="#e8e2d8"/></g>
-<g><title>6 contributions on 2026-07-13</title><path d="M 564.0 407.6 L 577.0 414.1 L 577.0 424.0 L 564.0 417.5 Z" fill="#846465"/>
-<path d="M 590.0 407.6 L 577.0 414.1 L 577.0 424.0 L 590.0 417.5 Z" fill="#bb8e8f"/>
-<path d="M 577.0 401.1 L 590.0 407.6 L 577.0 414.1 L 564.0 407.6 Z" fill="#f0b7b8"/></g>
+<g><title>6 contributions on 2026-07-13</title><path d="M 564.0 409.8 L 577.0 416.3 L 577.0 424.0 L 564.0 417.5 Z" fill="#846465"/>
+<path d="M 590.0 409.8 L 577.0 416.3 L 577.0 424.0 L 590.0 417.5 Z" fill="#bb8e8f"/>
+<path d="M 577.0 403.3 L 590.0 409.8 L 577.0 416.3 L 564.0 409.8 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-07-19</title><path d="M 603.0 411.0 L 616.0 417.5 L 603.0 424.0 L 590.0 417.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-06-20</title><path d="M 460.0 417.5 L 473.0 424.0 L 460.0 430.5 L 447.0 424.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-06-26</title><path d="M 486.0 417.5 L 499.0 424.0 L 486.0 430.5 L 473.0 424.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-07-02</title><path d="M 512.0 417.5 L 525.0 424.0 L 512.0 430.5 L 499.0 424.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-07-08</title><path d="M 538.0 417.5 L 551.0 424.0 L 538.0 430.5 L 525.0 424.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-07-14</title><path d="M 564.0 417.5 L 577.0 424.0 L 564.0 430.5 L 551.0 424.0 Z" fill="#e8e2d8"/></g>
-<g><title>1 contributions on 2026-07-20</title><path d="M 577.0 418.2 L 590.0 424.7 L 590.0 430.5 L 577.0 424.0 Z" fill="#846465"/>
-<path d="M 603.0 418.2 L 590.0 424.7 L 590.0 430.5 L 603.0 424.0 Z" fill="#bb8e8f"/>
-<path d="M 590.0 411.7 L 603.0 418.2 L 590.0 424.7 L 577.0 418.2 Z" fill="#f0b7b8"/></g>
+<g><title>1 contributions on 2026-07-20</title><path d="M 577.0 418.5 L 590.0 425.0 L 590.0 430.5 L 577.0 424.0 Z" fill="#846465"/>
+<path d="M 603.0 418.5 L 590.0 425.0 L 590.0 430.5 L 603.0 424.0 Z" fill="#bb8e8f"/>
+<path d="M 590.0 412.0 L 603.0 418.5 L 590.0 425.0 L 577.0 418.5 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-07-26</title><path d="M 616.0 417.5 L 629.0 424.0 L 616.0 430.5 L 603.0 424.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-06-27</title><path d="M 473.0 424.0 L 486.0 430.5 L 473.0 437.0 L 460.0 430.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-07-03</title><path d="M 499.0 424.0 L 512.0 430.5 L 499.0 437.0 L 486.0 430.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-07-09</title><path d="M 525.0 424.0 L 538.0 430.5 L 525.0 437.0 L 512.0 430.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-07-15</title><path d="M 551.0 424.0 L 564.0 430.5 L 551.0 437.0 L 538.0 430.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-07-21</title><path d="M 577.0 424.0 L 590.0 430.5 L 577.0 437.0 L 564.0 430.5 Z" fill="#e8e2d8"/></g>
-<g><title>7 contributions on 2026-07-27</title><path d="M 590.0 419.8 L 603.0 426.3 L 603.0 437.0 L 590.0 430.5 Z" fill="#846465"/>
-<path d="M 616.0 419.8 L 603.0 426.3 L 603.0 437.0 L 616.0 430.5 Z" fill="#bb8e8f"/>
-<path d="M 603.0 413.3 L 616.0 419.8 L 603.0 426.3 L 590.0 419.8 Z" fill="#f0b7b8"/></g>
+<g><title>7 contributions on 2026-07-27</title><path d="M 590.0 422.3 L 603.0 428.8 L 603.0 437.0 L 590.0 430.5 Z" fill="#846465"/>
+<path d="M 616.0 422.3 L 603.0 428.8 L 603.0 437.0 L 616.0 430.5 Z" fill="#bb8e8f"/>
+<path d="M 603.0 415.8 L 616.0 422.3 L 603.0 428.8 L 590.0 422.3 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-08-02</title><path d="M 629.0 424.0 L 642.0 430.5 L 629.0 437.0 L 616.0 430.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-07-04</title><path d="M 486.0 430.5 L 499.0 437.0 L 486.0 443.5 L 473.0 437.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-07-10</title><path d="M 512.0 430.5 L 525.0 437.0 L 512.0 443.5 L 499.0 437.0 Z" fill="#e8e2d8"/></g>
-<g><title>8 contributions on 2026-07-16</title><path d="M 525.0 425.5 L 538.0 432.0 L 538.0 443.5 L 525.0 437.0 Z" fill="#7b383a"/>
-<path d="M 551.0 425.5 L 538.0 432.0 L 538.0 443.5 L 551.0 437.0 Z" fill="#ae5053"/>
-<path d="M 538.0 419.0 L 551.0 425.5 L 538.0 432.0 L 525.0 425.5 Z" fill="#e0676b"/></g>
+<g><title>8 contributions on 2026-07-16</title><path d="M 525.0 428.3 L 538.0 434.8 L 538.0 443.5 L 525.0 437.0 Z" fill="#846465"/>
+<path d="M 551.0 428.3 L 538.0 434.8 L 538.0 443.5 L 551.0 437.0 Z" fill="#bb8e8f"/>
+<path d="M 538.0 421.8 L 551.0 428.3 L 538.0 434.8 L 525.0 428.3 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-07-22</title><path d="M 564.0 430.5 L 577.0 437.0 L 564.0 443.5 L 551.0 437.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-07-28</title><path d="M 590.0 430.5 L 603.0 437.0 L 590.0 443.5 L 577.0 437.0 Z" fill="#e8e2d8"/></g>
-<g><title>3 contributions on 2026-08-03</title><path d="M 603.0 429.6 L 616.0 436.1 L 616.0 443.5 L 603.0 437.0 Z" fill="#846465"/>
-<path d="M 629.0 429.6 L 616.0 436.1 L 616.0 443.5 L 629.0 437.0 Z" fill="#bb8e8f"/>
-<path d="M 616.0 423.1 L 629.0 429.6 L 616.0 436.1 L 603.0 429.6 Z" fill="#f0b7b8"/></g>
+<g><title>3 contributions on 2026-08-03</title><path d="M 603.0 430.6 L 616.0 437.1 L 616.0 443.5 L 603.0 437.0 Z" fill="#846465"/>
+<path d="M 629.0 430.6 L 616.0 437.1 L 616.0 443.5 L 629.0 437.0 Z" fill="#bb8e8f"/>
+<path d="M 616.0 424.1 L 629.0 430.6 L 616.0 437.1 L 603.0 430.6 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-08-09</title><path d="M 642.0 430.5 L 655.0 437.0 L 642.0 443.5 L 629.0 437.0 Z" fill="#e8e2d8"/></g>
-<g><title>4 contributions on 2026-07-11</title><path d="M 486.0 435.3 L 499.0 441.8 L 499.0 450.0 L 486.0 443.5 Z" fill="#846465"/>
-<path d="M 512.0 435.3 L 499.0 441.8 L 499.0 450.0 L 512.0 443.5 Z" fill="#bb8e8f"/>
-<path d="M 499.0 428.8 L 512.0 435.3 L 499.0 441.8 L 486.0 435.3 Z" fill="#f0b7b8"/></g>
-<g><title>2 contributions on 2026-07-17</title><path d="M 512.0 436.9 L 525.0 443.4 L 525.0 450.0 L 512.0 443.5 Z" fill="#846465"/>
-<path d="M 538.0 436.9 L 525.0 443.4 L 525.0 450.0 L 538.0 443.5 Z" fill="#bb8e8f"/>
-<path d="M 525.0 430.4 L 538.0 436.9 L 525.0 443.4 L 512.0 436.9 Z" fill="#f0b7b8"/></g>
+<g><title>4 contributions on 2026-07-11</title><path d="M 486.0 436.7 L 499.0 443.2 L 499.0 450.0 L 486.0 443.5 Z" fill="#846465"/>
+<path d="M 512.0 436.7 L 499.0 443.2 L 499.0 450.0 L 512.0 443.5 Z" fill="#bb8e8f"/>
+<path d="M 499.0 430.2 L 512.0 436.7 L 499.0 443.2 L 486.0 436.7 Z" fill="#f0b7b8"/></g>
+<g><title>2 contributions on 2026-07-17</title><path d="M 512.0 437.6 L 525.0 444.1 L 525.0 450.0 L 512.0 443.5 Z" fill="#846465"/>
+<path d="M 538.0 437.6 L 525.0 444.1 L 525.0 450.0 L 538.0 443.5 Z" fill="#bb8e8f"/>
+<path d="M 525.0 431.1 L 538.0 437.6 L 525.0 444.1 L 512.0 437.6 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-07-23</title><path d="M 551.0 437.0 L 564.0 443.5 L 551.0 450.0 L 538.0 443.5 Z" fill="#e8e2d8"/></g>
-<g><title>3 contributions on 2026-07-29</title><path d="M 564.0 436.1 L 577.0 442.6 L 577.0 450.0 L 564.0 443.5 Z" fill="#846465"/>
-<path d="M 590.0 436.1 L 577.0 442.6 L 577.0 450.0 L 590.0 443.5 Z" fill="#bb8e8f"/>
-<path d="M 577.0 429.6 L 590.0 436.1 L 577.0 442.6 L 564.0 436.1 Z" fill="#f0b7b8"/></g>
-<g><title>2 contributions on 2026-08-04</title><path d="M 590.0 436.9 L 603.0 443.4 L 603.0 450.0 L 590.0 443.5 Z" fill="#846465"/>
-<path d="M 616.0 436.9 L 603.0 443.4 L 603.0 450.0 L 616.0 443.5 Z" fill="#bb8e8f"/>
-<path d="M 603.0 430.4 L 616.0 436.9 L 603.0 443.4 L 590.0 436.9 Z" fill="#f0b7b8"/></g>
-<g><title>7 contributions on 2026-08-10</title><path d="M 616.0 432.8 L 629.0 439.3 L 629.0 450.0 L 616.0 443.5 Z" fill="#846465"/>
-<path d="M 642.0 432.8 L 629.0 439.3 L 629.0 450.0 L 642.0 443.5 Z" fill="#bb8e8f"/>
-<path d="M 629.0 426.3 L 642.0 432.8 L 629.0 439.3 L 616.0 432.8 Z" fill="#f0b7b8"/></g>
+<g><title>3 contributions on 2026-07-29</title><path d="M 564.0 437.1 L 577.0 443.6 L 577.0 450.0 L 564.0 443.5 Z" fill="#846465"/>
+<path d="M 590.0 437.1 L 577.0 443.6 L 577.0 450.0 L 590.0 443.5 Z" fill="#bb8e8f"/>
+<path d="M 577.0 430.6 L 590.0 437.1 L 577.0 443.6 L 564.0 437.1 Z" fill="#f0b7b8"/></g>
+<g><title>2 contributions on 2026-08-04</title><path d="M 590.0 437.6 L 603.0 444.1 L 603.0 450.0 L 590.0 443.5 Z" fill="#846465"/>
+<path d="M 616.0 437.6 L 603.0 444.1 L 603.0 450.0 L 616.0 443.5 Z" fill="#bb8e8f"/>
+<path d="M 603.0 431.1 L 616.0 437.6 L 603.0 444.1 L 590.0 437.6 Z" fill="#f0b7b8"/></g>
+<g><title>7 contributions on 2026-08-10</title><path d="M 616.0 435.3 L 629.0 441.8 L 629.0 450.0 L 616.0 443.5 Z" fill="#846465"/>
+<path d="M 642.0 435.3 L 629.0 441.8 L 629.0 450.0 L 642.0 443.5 Z" fill="#bb8e8f"/>
+<path d="M 629.0 428.8 L 642.0 435.3 L 629.0 441.8 L 616.0 435.3 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-08-16</title><path d="M 655.0 437.0 L 668.0 443.5 L 655.0 450.0 L 642.0 443.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-07-18</title><path d="M 512.0 443.5 L 525.0 450.0 L 512.0 456.5 L 499.0 450.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-07-24</title><path d="M 538.0 443.5 L 551.0 450.0 L 538.0 456.5 L 525.0 450.0 Z" fill="#e8e2d8"/></g>
-<g><title>2 contributions on 2026-07-30</title><path d="M 551.0 443.4 L 564.0 449.9 L 564.0 456.5 L 551.0 450.0 Z" fill="#846465"/>
-<path d="M 577.0 443.4 L 564.0 449.9 L 564.0 456.5 L 577.0 450.0 Z" fill="#bb8e8f"/>
-<path d="M 564.0 436.9 L 577.0 443.4 L 564.0 449.9 L 551.0 443.4 Z" fill="#f0b7b8"/></g>
+<g><title>2 contributions on 2026-07-30</title><path d="M 551.0 444.1 L 564.0 450.6 L 564.0 456.5 L 551.0 450.0 Z" fill="#846465"/>
+<path d="M 577.0 444.1 L 564.0 450.6 L 564.0 456.5 L 577.0 450.0 Z" fill="#bb8e8f"/>
+<path d="M 564.0 437.6 L 577.0 444.1 L 564.0 450.6 L 551.0 444.1 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-08-05</title><path d="M 590.0 443.5 L 603.0 450.0 L 590.0 456.5 L 577.0 450.0 Z" fill="#e8e2d8"/></g>
-<g><title>1 contributions on 2026-08-11</title><path d="M 603.0 444.2 L 616.0 450.7 L 616.0 456.5 L 603.0 450.0 Z" fill="#846465"/>
-<path d="M 629.0 444.2 L 616.0 450.7 L 616.0 456.5 L 629.0 450.0 Z" fill="#bb8e8f"/>
-<path d="M 616.0 437.7 L 629.0 444.2 L 616.0 450.7 L 603.0 444.2 Z" fill="#f0b7b8"/></g>
-<g><title>5 contributions on 2026-08-17</title><path d="M 629.0 441.0 L 642.0 447.5 L 642.0 456.5 L 629.0 450.0 Z" fill="#846465"/>
-<path d="M 655.0 441.0 L 642.0 447.5 L 642.0 456.5 L 655.0 450.0 Z" fill="#bb8e8f"/>
-<path d="M 642.0 434.5 L 655.0 441.0 L 642.0 447.5 L 629.0 441.0 Z" fill="#f0b7b8"/></g>
-<g><title>4 contributions on 2026-08-23</title><path d="M 655.0 441.8 L 668.0 448.3 L 668.0 456.5 L 655.0 450.0 Z" fill="#846465"/>
-<path d="M 681.0 441.8 L 668.0 448.3 L 668.0 456.5 L 681.0 450.0 Z" fill="#bb8e8f"/>
-<path d="M 668.0 435.3 L 681.0 441.8 L 668.0 448.3 L 655.0 441.8 Z" fill="#f0b7b8"/></g>
+<g><title>1 contributions on 2026-08-11</title><path d="M 603.0 444.5 L 616.0 451.0 L 616.0 456.5 L 603.0 450.0 Z" fill="#846465"/>
+<path d="M 629.0 444.5 L 616.0 451.0 L 616.0 456.5 L 629.0 450.0 Z" fill="#bb8e8f"/>
+<path d="M 616.0 438.0 L 629.0 444.5 L 616.0 451.0 L 603.0 444.5 Z" fill="#f0b7b8"/></g>
+<g><title>5 contributions on 2026-08-17</title><path d="M 629.0 442.7 L 642.0 449.2 L 642.0 456.5 L 629.0 450.0 Z" fill="#846465"/>
+<path d="M 655.0 442.7 L 642.0 449.2 L 642.0 456.5 L 655.0 450.0 Z" fill="#bb8e8f"/>
+<path d="M 642.0 436.2 L 655.0 442.7 L 642.0 449.2 L 629.0 442.7 Z" fill="#f0b7b8"/></g>
+<g><title>4 contributions on 2026-08-23</title><path d="M 655.0 443.2 L 668.0 449.7 L 668.0 456.5 L 655.0 450.0 Z" fill="#846465"/>
+<path d="M 681.0 443.2 L 668.0 449.7 L 668.0 456.5 L 681.0 450.0 Z" fill="#bb8e8f"/>
+<path d="M 668.0 436.7 L 681.0 443.2 L 668.0 449.7 L 655.0 443.2 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-07-25</title><path d="M 525.0 450.0 L 538.0 456.5 L 525.0 463.0 L 512.0 456.5 Z" fill="#e8e2d8"/></g>
-<g><title>1 contributions on 2026-07-31</title><path d="M 538.0 450.7 L 551.0 457.2 L 551.0 463.0 L 538.0 456.5 Z" fill="#846465"/>
-<path d="M 564.0 450.7 L 551.0 457.2 L 551.0 463.0 L 564.0 456.5 Z" fill="#bb8e8f"/>
-<path d="M 551.0 444.2 L 564.0 450.7 L 551.0 457.2 L 538.0 450.7 Z" fill="#f0b7b8"/></g>
-<g><title>3 contributions on 2026-08-06</title><path d="M 564.0 449.1 L 577.0 455.6 L 577.0 463.0 L 564.0 456.5 Z" fill="#846465"/>
-<path d="M 590.0 449.1 L 577.0 455.6 L 577.0 463.0 L 590.0 456.5 Z" fill="#bb8e8f"/>
-<path d="M 577.0 442.6 L 590.0 449.1 L 577.0 455.6 L 564.0 449.1 Z" fill="#f0b7b8"/></g>
+<g><title>1 contributions on 2026-07-31</title><path d="M 538.0 451.0 L 551.0 457.5 L 551.0 463.0 L 538.0 456.5 Z" fill="#846465"/>
+<path d="M 564.0 451.0 L 551.0 457.5 L 551.0 463.0 L 564.0 456.5 Z" fill="#bb8e8f"/>
+<path d="M 551.0 444.5 L 564.0 451.0 L 551.0 457.5 L 538.0 451.0 Z" fill="#f0b7b8"/></g>
+<g><title>3 contributions on 2026-08-06</title><path d="M 564.0 450.1 L 577.0 456.6 L 577.0 463.0 L 564.0 456.5 Z" fill="#846465"/>
+<path d="M 590.0 450.1 L 577.0 456.6 L 577.0 463.0 L 590.0 456.5 Z" fill="#bb8e8f"/>
+<path d="M 577.0 443.6 L 590.0 450.1 L 577.0 456.6 L 564.0 450.1 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-08-12</title><path d="M 603.0 450.0 L 616.0 456.5 L 603.0 463.0 L 590.0 456.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-08-18</title><path d="M 629.0 450.0 L 642.0 456.5 L 629.0 463.0 L 616.0 456.5 Z" fill="#e8e2d8"/></g>
-<g><title>5 contributions on 2026-08-24</title><path d="M 642.0 447.5 L 655.0 454.0 L 655.0 463.0 L 642.0 456.5 Z" fill="#846465"/>
-<path d="M 668.0 447.5 L 655.0 454.0 L 655.0 463.0 L 668.0 456.5 Z" fill="#bb8e8f"/>
-<path d="M 655.0 441.0 L 668.0 447.5 L 655.0 454.0 L 642.0 447.5 Z" fill="#f0b7b8"/></g>
-<g><title>1 contributions on 2026-08-30</title><path d="M 668.0 450.7 L 681.0 457.2 L 681.0 463.0 L 668.0 456.5 Z" fill="#846465"/>
-<path d="M 694.0 450.7 L 681.0 457.2 L 681.0 463.0 L 694.0 456.5 Z" fill="#bb8e8f"/>
-<path d="M 681.0 444.2 L 694.0 450.7 L 681.0 457.2 L 668.0 450.7 Z" fill="#f0b7b8"/></g>
+<g><title>5 contributions on 2026-08-24</title><path d="M 642.0 449.2 L 655.0 455.7 L 655.0 463.0 L 642.0 456.5 Z" fill="#846465"/>
+<path d="M 668.0 449.2 L 655.0 455.7 L 655.0 463.0 L 668.0 456.5 Z" fill="#bb8e8f"/>
+<path d="M 655.0 442.7 L 668.0 449.2 L 655.0 455.7 L 642.0 449.2 Z" fill="#f0b7b8"/></g>
+<g><title>1 contributions on 2026-08-30</title><path d="M 668.0 451.0 L 681.0 457.5 L 681.0 463.0 L 668.0 456.5 Z" fill="#846465"/>
+<path d="M 694.0 451.0 L 681.0 457.5 L 681.0 463.0 L 694.0 456.5 Z" fill="#bb8e8f"/>
+<path d="M 681.0 444.5 L 694.0 451.0 L 681.0 457.5 L 668.0 451.0 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-08-01</title><path d="M 538.0 456.5 L 551.0 463.0 L 538.0 469.5 L 525.0 463.0 Z" fill="#e8e2d8"/></g>
-<g><title>1 contributions on 2026-08-07</title><path d="M 551.0 457.2 L 564.0 463.7 L 564.0 469.5 L 551.0 463.0 Z" fill="#846465"/>
-<path d="M 577.0 457.2 L 564.0 463.7 L 564.0 469.5 L 577.0 463.0 Z" fill="#bb8e8f"/>
-<path d="M 564.0 450.7 L 577.0 457.2 L 564.0 463.7 L 551.0 457.2 Z" fill="#f0b7b8"/></g>
-<g><title>17 contributions on 2026-08-13</title><path d="M 577.0 444.2 L 590.0 450.8 L 590.0 469.5 L 577.0 463.0 Z" fill="#7d1417"/>
-<path d="M 603.0 444.2 L 590.0 450.8 L 590.0 469.5 L 603.0 463.0 Z" fill="#b21c20"/>
-<path d="M 590.0 437.8 L 603.0 444.2 L 590.0 450.8 L 577.0 444.2 Z" fill="#E5252A"/></g>
-<g><title>5 contributions on 2026-08-19</title><path d="M 603.0 454.0 L 616.0 460.5 L 616.0 469.5 L 603.0 463.0 Z" fill="#846465"/>
-<path d="M 629.0 454.0 L 616.0 460.5 L 616.0 469.5 L 629.0 463.0 Z" fill="#bb8e8f"/>
-<path d="M 616.0 447.5 L 629.0 454.0 L 616.0 460.5 L 603.0 454.0 Z" fill="#f0b7b8"/></g>
-<g><title>1 contributions on 2026-08-25</title><path d="M 629.0 457.2 L 642.0 463.7 L 642.0 469.5 L 629.0 463.0 Z" fill="#846465"/>
-<path d="M 655.0 457.2 L 642.0 463.7 L 642.0 469.5 L 655.0 463.0 Z" fill="#bb8e8f"/>
-<path d="M 642.0 450.7 L 655.0 457.2 L 642.0 463.7 L 629.0 457.2 Z" fill="#f0b7b8"/></g>
+<g><title>1 contributions on 2026-08-07</title><path d="M 551.0 457.5 L 564.0 464.0 L 564.0 469.5 L 551.0 463.0 Z" fill="#846465"/>
+<path d="M 577.0 457.5 L 564.0 464.0 L 564.0 469.5 L 577.0 463.0 Z" fill="#bb8e8f"/>
+<path d="M 564.0 451.0 L 577.0 457.5 L 564.0 464.0 L 551.0 457.5 Z" fill="#f0b7b8"/></g>
+<g><title>17 contributions on 2026-08-13</title><path d="M 577.0 450.2 L 590.0 456.7 L 590.0 469.5 L 577.0 463.0 Z" fill="#7b383a"/>
+<path d="M 603.0 450.2 L 590.0 456.7 L 590.0 469.5 L 603.0 463.0 Z" fill="#ae5053"/>
+<path d="M 590.0 443.7 L 603.0 450.2 L 590.0 456.7 L 577.0 450.2 Z" fill="#e0676b"/></g>
+<g><title>5 contributions on 2026-08-19</title><path d="M 603.0 455.7 L 616.0 462.2 L 616.0 469.5 L 603.0 463.0 Z" fill="#846465"/>
+<path d="M 629.0 455.7 L 616.0 462.2 L 616.0 469.5 L 629.0 463.0 Z" fill="#bb8e8f"/>
+<path d="M 616.0 449.2 L 629.0 455.7 L 616.0 462.2 L 603.0 455.7 Z" fill="#f0b7b8"/></g>
+<g><title>1 contributions on 2026-08-25</title><path d="M 629.0 457.5 L 642.0 464.0 L 642.0 469.5 L 629.0 463.0 Z" fill="#846465"/>
+<path d="M 655.0 457.5 L 642.0 464.0 L 642.0 469.5 L 655.0 463.0 Z" fill="#bb8e8f"/>
+<path d="M 642.0 451.0 L 655.0 457.5 L 642.0 464.0 L 629.0 457.5 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-08-31</title><path d="M 668.0 456.5 L 681.0 463.0 L 668.0 469.5 L 655.0 463.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-09-06</title><path d="M 694.0 456.5 L 707.0 463.0 L 694.0 469.5 L 681.0 463.0 Z" fill="#e8e2d8"/></g>
-<g><title>3 contributions on 2026-08-08</title><path d="M 538.0 462.1 L 551.0 468.6 L 551.0 476.0 L 538.0 469.5 Z" fill="#846465"/>
-<path d="M 564.0 462.1 L 551.0 468.6 L 551.0 476.0 L 564.0 469.5 Z" fill="#bb8e8f"/>
-<path d="M 551.0 455.6 L 564.0 462.1 L 551.0 468.6 L 538.0 462.1 Z" fill="#f0b7b8"/></g>
-<g><title>1 contributions on 2026-08-14</title><path d="M 564.0 463.7 L 577.0 470.2 L 577.0 476.0 L 564.0 469.5 Z" fill="#846465"/>
-<path d="M 590.0 463.7 L 577.0 470.2 L 577.0 476.0 L 590.0 469.5 Z" fill="#bb8e8f"/>
-<path d="M 577.0 457.2 L 590.0 463.7 L 577.0 470.2 L 564.0 463.7 Z" fill="#f0b7b8"/></g>
+<g><title>3 contributions on 2026-08-08</title><path d="M 538.0 463.1 L 551.0 469.6 L 551.0 476.0 L 538.0 469.5 Z" fill="#846465"/>
+<path d="M 564.0 463.1 L 551.0 469.6 L 551.0 476.0 L 564.0 469.5 Z" fill="#bb8e8f"/>
+<path d="M 551.0 456.6 L 564.0 463.1 L 551.0 469.6 L 538.0 463.1 Z" fill="#f0b7b8"/></g>
+<g><title>1 contributions on 2026-08-14</title><path d="M 564.0 464.0 L 577.0 470.5 L 577.0 476.0 L 564.0 469.5 Z" fill="#846465"/>
+<path d="M 590.0 464.0 L 577.0 470.5 L 577.0 476.0 L 590.0 469.5 Z" fill="#bb8e8f"/>
+<path d="M 577.0 457.5 L 590.0 464.0 L 577.0 470.5 L 564.0 464.0 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-08-20</title><path d="M 603.0 463.0 L 616.0 469.5 L 603.0 476.0 L 590.0 469.5 Z" fill="#e8e2d8"/></g>
-<g><title>4 contributions on 2026-08-26</title><path d="M 616.0 461.3 L 629.0 467.8 L 629.0 476.0 L 616.0 469.5 Z" fill="#846465"/>
-<path d="M 642.0 461.3 L 629.0 467.8 L 629.0 476.0 L 642.0 469.5 Z" fill="#bb8e8f"/>
-<path d="M 629.0 454.8 L 642.0 461.3 L 629.0 467.8 L 616.0 461.3 Z" fill="#f0b7b8"/></g>
-<g><title>6 contributions on 2026-09-01</title><path d="M 642.0 459.6 L 655.0 466.1 L 655.0 476.0 L 642.0 469.5 Z" fill="#846465"/>
-<path d="M 668.0 459.6 L 655.0 466.1 L 655.0 476.0 L 668.0 469.5 Z" fill="#bb8e8f"/>
-<path d="M 655.0 453.1 L 668.0 459.6 L 655.0 466.1 L 642.0 459.6 Z" fill="#f0b7b8"/></g>
-<g><title>1 contributions on 2026-09-07</title><path d="M 668.0 463.7 L 681.0 470.2 L 681.0 476.0 L 668.0 469.5 Z" fill="#846465"/>
-<path d="M 694.0 463.7 L 681.0 470.2 L 681.0 476.0 L 694.0 469.5 Z" fill="#bb8e8f"/>
-<path d="M 681.0 457.2 L 694.0 463.7 L 681.0 470.2 L 668.0 463.7 Z" fill="#f0b7b8"/></g>
-<g><title>6 contributions on 2026-09-13</title><path d="M 694.0 459.6 L 707.0 466.1 L 707.0 476.0 L 694.0 469.5 Z" fill="#846465"/>
-<path d="M 720.0 459.6 L 707.0 466.1 L 707.0 476.0 L 720.0 469.5 Z" fill="#bb8e8f"/>
-<path d="M 707.0 453.1 L 720.0 459.6 L 707.0 466.1 L 694.0 459.6 Z" fill="#f0b7b8"/></g>
-<g><title>1 contributions on 2026-08-15</title><path d="M 551.0 470.2 L 564.0 476.7 L 564.0 482.5 L 551.0 476.0 Z" fill="#846465"/>
-<path d="M 577.0 470.2 L 564.0 476.7 L 564.0 482.5 L 577.0 476.0 Z" fill="#bb8e8f"/>
-<path d="M 564.0 463.7 L 577.0 470.2 L 564.0 476.7 L 551.0 470.2 Z" fill="#f0b7b8"/></g>
-<g><title>1 contributions on 2026-08-21</title><path d="M 577.0 470.2 L 590.0 476.7 L 590.0 482.5 L 577.0 476.0 Z" fill="#846465"/>
-<path d="M 603.0 470.2 L 590.0 476.7 L 590.0 482.5 L 603.0 476.0 Z" fill="#bb8e8f"/>
-<path d="M 590.0 463.7 L 603.0 470.2 L 590.0 476.7 L 577.0 470.2 Z" fill="#f0b7b8"/></g>
-<g><title>2 contributions on 2026-08-27</title><path d="M 603.0 469.4 L 616.0 475.9 L 616.0 482.5 L 603.0 476.0 Z" fill="#846465"/>
-<path d="M 629.0 469.4 L 616.0 475.9 L 616.0 482.5 L 629.0 476.0 Z" fill="#bb8e8f"/>
-<path d="M 616.0 462.9 L 629.0 469.4 L 616.0 475.9 L 603.0 469.4 Z" fill="#f0b7b8"/></g>
+<g><title>4 contributions on 2026-08-26</title><path d="M 616.0 462.7 L 629.0 469.2 L 629.0 476.0 L 616.0 469.5 Z" fill="#846465"/>
+<path d="M 642.0 462.7 L 629.0 469.2 L 629.0 476.0 L 642.0 469.5 Z" fill="#bb8e8f"/>
+<path d="M 629.0 456.2 L 642.0 462.7 L 629.0 469.2 L 616.0 462.7 Z" fill="#f0b7b8"/></g>
+<g><title>6 contributions on 2026-09-01</title><path d="M 642.0 461.8 L 655.0 468.3 L 655.0 476.0 L 642.0 469.5 Z" fill="#846465"/>
+<path d="M 668.0 461.8 L 655.0 468.3 L 655.0 476.0 L 668.0 469.5 Z" fill="#bb8e8f"/>
+<path d="M 655.0 455.3 L 668.0 461.8 L 655.0 468.3 L 642.0 461.8 Z" fill="#f0b7b8"/></g>
+<g><title>1 contributions on 2026-09-07</title><path d="M 668.0 464.0 L 681.0 470.5 L 681.0 476.0 L 668.0 469.5 Z" fill="#846465"/>
+<path d="M 694.0 464.0 L 681.0 470.5 L 681.0 476.0 L 694.0 469.5 Z" fill="#bb8e8f"/>
+<path d="M 681.0 457.5 L 694.0 464.0 L 681.0 470.5 L 668.0 464.0 Z" fill="#f0b7b8"/></g>
+<g><title>6 contributions on 2026-09-13</title><path d="M 694.0 461.8 L 707.0 468.3 L 707.0 476.0 L 694.0 469.5 Z" fill="#846465"/>
+<path d="M 720.0 461.8 L 707.0 468.3 L 707.0 476.0 L 720.0 469.5 Z" fill="#bb8e8f"/>
+<path d="M 707.0 455.3 L 720.0 461.8 L 707.0 468.3 L 694.0 461.8 Z" fill="#f0b7b8"/></g>
+<g><title>1 contributions on 2026-08-15</title><path d="M 551.0 470.5 L 564.0 477.0 L 564.0 482.5 L 551.0 476.0 Z" fill="#846465"/>
+<path d="M 577.0 470.5 L 564.0 477.0 L 564.0 482.5 L 577.0 476.0 Z" fill="#bb8e8f"/>
+<path d="M 564.0 464.0 L 577.0 470.5 L 564.0 477.0 L 551.0 470.5 Z" fill="#f0b7b8"/></g>
+<g><title>1 contributions on 2026-08-21</title><path d="M 577.0 470.5 L 590.0 477.0 L 590.0 482.5 L 577.0 476.0 Z" fill="#846465"/>
+<path d="M 603.0 470.5 L 590.0 477.0 L 590.0 482.5 L 603.0 476.0 Z" fill="#bb8e8f"/>
+<path d="M 590.0 464.0 L 603.0 470.5 L 590.0 477.0 L 577.0 470.5 Z" fill="#f0b7b8"/></g>
+<g><title>2 contributions on 2026-08-27</title><path d="M 603.0 470.1 L 616.0 476.6 L 616.0 482.5 L 603.0 476.0 Z" fill="#846465"/>
+<path d="M 629.0 470.1 L 616.0 476.6 L 616.0 482.5 L 629.0 476.0 Z" fill="#bb8e8f"/>
+<path d="M 616.0 463.6 L 629.0 470.1 L 616.0 476.6 L 603.0 470.1 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-09-02</title><path d="M 642.0 469.5 L 655.0 476.0 L 642.0 482.5 L 629.0 476.0 Z" fill="#e8e2d8"/></g>
-<g><title>6 contributions on 2026-09-08</title><path d="M 655.0 466.1 L 668.0 472.6 L 668.0 482.5 L 655.0 476.0 Z" fill="#846465"/>
-<path d="M 681.0 466.1 L 668.0 472.6 L 668.0 482.5 L 681.0 476.0 Z" fill="#bb8e8f"/>
-<path d="M 668.0 459.6 L 681.0 466.1 L 668.0 472.6 L 655.0 466.1 Z" fill="#f0b7b8"/></g>
+<g><title>6 contributions on 2026-09-08</title><path d="M 655.0 468.3 L 668.0 474.8 L 668.0 482.5 L 655.0 476.0 Z" fill="#846465"/>
+<path d="M 681.0 468.3 L 668.0 474.8 L 668.0 482.5 L 681.0 476.0 Z" fill="#bb8e8f"/>
+<path d="M 668.0 461.8 L 681.0 468.3 L 668.0 474.8 L 655.0 468.3 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-09-14</title><path d="M 694.0 469.5 L 707.0 476.0 L 694.0 482.5 L 681.0 476.0 Z" fill="#e8e2d8"/></g>
-<g><title>3 contributions on 2026-09-20</title><path d="M 707.0 468.6 L 720.0 475.1 L 720.0 482.5 L 707.0 476.0 Z" fill="#846465"/>
-<path d="M 733.0 468.6 L 720.0 475.1 L 720.0 482.5 L 733.0 476.0 Z" fill="#bb8e8f"/>
-<path d="M 720.0 462.1 L 733.0 468.6 L 720.0 475.1 L 707.0 468.6 Z" fill="#f0b7b8"/></g>
-<g><title>1 contributions on 2026-08-22</title><path d="M 564.0 476.7 L 577.0 483.2 L 577.0 489.0 L 564.0 482.5 Z" fill="#846465"/>
-<path d="M 590.0 476.7 L 577.0 483.2 L 577.0 489.0 L 590.0 482.5 Z" fill="#bb8e8f"/>
-<path d="M 577.0 470.2 L 590.0 476.7 L 577.0 483.2 L 564.0 476.7 Z" fill="#f0b7b8"/></g>
-<g><title>1 contributions on 2026-08-28</title><path d="M 590.0 476.7 L 603.0 483.2 L 603.0 489.0 L 590.0 482.5 Z" fill="#846465"/>
-<path d="M 616.0 476.7 L 603.0 483.2 L 603.0 489.0 L 616.0 482.5 Z" fill="#bb8e8f"/>
-<path d="M 603.0 470.2 L 616.0 476.7 L 603.0 483.2 L 590.0 476.7 Z" fill="#f0b7b8"/></g>
-<g><title>2 contributions on 2026-09-03</title><path d="M 616.0 475.9 L 629.0 482.4 L 629.0 489.0 L 616.0 482.5 Z" fill="#846465"/>
-<path d="M 642.0 475.9 L 629.0 482.4 L 629.0 489.0 L 642.0 482.5 Z" fill="#bb8e8f"/>
-<path d="M 629.0 469.4 L 642.0 475.9 L 629.0 482.4 L 616.0 475.9 Z" fill="#f0b7b8"/></g>
-<g><title>2 contributions on 2026-09-09</title><path d="M 642.0 475.9 L 655.0 482.4 L 655.0 489.0 L 642.0 482.5 Z" fill="#846465"/>
-<path d="M 668.0 475.9 L 655.0 482.4 L 655.0 489.0 L 668.0 482.5 Z" fill="#bb8e8f"/>
-<path d="M 655.0 469.4 L 668.0 475.9 L 655.0 482.4 L 642.0 475.9 Z" fill="#f0b7b8"/></g>
-<g><title>5 contributions on 2026-09-15</title><path d="M 668.0 473.5 L 681.0 480.0 L 681.0 489.0 L 668.0 482.5 Z" fill="#846465"/>
-<path d="M 694.0 473.5 L 681.0 480.0 L 681.0 489.0 L 694.0 482.5 Z" fill="#bb8e8f"/>
-<path d="M 681.0 467.0 L 694.0 473.5 L 681.0 480.0 L 668.0 473.5 Z" fill="#f0b7b8"/></g>
-<g><title>11 contributions on 2026-09-21</title><path d="M 694.0 468.6 L 707.0 475.1 L 707.0 489.0 L 694.0 482.5 Z" fill="#7b383a"/>
-<path d="M 720.0 468.6 L 707.0 475.1 L 707.0 489.0 L 720.0 482.5 Z" fill="#ae5053"/>
-<path d="M 707.0 462.1 L 720.0 468.6 L 707.0 475.1 L 694.0 468.6 Z" fill="#e0676b"/></g>
+<g><title>3 contributions on 2026-09-20</title><path d="M 707.0 469.6 L 720.0 476.1 L 720.0 482.5 L 707.0 476.0 Z" fill="#846465"/>
+<path d="M 733.0 469.6 L 720.0 476.1 L 720.0 482.5 L 733.0 476.0 Z" fill="#bb8e8f"/>
+<path d="M 720.0 463.1 L 733.0 469.6 L 720.0 476.1 L 707.0 469.6 Z" fill="#f0b7b8"/></g>
+<g><title>1 contributions on 2026-08-22</title><path d="M 564.0 477.0 L 577.0 483.5 L 577.0 489.0 L 564.0 482.5 Z" fill="#846465"/>
+<path d="M 590.0 477.0 L 577.0 483.5 L 577.0 489.0 L 590.0 482.5 Z" fill="#bb8e8f"/>
+<path d="M 577.0 470.5 L 590.0 477.0 L 577.0 483.5 L 564.0 477.0 Z" fill="#f0b7b8"/></g>
+<g><title>1 contributions on 2026-08-28</title><path d="M 590.0 477.0 L 603.0 483.5 L 603.0 489.0 L 590.0 482.5 Z" fill="#846465"/>
+<path d="M 616.0 477.0 L 603.0 483.5 L 603.0 489.0 L 616.0 482.5 Z" fill="#bb8e8f"/>
+<path d="M 603.0 470.5 L 616.0 477.0 L 603.0 483.5 L 590.0 477.0 Z" fill="#f0b7b8"/></g>
+<g><title>2 contributions on 2026-09-03</title><path d="M 616.0 476.6 L 629.0 483.1 L 629.0 489.0 L 616.0 482.5 Z" fill="#846465"/>
+<path d="M 642.0 476.6 L 629.0 483.1 L 629.0 489.0 L 642.0 482.5 Z" fill="#bb8e8f"/>
+<path d="M 629.0 470.1 L 642.0 476.6 L 629.0 483.1 L 616.0 476.6 Z" fill="#f0b7b8"/></g>
+<g><title>2 contributions on 2026-09-09</title><path d="M 642.0 476.6 L 655.0 483.1 L 655.0 489.0 L 642.0 482.5 Z" fill="#846465"/>
+<path d="M 668.0 476.6 L 655.0 483.1 L 655.0 489.0 L 668.0 482.5 Z" fill="#bb8e8f"/>
+<path d="M 655.0 470.1 L 668.0 476.6 L 655.0 483.1 L 642.0 476.6 Z" fill="#f0b7b8"/></g>
+<g><title>5 contributions on 2026-09-15</title><path d="M 668.0 475.2 L 681.0 481.7 L 681.0 489.0 L 668.0 482.5 Z" fill="#846465"/>
+<path d="M 694.0 475.2 L 681.0 481.7 L 681.0 489.0 L 694.0 482.5 Z" fill="#bb8e8f"/>
+<path d="M 681.0 468.7 L 694.0 475.2 L 681.0 481.7 L 668.0 475.2 Z" fill="#f0b7b8"/></g>
+<g><title>11 contributions on 2026-09-21</title><path d="M 694.0 472.5 L 707.0 479.0 L 707.0 489.0 L 694.0 482.5 Z" fill="#846465"/>
+<path d="M 720.0 472.5 L 707.0 479.0 L 707.0 489.0 L 720.0 482.5 Z" fill="#bb8e8f"/>
+<path d="M 707.0 466.0 L 720.0 472.5 L 707.0 479.0 L 694.0 472.5 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-09-27</title><path d="M 733.0 476.0 L 746.0 482.5 L 733.0 489.0 L 720.0 482.5 Z" fill="#e8e2d8"/></g>
-<g><title>3 contributions on 2026-08-29</title><path d="M 577.0 481.6 L 590.0 488.1 L 590.0 495.5 L 577.0 489.0 Z" fill="#846465"/>
-<path d="M 603.0 481.6 L 590.0 488.1 L 590.0 495.5 L 603.0 489.0 Z" fill="#bb8e8f"/>
-<path d="M 590.0 475.1 L 603.0 481.6 L 590.0 488.1 L 577.0 481.6 Z" fill="#f0b7b8"/></g>
+<g><title>3 contributions on 2026-08-29</title><path d="M 577.0 482.6 L 590.0 489.1 L 590.0 495.5 L 577.0 489.0 Z" fill="#846465"/>
+<path d="M 603.0 482.6 L 590.0 489.1 L 590.0 495.5 L 603.0 489.0 Z" fill="#bb8e8f"/>
+<path d="M 590.0 476.1 L 603.0 482.6 L 590.0 489.1 L 577.0 482.6 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-09-04</title><path d="M 616.0 482.5 L 629.0 489.0 L 616.0 495.5 L 603.0 489.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-09-10</title><path d="M 642.0 482.5 L 655.0 489.0 L 642.0 495.5 L 629.0 489.0 Z" fill="#e8e2d8"/></g>
-<g><title>3 contributions on 2026-09-16</title><path d="M 655.0 481.6 L 668.0 488.1 L 668.0 495.5 L 655.0 489.0 Z" fill="#846465"/>
-<path d="M 681.0 481.6 L 668.0 488.1 L 668.0 495.5 L 681.0 489.0 Z" fill="#bb8e8f"/>
-<path d="M 668.0 475.1 L 681.0 481.6 L 668.0 488.1 L 655.0 481.6 Z" fill="#f0b7b8"/></g>
-<g><title>3 contributions on 2026-09-22</title><path d="M 681.0 481.6 L 694.0 488.1 L 694.0 495.5 L 681.0 489.0 Z" fill="#846465"/>
-<path d="M 707.0 481.6 L 694.0 488.1 L 694.0 495.5 L 707.0 489.0 Z" fill="#bb8e8f"/>
-<path d="M 694.0 475.1 L 707.0 481.6 L 694.0 488.1 L 681.0 481.6 Z" fill="#f0b7b8"/></g>
-<g><title>8 contributions on 2026-09-28</title><path d="M 707.0 477.5 L 720.0 484.0 L 720.0 495.5 L 707.0 489.0 Z" fill="#7b383a"/>
-<path d="M 733.0 477.5 L 720.0 484.0 L 720.0 495.5 L 733.0 489.0 Z" fill="#ae5053"/>
-<path d="M 720.0 471.0 L 733.0 477.5 L 720.0 484.0 L 707.0 477.5 Z" fill="#e0676b"/></g>
+<g><title>3 contributions on 2026-09-16</title><path d="M 655.0 482.6 L 668.0 489.1 L 668.0 495.5 L 655.0 489.0 Z" fill="#846465"/>
+<path d="M 681.0 482.6 L 668.0 489.1 L 668.0 495.5 L 681.0 489.0 Z" fill="#bb8e8f"/>
+<path d="M 668.0 476.1 L 681.0 482.6 L 668.0 489.1 L 655.0 482.6 Z" fill="#f0b7b8"/></g>
+<g><title>3 contributions on 2026-09-22</title><path d="M 681.0 482.6 L 694.0 489.1 L 694.0 495.5 L 681.0 489.0 Z" fill="#846465"/>
+<path d="M 707.0 482.6 L 694.0 489.1 L 694.0 495.5 L 707.0 489.0 Z" fill="#bb8e8f"/>
+<path d="M 694.0 476.1 L 707.0 482.6 L 694.0 489.1 L 681.0 482.6 Z" fill="#f0b7b8"/></g>
+<g><title>8 contributions on 2026-09-28</title><path d="M 707.0 480.3 L 720.0 486.8 L 720.0 495.5 L 707.0 489.0 Z" fill="#846465"/>
+<path d="M 733.0 480.3 L 720.0 486.8 L 720.0 495.5 L 733.0 489.0 Z" fill="#bb8e8f"/>
+<path d="M 720.0 473.8 L 733.0 480.3 L 720.0 486.8 L 707.0 480.3 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-10-04</title><path d="M 746.0 482.5 L 759.0 489.0 L 746.0 495.5 L 733.0 489.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-09-05</title><path d="M 603.0 489.0 L 616.0 495.5 L 603.0 502.0 L 590.0 495.5 Z" fill="#e8e2d8"/></g>
-<g><title>29 contributions on 2026-09-11</title><path d="M 616.0 467.0 L 629.0 473.5 L 629.0 502.0 L 616.0 495.5 Z" fill="#654906"/>
-<path d="M 642.0 467.0 L 629.0 473.5 L 629.0 502.0 L 642.0 495.5 Z" fill="#8f6808"/>
-<path d="M 629.0 460.5 L 642.0 467.0 L 629.0 473.5 L 616.0 467.0 Z" fill="#B8860B"/></g>
-<g><title>3 contributions on 2026-09-17</title><path d="M 642.0 488.1 L 655.0 494.6 L 655.0 502.0 L 642.0 495.5 Z" fill="#846465"/>
-<path d="M 668.0 488.1 L 655.0 494.6 L 655.0 502.0 L 668.0 495.5 Z" fill="#bb8e8f"/>
-<path d="M 655.0 481.6 L 668.0 488.1 L 655.0 494.6 L 642.0 488.1 Z" fill="#f0b7b8"/></g>
-<g><title>15 contributions on 2026-09-23</title><path d="M 668.0 478.4 L 681.0 484.9 L 681.0 502.0 L 668.0 495.5 Z" fill="#7d1417"/>
-<path d="M 694.0 478.4 L 681.0 484.9 L 681.0 502.0 L 694.0 495.5 Z" fill="#b21c20"/>
-<path d="M 681.0 471.9 L 694.0 478.4 L 681.0 484.9 L 668.0 478.4 Z" fill="#E5252A"/></g>
+<g><title>29 contributions on 2026-09-11</title><path d="M 616.0 477.3 L 629.0 483.8 L 629.0 502.0 L 616.0 495.5 Z" fill="#7d1417"/>
+<path d="M 642.0 477.3 L 629.0 483.8 L 629.0 502.0 L 642.0 495.5 Z" fill="#b21c20"/>
+<path d="M 629.0 470.8 L 642.0 477.3 L 629.0 483.8 L 616.0 477.3 Z" fill="#E5252A"/></g>
+<g><title>3 contributions on 2026-09-17</title><path d="M 642.0 489.1 L 655.0 495.6 L 655.0 502.0 L 642.0 495.5 Z" fill="#846465"/>
+<path d="M 668.0 489.1 L 655.0 495.6 L 655.0 502.0 L 668.0 495.5 Z" fill="#bb8e8f"/>
+<path d="M 655.0 482.6 L 668.0 489.1 L 655.0 495.6 L 642.0 489.1 Z" fill="#f0b7b8"/></g>
+<g><title>15 contributions on 2026-09-23</title><path d="M 668.0 483.7 L 681.0 490.2 L 681.0 502.0 L 668.0 495.5 Z" fill="#7b383a"/>
+<path d="M 694.0 483.7 L 681.0 490.2 L 681.0 502.0 L 694.0 495.5 Z" fill="#ae5053"/>
+<path d="M 681.0 477.2 L 694.0 483.7 L 681.0 490.2 L 668.0 483.7 Z" fill="#e0676b"/></g>
 <g><title>0 contributions on 2026-09-29</title><path d="M 707.0 489.0 L 720.0 495.5 L 707.0 502.0 L 694.0 495.5 Z" fill="#e8e2d8"/></g>
-<g><title>11 contributions on 2026-10-05</title><path d="M 720.0 481.6 L 733.0 488.1 L 733.0 502.0 L 720.0 495.5 Z" fill="#7b383a"/>
-<path d="M 746.0 481.6 L 733.0 488.1 L 733.0 502.0 L 746.0 495.5 Z" fill="#ae5053"/>
-<path d="M 733.0 475.1 L 746.0 481.6 L 733.0 488.1 L 720.0 481.6 Z" fill="#e0676b"/></g>
+<g><title>11 contributions on 2026-10-05</title><path d="M 720.0 485.5 L 733.0 492.0 L 733.0 502.0 L 720.0 495.5 Z" fill="#846465"/>
+<path d="M 746.0 485.5 L 733.0 492.0 L 733.0 502.0 L 746.0 495.5 Z" fill="#bb8e8f"/>
+<path d="M 733.0 479.0 L 746.0 485.5 L 733.0 492.0 L 720.0 485.5 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-10-11</title><path d="M 759.0 489.0 L 772.0 495.5 L 759.0 502.0 L 746.0 495.5 Z" fill="#e8e2d8"/></g>
-<g><title>3 contributions on 2026-09-12</title><path d="M 603.0 494.6 L 616.0 501.1 L 616.0 508.5 L 603.0 502.0 Z" fill="#846465"/>
-<path d="M 629.0 494.6 L 616.0 501.1 L 616.0 508.5 L 629.0 502.0 Z" fill="#bb8e8f"/>
-<path d="M 616.0 488.1 L 629.0 494.6 L 616.0 501.1 L 603.0 494.6 Z" fill="#f0b7b8"/></g>
+<g><title>3 contributions on 2026-09-12</title><path d="M 603.0 495.6 L 616.0 502.1 L 616.0 508.5 L 603.0 502.0 Z" fill="#846465"/>
+<path d="M 629.0 495.6 L 616.0 502.1 L 616.0 508.5 L 629.0 502.0 Z" fill="#bb8e8f"/>
+<path d="M 616.0 489.1 L 629.0 495.6 L 616.0 502.1 L 603.0 495.6 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-09-18</title><path d="M 642.0 495.5 L 655.0 502.0 L 642.0 508.5 L 629.0 502.0 Z" fill="#e8e2d8"/></g>
-<g><title>22 contributions on 2026-09-24</title><path d="M 655.0 479.2 L 668.0 485.7 L 668.0 508.5 L 655.0 502.0 Z" fill="#654906"/>
-<path d="M 681.0 479.2 L 668.0 485.7 L 668.0 508.5 L 681.0 502.0 Z" fill="#8f6808"/>
-<path d="M 668.0 472.7 L 681.0 479.2 L 668.0 485.7 L 655.0 479.2 Z" fill="#B8860B"/></g>
+<g><title>22 contributions on 2026-09-24</title><path d="M 655.0 487.0 L 668.0 493.5 L 668.0 508.5 L 655.0 502.0 Z" fill="#7b383a"/>
+<path d="M 681.0 487.0 L 668.0 493.5 L 668.0 508.5 L 681.0 502.0 Z" fill="#ae5053"/>
+<path d="M 668.0 480.5 L 681.0 487.0 L 668.0 493.5 L 655.0 487.0 Z" fill="#e0676b"/></g>
 <g><title>0 contributions on 2026-09-30</title><path d="M 694.0 495.5 L 707.0 502.0 L 694.0 508.5 L 681.0 502.0 Z" fill="#e8e2d8"/></g>
-<g><title>17 contributions on 2026-10-06</title><path d="M 707.0 483.2 L 720.0 489.8 L 720.0 508.5 L 707.0 502.0 Z" fill="#7d1417"/>
-<path d="M 733.0 483.2 L 720.0 489.8 L 720.0 508.5 L 733.0 502.0 Z" fill="#b21c20"/>
-<path d="M 720.0 476.8 L 733.0 483.2 L 720.0 489.8 L 707.0 483.2 Z" fill="#E5252A"/></g>
+<g><title>17 contributions on 2026-10-06</title><path d="M 707.0 489.2 L 720.0 495.7 L 720.0 508.5 L 707.0 502.0 Z" fill="#7b383a"/>
+<path d="M 733.0 489.2 L 720.0 495.7 L 720.0 508.5 L 733.0 502.0 Z" fill="#ae5053"/>
+<path d="M 720.0 482.7 L 733.0 489.2 L 720.0 495.7 L 707.0 489.2 Z" fill="#e0676b"/></g>
 <g><title>0 contributions on 2026-10-12</title><path d="M 746.0 495.5 L 759.0 502.0 L 746.0 508.5 L 733.0 502.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-10-18</title><path d="M 772.0 495.5 L 785.0 502.0 L 772.0 508.5 L 759.0 502.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-09-19</title><path d="M 629.0 502.0 L 642.0 508.5 L 629.0 515.0 L 616.0 508.5 Z" fill="#e8e2d8"/></g>
-<g><title>14 contributions on 2026-09-25</title><path d="M 642.0 492.2 L 655.0 498.7 L 655.0 515.0 L 642.0 508.5 Z" fill="#7b383a"/>
-<path d="M 668.0 492.2 L 655.0 498.7 L 655.0 515.0 L 668.0 508.5 Z" fill="#ae5053"/>
-<path d="M 655.0 485.7 L 668.0 492.2 L 655.0 498.7 L 642.0 492.2 Z" fill="#e0676b"/></g>
+<g><title>14 contributions on 2026-09-25</title><path d="M 642.0 497.1 L 655.0 503.6 L 655.0 515.0 L 642.0 508.5 Z" fill="#7b383a"/>
+<path d="M 668.0 497.1 L 655.0 503.6 L 655.0 515.0 L 668.0 508.5 Z" fill="#ae5053"/>
+<path d="M 655.0 490.6 L 668.0 497.1 L 655.0 503.6 L 642.0 497.1 Z" fill="#e0676b"/></g>
 <g><title>0 contributions on 2026-10-01</title><path d="M 681.0 502.0 L 694.0 508.5 L 681.0 515.0 L 668.0 508.5 Z" fill="#e8e2d8"/></g>
-<g><title>5 contributions on 2026-10-07</title><path d="M 694.0 499.5 L 707.0 506.0 L 707.0 515.0 L 694.0 508.5 Z" fill="#846465"/>
-<path d="M 720.0 499.5 L 707.0 506.0 L 707.0 515.0 L 720.0 508.5 Z" fill="#bb8e8f"/>
-<path d="M 707.0 493.0 L 720.0 499.5 L 707.0 506.0 L 694.0 499.5 Z" fill="#f0b7b8"/></g>
-<g><title>1 contributions on 2026-10-13</title><path d="M 720.0 502.7 L 733.0 509.2 L 733.0 515.0 L 720.0 508.5 Z" fill="#846465"/>
-<path d="M 746.0 502.7 L 733.0 509.2 L 733.0 515.0 L 746.0 508.5 Z" fill="#bb8e8f"/>
-<path d="M 733.0 496.2 L 746.0 502.7 L 733.0 509.2 L 720.0 502.7 Z" fill="#f0b7b8"/></g>
-<g><title>1 contributions on 2026-10-19</title><path d="M 746.0 502.7 L 759.0 509.2 L 759.0 515.0 L 746.0 508.5 Z" fill="#846465"/>
-<path d="M 772.0 502.7 L 759.0 509.2 L 759.0 515.0 L 772.0 508.5 Z" fill="#bb8e8f"/>
-<path d="M 759.0 496.2 L 772.0 502.7 L 759.0 509.2 L 746.0 502.7 Z" fill="#f0b7b8"/></g>
-<g><title>6 contributions on 2026-10-25</title><path d="M 772.0 498.6 L 785.0 505.1 L 785.0 515.0 L 772.0 508.5 Z" fill="#846465"/>
-<path d="M 798.0 498.6 L 785.0 505.1 L 785.0 515.0 L 798.0 508.5 Z" fill="#bb8e8f"/>
-<path d="M 785.0 492.1 L 798.0 498.6 L 785.0 505.1 L 772.0 498.6 Z" fill="#f0b7b8"/></g>
-<g><title>13 contributions on 2026-09-26</title><path d="M 629.0 499.5 L 642.0 506.0 L 642.0 521.5 L 629.0 515.0 Z" fill="#7b383a"/>
-<path d="M 655.0 499.5 L 642.0 506.0 L 642.0 521.5 L 655.0 515.0 Z" fill="#ae5053"/>
-<path d="M 642.0 493.0 L 655.0 499.5 L 642.0 506.0 L 629.0 499.5 Z" fill="#e0676b"/></g>
+<g><title>5 contributions on 2026-10-07</title><path d="M 694.0 501.2 L 707.0 507.7 L 707.0 515.0 L 694.0 508.5 Z" fill="#846465"/>
+<path d="M 720.0 501.2 L 707.0 507.7 L 707.0 515.0 L 720.0 508.5 Z" fill="#bb8e8f"/>
+<path d="M 707.0 494.7 L 720.0 501.2 L 707.0 507.7 L 694.0 501.2 Z" fill="#f0b7b8"/></g>
+<g><title>1 contributions on 2026-10-13</title><path d="M 720.0 503.0 L 733.0 509.5 L 733.0 515.0 L 720.0 508.5 Z" fill="#846465"/>
+<path d="M 746.0 503.0 L 733.0 509.5 L 733.0 515.0 L 746.0 508.5 Z" fill="#bb8e8f"/>
+<path d="M 733.0 496.5 L 746.0 503.0 L 733.0 509.5 L 720.0 503.0 Z" fill="#f0b7b8"/></g>
+<g><title>1 contributions on 2026-10-19</title><path d="M 746.0 503.0 L 759.0 509.5 L 759.0 515.0 L 746.0 508.5 Z" fill="#846465"/>
+<path d="M 772.0 503.0 L 759.0 509.5 L 759.0 515.0 L 772.0 508.5 Z" fill="#bb8e8f"/>
+<path d="M 759.0 496.5 L 772.0 503.0 L 759.0 509.5 L 746.0 503.0 Z" fill="#f0b7b8"/></g>
+<g><title>6 contributions on 2026-10-25</title><path d="M 772.0 500.8 L 785.0 507.3 L 785.0 515.0 L 772.0 508.5 Z" fill="#846465"/>
+<path d="M 798.0 500.8 L 785.0 507.3 L 785.0 515.0 L 798.0 508.5 Z" fill="#bb8e8f"/>
+<path d="M 785.0 494.3 L 798.0 500.8 L 785.0 507.3 L 772.0 500.8 Z" fill="#f0b7b8"/></g>
+<g><title>13 contributions on 2026-09-26</title><path d="M 629.0 504.1 L 642.0 510.6 L 642.0 521.5 L 629.0 515.0 Z" fill="#7b383a"/>
+<path d="M 655.0 504.1 L 642.0 510.6 L 642.0 521.5 L 655.0 515.0 Z" fill="#ae5053"/>
+<path d="M 642.0 497.6 L 655.0 504.1 L 642.0 510.6 L 629.0 504.1 Z" fill="#e0676b"/></g>
 <g><title>0 contributions on 2026-10-02</title><path d="M 668.0 508.5 L 681.0 515.0 L 668.0 521.5 L 655.0 515.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-10-08</title><path d="M 694.0 508.5 L 707.0 515.0 L 694.0 521.5 L 681.0 515.0 Z" fill="#e8e2d8"/></g>
-<g><title>1 contributions on 2026-10-14</title><path d="M 707.0 509.2 L 720.0 515.7 L 720.0 521.5 L 707.0 515.0 Z" fill="#846465"/>
-<path d="M 733.0 509.2 L 720.0 515.7 L 720.0 521.5 L 733.0 515.0 Z" fill="#bb8e8f"/>
-<path d="M 720.0 502.7 L 733.0 509.2 L 720.0 515.7 L 707.0 509.2 Z" fill="#f0b7b8"/></g>
-<g><title>4 contributions on 2026-10-20</title><path d="M 733.0 506.8 L 746.0 513.3 L 746.0 521.5 L 733.0 515.0 Z" fill="#846465"/>
-<path d="M 759.0 506.8 L 746.0 513.3 L 746.0 521.5 L 759.0 515.0 Z" fill="#bb8e8f"/>
-<path d="M 746.0 500.3 L 759.0 506.8 L 746.0 513.3 L 733.0 506.8 Z" fill="#f0b7b8"/></g>
-<g><title>3 contributions on 2026-10-26</title><path d="M 759.0 507.6 L 772.0 514.1 L 772.0 521.5 L 759.0 515.0 Z" fill="#846465"/>
-<path d="M 785.0 507.6 L 772.0 514.1 L 772.0 521.5 L 785.0 515.0 Z" fill="#bb8e8f"/>
-<path d="M 772.0 501.1 L 785.0 507.6 L 772.0 514.1 L 759.0 507.6 Z" fill="#f0b7b8"/></g>
+<g><title>1 contributions on 2026-10-14</title><path d="M 707.0 509.5 L 720.0 516.0 L 720.0 521.5 L 707.0 515.0 Z" fill="#846465"/>
+<path d="M 733.0 509.5 L 720.0 516.0 L 720.0 521.5 L 733.0 515.0 Z" fill="#bb8e8f"/>
+<path d="M 720.0 503.0 L 733.0 509.5 L 720.0 516.0 L 707.0 509.5 Z" fill="#f0b7b8"/></g>
+<g><title>4 contributions on 2026-10-20</title><path d="M 733.0 508.2 L 746.0 514.7 L 746.0 521.5 L 733.0 515.0 Z" fill="#846465"/>
+<path d="M 759.0 508.2 L 746.0 514.7 L 746.0 521.5 L 759.0 515.0 Z" fill="#bb8e8f"/>
+<path d="M 746.0 501.7 L 759.0 508.2 L 746.0 514.7 L 733.0 508.2 Z" fill="#f0b7b8"/></g>
+<g><title>3 contributions on 2026-10-26</title><path d="M 759.0 508.6 L 772.0 515.1 L 772.0 521.5 L 759.0 515.0 Z" fill="#846465"/>
+<path d="M 785.0 508.6 L 772.0 515.1 L 772.0 521.5 L 785.0 515.0 Z" fill="#bb8e8f"/>
+<path d="M 772.0 502.1 L 785.0 508.6 L 772.0 515.1 L 759.0 508.6 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-11-01</title><path d="M 798.0 508.5 L 811.0 515.0 L 798.0 521.5 L 785.0 515.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-10-03</title><path d="M 655.0 515.0 L 668.0 521.5 L 655.0 528.0 L 642.0 521.5 Z" fill="#e8e2d8"/></g>
-<g><title>2 contributions on 2026-10-09</title><path d="M 668.0 514.9 L 681.0 521.4 L 681.0 528.0 L 668.0 521.5 Z" fill="#846465"/>
-<path d="M 694.0 514.9 L 681.0 521.4 L 681.0 528.0 L 694.0 521.5 Z" fill="#bb8e8f"/>
-<path d="M 681.0 508.4 L 694.0 514.9 L 681.0 521.4 L 668.0 514.9 Z" fill="#f0b7b8"/></g>
-<g><title>2 contributions on 2026-10-15</title><path d="M 694.0 514.9 L 707.0 521.4 L 707.0 528.0 L 694.0 521.5 Z" fill="#846465"/>
-<path d="M 720.0 514.9 L 707.0 521.4 L 707.0 528.0 L 720.0 521.5 Z" fill="#bb8e8f"/>
-<path d="M 707.0 508.4 L 720.0 514.9 L 707.0 521.4 L 694.0 514.9 Z" fill="#f0b7b8"/></g>
-<g><title>14 contributions on 2026-10-21</title><path d="M 720.0 505.2 L 733.0 511.7 L 733.0 528.0 L 720.0 521.5 Z" fill="#7b383a"/>
-<path d="M 746.0 505.2 L 733.0 511.7 L 733.0 528.0 L 746.0 521.5 Z" fill="#ae5053"/>
-<path d="M 733.0 498.7 L 746.0 505.2 L 733.0 511.7 L 720.0 505.2 Z" fill="#e0676b"/></g>
-<g><title>1 contributions on 2026-10-27</title><path d="M 746.0 515.7 L 759.0 522.2 L 759.0 528.0 L 746.0 521.5 Z" fill="#846465"/>
-<path d="M 772.0 515.7 L 759.0 522.2 L 759.0 528.0 L 772.0 521.5 Z" fill="#bb8e8f"/>
-<path d="M 759.0 509.2 L 772.0 515.7 L 759.0 522.2 L 746.0 515.7 Z" fill="#f0b7b8"/></g>
+<g><title>2 contributions on 2026-10-09</title><path d="M 668.0 515.6 L 681.0 522.1 L 681.0 528.0 L 668.0 521.5 Z" fill="#846465"/>
+<path d="M 694.0 515.6 L 681.0 522.1 L 681.0 528.0 L 694.0 521.5 Z" fill="#bb8e8f"/>
+<path d="M 681.0 509.1 L 694.0 515.6 L 681.0 522.1 L 668.0 515.6 Z" fill="#f0b7b8"/></g>
+<g><title>2 contributions on 2026-10-15</title><path d="M 694.0 515.6 L 707.0 522.1 L 707.0 528.0 L 694.0 521.5 Z" fill="#846465"/>
+<path d="M 720.0 515.6 L 707.0 522.1 L 707.0 528.0 L 720.0 521.5 Z" fill="#bb8e8f"/>
+<path d="M 707.0 509.1 L 720.0 515.6 L 707.0 522.1 L 694.0 515.6 Z" fill="#f0b7b8"/></g>
+<g><title>14 contributions on 2026-10-21</title><path d="M 720.0 510.1 L 733.0 516.6 L 733.0 528.0 L 720.0 521.5 Z" fill="#7b383a"/>
+<path d="M 746.0 510.1 L 733.0 516.6 L 733.0 528.0 L 746.0 521.5 Z" fill="#ae5053"/>
+<path d="M 733.0 503.6 L 746.0 510.1 L 733.0 516.6 L 720.0 510.1 Z" fill="#e0676b"/></g>
+<g><title>1 contributions on 2026-10-27</title><path d="M 746.0 516.0 L 759.0 522.5 L 759.0 528.0 L 746.0 521.5 Z" fill="#846465"/>
+<path d="M 772.0 516.0 L 759.0 522.5 L 759.0 528.0 L 772.0 521.5 Z" fill="#bb8e8f"/>
+<path d="M 759.0 509.5 L 772.0 516.0 L 759.0 522.5 L 746.0 516.0 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-11-02</title><path d="M 785.0 515.0 L 798.0 521.5 L 785.0 528.0 L 772.0 521.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-11-08</title><path d="M 811.0 515.0 L 824.0 521.5 L 811.0 528.0 L 798.0 521.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-10-10</title><path d="M 668.0 521.5 L 681.0 528.0 L 668.0 534.5 L 655.0 528.0 Z" fill="#e8e2d8"/></g>
-<g><title>1 contributions on 2026-10-16</title><path d="M 681.0 522.2 L 694.0 528.7 L 694.0 534.5 L 681.0 528.0 Z" fill="#846465"/>
-<path d="M 707.0 522.2 L 694.0 528.7 L 694.0 534.5 L 707.0 528.0 Z" fill="#bb8e8f"/>
-<path d="M 694.0 515.7 L 707.0 522.2 L 694.0 528.7 L 681.0 522.2 Z" fill="#f0b7b8"/></g>
+<g><title>1 contributions on 2026-10-16</title><path d="M 681.0 522.5 L 694.0 529.0 L 694.0 534.5 L 681.0 528.0 Z" fill="#846465"/>
+<path d="M 707.0 522.5 L 694.0 529.0 L 694.0 534.5 L 707.0 528.0 Z" fill="#bb8e8f"/>
+<path d="M 694.0 516.0 L 707.0 522.5 L 694.0 529.0 L 681.0 522.5 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-10-22</title><path d="M 720.0 521.5 L 733.0 528.0 L 720.0 534.5 L 707.0 528.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-10-28</title><path d="M 746.0 521.5 L 759.0 528.0 L 746.0 534.5 L 733.0 528.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-11-03</title><path d="M 772.0 521.5 L 785.0 528.0 L 772.0 534.5 L 759.0 528.0 Z" fill="#e8e2d8"/></g>
@@ -546,9 +546,9 @@
 <g><title>0 contributions on 2026-10-29</title><path d="M 733.0 528.0 L 746.0 534.5 L 733.0 541.0 L 720.0 534.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-11-04</title><path d="M 759.0 528.0 L 772.0 534.5 L 759.0 541.0 L 746.0 534.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-11-10</title><path d="M 785.0 528.0 L 798.0 534.5 L 785.0 541.0 L 772.0 534.5 Z" fill="#e8e2d8"/></g>
-<g><title>1 contributions on 2026-10-24</title><path d="M 681.0 535.2 L 694.0 541.7 L 694.0 547.5 L 681.0 541.0 Z" fill="#846465"/>
-<path d="M 707.0 535.2 L 694.0 541.7 L 694.0 547.5 L 707.0 541.0 Z" fill="#bb8e8f"/>
-<path d="M 694.0 528.7 L 707.0 535.2 L 694.0 541.7 L 681.0 535.2 Z" fill="#f0b7b8"/></g>
+<g><title>1 contributions on 2026-10-24</title><path d="M 681.0 535.5 L 694.0 542.0 L 694.0 547.5 L 681.0 541.0 Z" fill="#846465"/>
+<path d="M 707.0 535.5 L 694.0 542.0 L 694.0 547.5 L 707.0 541.0 Z" fill="#bb8e8f"/>
+<path d="M 694.0 529.0 L 707.0 535.5 L 694.0 542.0 L 681.0 535.5 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-10-30</title><path d="M 720.0 534.5 L 733.0 541.0 L 720.0 547.5 L 707.0 541.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-11-05</title><path d="M 746.0 534.5 L 759.0 541.0 L 746.0 547.5 L 733.0 541.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-11-11</title><path d="M 772.0 534.5 L 785.0 541.0 L 772.0 547.5 L 759.0 541.0 Z" fill="#e8e2d8"/></g>
@@ -558,11 +558,11 @@
 <g><title>0 contributions on 2026-11-07</title><path d="M 720.0 547.5 L 733.0 554.0 L 720.0 560.5 L 707.0 554.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-11-13</title><path d="M 746.0 547.5 L 759.0 554.0 L 746.0 560.5 L 733.0 554.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-11-14</title><path d="M 733.0 554.0 L 746.0 560.5 L 733.0 567.0 L 720.0 560.5 Z" fill="#e8e2d8"/></g>
-<text x="30" y="594" fill="#E5252A" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="19" font-weight="700">680</text>
+<text x="30" y="594" fill="#E5252A" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="19" font-weight="700">788</text>
 <text x="30" y="616" fill="#5b6470" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11" letter-spacing="0.5">CONTRIBUTIONS / YEAR</text>
-<text x="230" y="594" fill="#E5252A" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="19" font-weight="700">99</text>
+<text x="230" y="594" fill="#E5252A" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="19" font-weight="700">100</text>
 <text x="230" y="616" fill="#5b6470" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11" letter-spacing="0.5">ACTIVE DAYS</text>
-<text x="400" y="594" fill="#E5252A" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="19" font-weight="700">136</text>
+<text x="400" y="594" fill="#E5252A" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="19" font-weight="700">241</text>
 <text x="400" y="616" fill="#5b6470" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11" letter-spacing="0.5">BEST DAY - NOV 19, 2026</text>
 <text x="650" y="598" text-anchor="end" fill="#5b6470" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11">LESS</text>
 <rect x="664" y="586" width="18" height="18" rx="3" fill="#e8e2d8"/>
