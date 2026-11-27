@@ -62,4 +62,4 @@ B.Tech CSE (AI & ML), Vedam School of Technology, batch 2025–2029. CGPA 8.95/1
 [![Portfolio](https://img.shields.io/badge/PORTFOLIO-abhirajjain.me-0D1117?style=flat-square&logo=googlechrome&logoColor=FFD338&labelColor=161B22)](https://abhirajjain.me)
 [![GitHub](https://img.shields.io/badge/GITHUB-Jainabhi90-0D1117?style=flat-square&logo=github&logoColor=F5F5F5&labelColor=161B22)](https://github.com/Jainabhi90)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-abhiraj--jain-0D1117?style=flat-square&logo=linkedin&logoColor=0A66C2&labelColor=161B22)](https://in.linkedin.com/in/abhiraj-jain)
-<sub>Last refreshed: 26 Nov 2026</sub>
+<sub>Last refreshed: 27 Nov 2026</sub>
