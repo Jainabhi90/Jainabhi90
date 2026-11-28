@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 894 640" width="894" height="640" role="img" aria-label="3D activity graph: 1099 GitHub contributions in the last year rendered as an isometric bar city.">
-<title>KICK.EXE contribution city - 3D activity, 1099 contributions in the last year</title>
-<desc>Isometric 3D bar chart of the same public contribution data as the stunt track: one bar per day, height follows the daily contribution count. 105 active days; best day 241 contributions on Nov 23, 2026.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 894 640" width="894" height="640" role="img" aria-label="3D activity graph: 1114 GitHub contributions in the last year rendered as an isometric bar city.">
+<title>KICK.EXE contribution city - 3D activity, 1114 contributions in the last year</title>
+<desc>Isometric 3D bar chart of the same public contribution data as the stunt track: one bar per day, height follows the daily contribution count. 106 active days; best day 241 contributions on Nov 23, 2026.</desc>
 <rect width="894" height="640" fill="#F5F5F5" rx="10"/>
 <rect x="10" y="10" width="874" height="620" fill="none" stroke="#e3ddd2" stroke-width="1.5" rx="8"/>
 <rect x="10" y="10" width="64" height="5" fill="#E5252A" rx="2.5"/>
@@ -543,6 +543,9 @@
 <g><title>12 contributions on 2026-11-16</title><path d="M 785.0 517.5 L 798.0 524.0 L 798.0 534.5 L 785.0 528.0 Z" fill="#846465"/>
 <path d="M 811.0 517.5 L 798.0 524.0 L 798.0 534.5 L 811.0 528.0 Z" fill="#bb8e8f"/>
 <path d="M 798.0 511.0 L 811.0 517.5 L 798.0 524.0 L 785.0 517.5 Z" fill="#f0b7b8"/></g>
+<g><title>39 contributions on 2026-11-22</title><path d="M 811.0 505.2 L 824.0 511.7 L 824.0 534.5 L 811.0 528.0 Z" fill="#654906"/>
+<path d="M 837.0 505.2 L 824.0 511.7 L 824.0 534.5 L 837.0 528.0 Z" fill="#8f6808"/>
+<path d="M 824.0 498.7 L 837.0 505.2 L 824.0 511.7 L 811.0 505.2 Z" fill="#B8860B"/></g>
 <g><title>1 contributions on 2026-10-24</title><path d="M 668.0 529.0 L 681.0 535.5 L 681.0 541.0 L 668.0 534.5 Z" fill="#846465"/>
 <path d="M 694.0 529.0 L 681.0 535.5 L 681.0 541.0 L 694.0 534.5 Z" fill="#bb8e8f"/>
 <path d="M 681.0 522.5 L 694.0 529.0 L 681.0 535.5 L 668.0 529.0 Z" fill="#f0b7b8"/></g>
@@ -552,25 +555,43 @@
 <g><title>18 contributions on 2026-11-17</title><path d="M 772.0 521.3 L 785.0 527.8 L 785.0 541.0 L 772.0 534.5 Z" fill="#7b383a"/>
 <path d="M 798.0 521.3 L 785.0 527.8 L 785.0 541.0 L 798.0 534.5 Z" fill="#ae5053"/>
 <path d="M 785.0 514.8 L 798.0 521.3 L 785.0 527.8 L 772.0 521.3 Z" fill="#e0676b"/></g>
+<g><title>241 contributions on 2026-11-23</title><path d="M 798.0 419.5 L 811.0 426.0 L 811.0 541.0 L 798.0 534.5 Z" fill="#654906"/>
+<path d="M 824.0 419.5 L 811.0 426.0 L 811.0 541.0 L 824.0 534.5 Z" fill="#8f6808"/>
+<path d="M 811.0 413.0 L 824.0 419.5 L 811.0 426.0 L 798.0 419.5 Z" fill="#B8860B"/></g>
 <g><title>0 contributions on 2026-10-31</title><path d="M 694.0 534.5 L 707.0 541.0 L 694.0 547.5 L 681.0 541.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-11-06</title><path d="M 720.0 534.5 L 733.0 541.0 L 720.0 547.5 L 707.0 541.0 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-11-12</title><path d="M 746.0 534.5 L 759.0 541.0 L 746.0 547.5 L 733.0 541.0 Z" fill="#e8e2d8"/></g>
 <g><title>51 contributions on 2026-11-18</title><path d="M 759.0 512.7 L 772.0 519.2 L 772.0 547.5 L 759.0 541.0 Z" fill="#654906"/>
 <path d="M 785.0 512.7 L 772.0 519.2 L 772.0 547.5 L 785.0 541.0 Z" fill="#8f6808"/>
 <path d="M 772.0 506.2 L 785.0 512.7 L 772.0 519.2 L 759.0 512.7 Z" fill="#B8860B"/></g>
+<g><title>21 contributions on 2026-11-24</title><path d="M 785.0 526.4 L 798.0 532.9 L 798.0 547.5 L 785.0 541.0 Z" fill="#7b383a"/>
+<path d="M 811.0 526.4 L 798.0 532.9 L 798.0 547.5 L 811.0 541.0 Z" fill="#ae5053"/>
+<path d="M 798.0 519.9 L 811.0 526.4 L 798.0 532.9 L 785.0 526.4 Z" fill="#e0676b"/></g>
 <g><title>0 contributions on 2026-11-07</title><path d="M 707.0 541.0 L 720.0 547.5 L 707.0 554.0 L 694.0 547.5 Z" fill="#e8e2d8"/></g>
 <g><title>0 contributions on 2026-11-13</title><path d="M 733.0 541.0 L 746.0 547.5 L 733.0 554.0 L 720.0 547.5 Z" fill="#e8e2d8"/></g>
 <g><title>241 contributions on 2026-11-19</title><path d="M 746.0 432.5 L 759.0 439.0 L 759.0 554.0 L 746.0 547.5 Z" fill="#654906"/>
 <path d="M 772.0 432.5 L 759.0 439.0 L 759.0 554.0 L 772.0 547.5 Z" fill="#8f6808"/>
 <path d="M 759.0 426.0 L 772.0 432.5 L 759.0 439.0 L 746.0 432.5 Z" fill="#B8860B"/></g>
+<g><title>2 contributions on 2026-11-25</title><path d="M 772.0 541.6 L 785.0 548.1 L 785.0 554.0 L 772.0 547.5 Z" fill="#846465"/>
+<path d="M 798.0 541.6 L 785.0 548.1 L 785.0 554.0 L 798.0 547.5 Z" fill="#bb8e8f"/>
+<path d="M 785.0 535.1 L 798.0 541.6 L 785.0 548.1 L 772.0 541.6 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-11-14</title><path d="M 720.0 547.5 L 733.0 554.0 L 720.0 560.5 L 707.0 554.0 Z" fill="#e8e2d8"/></g>
 <g><title>3 contributions on 2026-11-20</title><path d="M 733.0 547.6 L 746.0 554.1 L 746.0 560.5 L 733.0 554.0 Z" fill="#846465"/>
 <path d="M 759.0 547.6 L 746.0 554.1 L 746.0 560.5 L 759.0 554.0 Z" fill="#bb8e8f"/>
 <path d="M 746.0 541.1 L 759.0 547.6 L 746.0 554.1 L 733.0 547.6 Z" fill="#f0b7b8"/></g>
+<g><title>4 contributions on 2026-11-26</title><path d="M 759.0 547.2 L 772.0 553.7 L 772.0 560.5 L 759.0 554.0 Z" fill="#846465"/>
+<path d="M 785.0 547.2 L 772.0 553.7 L 772.0 560.5 L 785.0 554.0 Z" fill="#bb8e8f"/>
+<path d="M 772.0 540.7 L 785.0 547.2 L 772.0 553.7 L 759.0 547.2 Z" fill="#f0b7b8"/></g>
 <g><title>0 contributions on 2026-11-21</title><path d="M 733.0 554.0 L 746.0 560.5 L 733.0 567.0 L 720.0 560.5 Z" fill="#e8e2d8"/></g>
-<text x="30" y="594" fill="#E5252A" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="19" font-weight="700">1099</text>
+<g><title>5 contributions on 2026-11-27</title><path d="M 746.0 553.2 L 759.0 559.7 L 759.0 567.0 L 746.0 560.5 Z" fill="#846465"/>
+<path d="M 772.0 553.2 L 759.0 559.7 L 759.0 567.0 L 772.0 560.5 Z" fill="#bb8e8f"/>
+<path d="M 759.0 546.7 L 772.0 553.2 L 759.0 559.7 L 746.0 553.2 Z" fill="#f0b7b8"/></g>
+<g><title>15 contributions on 2026-11-28</title><path d="M 733.0 555.2 L 746.0 561.7 L 746.0 573.5 L 733.0 567.0 Z" fill="#7b383a"/>
+<path d="M 759.0 555.2 L 746.0 561.7 L 746.0 573.5 L 759.0 567.0 Z" fill="#ae5053"/>
+<path d="M 746.0 548.7 L 759.0 555.2 L 746.0 561.7 L 733.0 555.2 Z" fill="#e0676b"/></g>
+<text x="30" y="594" fill="#E5252A" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="19" font-weight="700">1114</text>
 <text x="30" y="616" fill="#5b6470" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11" letter-spacing="0.5">CONTRIBUTIONS / YEAR</text>
-<text x="230" y="594" fill="#E5252A" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="19" font-weight="700">105</text>
+<text x="230" y="594" fill="#E5252A" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="19" font-weight="700">106</text>
 <text x="230" y="616" fill="#5b6470" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11" letter-spacing="0.5">ACTIVE DAYS</text>
 <text x="400" y="594" fill="#E5252A" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="19" font-weight="700">241</text>
 <text x="400" y="616" fill="#5b6470" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11" letter-spacing="0.5">BEST DAY - NOV 23, 2026</text>
